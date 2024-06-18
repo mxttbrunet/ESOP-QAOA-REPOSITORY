@@ -16,7 +16,7 @@ from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p
 symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p]
 
 
-class booleanExpressionGenerator:          
+class BooleanExpressionGenerator:          
     def __init__(self, numVars,listOfMinterms):         ##initial class parameters 
         self.numVars = numVars                          ##number of variables 
         self.listOfMinterms = listOfMinterms         
