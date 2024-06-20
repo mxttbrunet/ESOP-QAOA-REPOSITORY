@@ -31,7 +31,7 @@ class BooleanExpressionGenerator:
             allOnesState.append(1)
 
         if((allOnesState in self.feasibleStates)):      ##removes all one's state if included
-            self.listOfMinterms.remove(allOnesState)    ##removing all one's will be useful with esop
+            self.feasibleStates.remove(allOnesState)    ##removing all one's will be useful with esop
                                                     
         self.symbols = theseSymbols                     ##symbols for this expression
 
