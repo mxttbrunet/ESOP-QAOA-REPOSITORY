@@ -1,14 +1,16 @@
 #oracle classes
-
-
 ##hermann, rebekha, doctor 
 ##atallah, mostafa
 ##brunet, matt
 ##shah, shilpi
 """
 CLASSES: booleanExpressionGenerator
-    	- creates instance of booleanExpressionGenerator based on number of variables and minterms ("feasible states")
+    	- creates instance of booleanExpressionGenerator based on number of variables and("feasible states")
     	- has functions to generate sop or pos
+	ESOPConverter 
+        - creates instance of ESOPConverter based on given expression and form
+        - has function to_esop() that converts to unoptimized ANF esop form 
+
 """
 
 import sympy as sp
