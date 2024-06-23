@@ -1,9 +1,9 @@
 import sympy as sp
-from qiskit import QuantumCircuit, transpile, assemble
+from qiskit import QuantumCircuit
 from qiskit.visualization import plot_histogram
 import matplotlib.pyplot as plt
 
-# Function to input the truth table and corresponding truth values
+# fxn to input the truth table and corresponding truth values
 def input_truth_table(input_num):
     truth_table_init = []
     for i in range(2**input_num):
@@ -13,7 +13,7 @@ def input_truth_table(input_num):
     print("Truth table:", truth_table_init)
     return truth_table_init
 
-# Function to find the ESOP function
+# fxn to find the ESOP function
 def find_ESOP_fxn(tt, vars):
     terms = []
     for row in tt:
@@ -28,21 +28,17 @@ def find_ESOP_fxn(tt, vars):
             terms.append(sp.And(*terms_new))
     return sp.Xor(*terms)
 
-# Function to optimize the ESOP expression
-# def optimize_ESOP(ESOP):
-#    return sp.simplify_logic(ESOP, form='dnf')
-
-# Function to convert ESOP expression to quantum circuit using Qiskit
+# fxn to convert ESOP expression to quantum circuit using Qiskit
 def esop_to_quantum_circuit(ESOP, vars):
-    num_qubits = len(vars)
+    num_qubits = len(vars) + 1  # Add one extra qubit for the output
     qc = QuantumCircuit(num_qubits)
     
-    # convert ESOP to a list of terms
-    esop_terms = sp.sopform(vars, ESOP.args) if ESOP.func == sp.Xor else [ESOP]
+    # ESOP to a list of terms
+    esop_terms = [ESOP] if ESOP.func != sp.Xor else ESOP.args
 
     for term in esop_terms:
         control_qubits = []
-        for literal in term.args:
+        for literal in term.args if term.func == sp.And else [term]:
             if isinstance(literal, sp.Symbol):
                 control_qubits.append(vars.index(literal))
             elif isinstance(literal, sp.Not):
@@ -50,13 +46,13 @@ def esop_to_quantum_circuit(ESOP, vars):
                 control_qubits.append(vars.index(literal.args[0]))
         
         if len(control_qubits) == 1:
-            qc.cx(control_qubits[0], num_qubits - 1)  # Apply CNOT for single control
+            qc.cx(control_qubits[0], num_qubits - 1)  # CNOT for single control
         elif len(control_qubits) == 2:
-            qc.ccx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Apply Toffoli for double control
+            qc.ccx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Toffoli for double control
 
-        for literal in term.args:
+        for literal in term.args if term.func == sp.And else [term]:
             if isinstance(literal, sp.Not):
-                qc.x(vars.index(literal.args[0]))  # Undo X gate
+                qc.x(vars.index(literal.args[0]))  # undo X gate
 
     return qc
 
@@ -66,8 +62,6 @@ def main():
     truth_table = input_truth_table(num_vars)
     ESOP = find_ESOP_fxn(truth_table, vars)
     print("Exclusive Sum of Products (ESOP):", ESOP)
-    #ESOP_optimized = optimize_ESOP(ESOP)
-    #print("Optimized Exclusive Sum of Products:", ESOP_optimized)
 
     qc = esop_to_quantum_circuit(ESOP, list(vars))
     print("Quantum Circuit:")
