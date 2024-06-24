@@ -1,7 +1,7 @@
 import sympy as sp
 from qiskit import QuantumCircuit
 from qiskit.visualization import plot_histogram
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt --> no longer needed
 
 class ESOPQuantumCircuit:
     def __init__(self):
