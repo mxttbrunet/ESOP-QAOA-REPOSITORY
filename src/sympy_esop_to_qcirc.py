@@ -15,7 +15,7 @@ class ESOPQuantumCircuit:
         print("Quantum Circuit:")
         print(self.qc)
         self.qc.draw(output='mpl')
-        plt.show()
+        # plt.show() --> makes run time much greater, removed for simplicity sake
 
     def input_truth_table(self, input_num):
         truth_table_init = []
@@ -57,9 +57,9 @@ class ESOPQuantumCircuit:
                     control_qubits.append(vars.index(literal.args[0]))
             
             if len(control_qubits) == 1:
-                qc.cx(control_qubits[0], num_qubits - 1)  # CNOT for single control
+                qc.mcx(control_qubits[0], num_qubits - 1)  # CNOT for single control --> changed to multi-controlled x gate
             elif len(control_qubits) == 2:
-                qc.ccx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Toffoli for double control
+                qc.mcx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Toffoli for double control --> changed to multi-controlled x gate
 
             for literal in term.args if term.func == sp.And else [term]:
                 if isinstance(literal, sp.Not):
