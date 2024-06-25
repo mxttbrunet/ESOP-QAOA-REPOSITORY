@@ -60,6 +60,7 @@ class ESOPQuantumCircuit:
                 qc.mcx(control_qubits[0], num_qubits - 1)  # CNOT for single control --> changed to multi-controlled x gate
             elif len(control_qubits) == 2:
                 qc.mcx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Toffoli for double control --> changed to multi-controlled x gate
+                # for m vertices and n edges, this code's wcs runtime is n(m-1)
 
             for literal in term.args if term.func == sp.And else [term]:
                 if isinstance(literal, sp.Not):
