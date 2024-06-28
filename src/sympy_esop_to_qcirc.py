@@ -43,10 +43,10 @@ class ESOPQuantumCircuit:
     #     return sp.Xor(*terms)
 
     def esop_to_quantum_circuit(self, ESOP, vars):
-        num_qubits = len(vars) + 1  # Add one extra qubit for the output
+        num_qubits = len(vars) + 1  # one extra qubit for the output
         qc = QuantumCircuit(num_qubits)
         
-        # Convert ESOP to a list of terms
+        # ESOP --> list
         esop_terms = [ESOP] if ESOP.func != sp.Xor else ESOP.args
 
         for term in esop_terms:
@@ -59,9 +59,11 @@ class ESOPQuantumCircuit:
                     control_qubits.append(vars.index(literal.args[0]))
             
             if len(control_qubits) == 1:
-                qc.mcx(control_qubits[0], num_qubits - 1)  # CNOT for single control --> changed to multi-controlled x gate
+                qc.cx(control_qubits[0], num_qubits - 1)  # CNOT for single control --> changed to multi-controlled x gate
             elif len(control_qubits) == 2:
-                qc.mcx(control_qubits, num_qubits - 1)  # Toffoli for double control --> changed to multi-controlled x gate
+                qc.ccx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Toffoli for double control --> changed to multi-controlled x gate
+            elif len(control_qubits) > 2:
+                qc.mcx(control_qubits, num_qubits - 1)
 
             for literal in term.args if term.func == sp.And else [term]:
                 if isinstance(literal, sp.Not):
@@ -71,6 +73,6 @@ class ESOPQuantumCircuit:
 
 if __name__ == "__main__":
     # example esop -- (x0 & ~x1) ^ (x2 & x3)
-    x0, x1, x2, x3 = sp.symbols('x0 x1 x2 x3')
-    esop_expr = sp.Xor(x0 & ~x1, x2 & x3)
+    a, b, c, d, e = sp.symbols('a b c d e')
+    esop_expr = sp.Xor(a & c & e, a & b & d & ~c, a & c & d & ~e, b & c & e & ~a, b & d & ~a & ~e, b & d & e & ~a & ~c)
     esop_qc = ESOPQuantumCircuit(esop_expr)
