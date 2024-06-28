@@ -30,13 +30,14 @@ def find_feasible_sols(graph):
     feasible_sols = []
     for s in subset:
         if vertex_cover(graph, s):
-            feasible_sols.append(set(s))
+            bin_sol = [1 if node in s else 0 for node in nodes] # convert output in terms of num of vertices to its binary form
+            feasible_sols.append(bin_sol)
 
     return feasible_sols
 
 if __name__ == '__main__':
     G = nx.Graph()
-    G.add_edges_from([(1,2),(2,3),(3,4),(4,5)]) # example graph
+    G.add_edges_from([(1,2),(2,3),(2,4),(3,5),(4,5),(2,5)]) # example graph
     feasible_cover = find_feasible_sols(G)
 
     for sol in feasible_cover:
