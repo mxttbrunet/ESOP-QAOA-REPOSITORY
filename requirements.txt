@@ -1,1 +1,5 @@
 sympy
+qiskit
+matplotlib
+pylatexenc
+networkx
