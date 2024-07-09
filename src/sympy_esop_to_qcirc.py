@@ -1,5 +1,5 @@
 import sympy as sp
-from qiskit import QuantumCircuit
+from qiskit import QuantumCircuit, transpile
 from qiskit.visualization import plot_histogram
 import matplotlib.pyplot as plt
 
@@ -16,6 +16,7 @@ class ESOPQuantumCircuit:
         self.qc = self.esop_to_quantum_circuit(self.ESOP, self.vars)
         print("Quantum Circuit:")
         print(self.qc)
+        self.transpile_circuit()
         self.qc.draw(output='mpl')
         # plt.show() --> makes run time much greater, removed for simplicity sake
 
@@ -70,6 +71,9 @@ class ESOPQuantumCircuit:
                     qc.x(vars.index(literal.args[0]))  # Undo X gate
 
         return qc
+
+    def transpile_circuit(self):
+        self.qc = transpile(self.qc, optimization_level=3)
 
 if __name__ == "__main__":
     # example esop -- (x0 & ~x1) ^ (x2 & x3)
