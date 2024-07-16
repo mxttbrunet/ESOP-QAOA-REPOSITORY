@@ -1,10 +1,15 @@
 import sympy as sp
 from qiskit import QuantumCircuit, transpile
 from qiskit.visualization import plot_histogram
+from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
+import qiskit_aer as Aer
 import matplotlib.pyplot as plt
+# from networkx_to_feasible_sols import *
 
 class ESOPQuantumCircuit:
     def __init__(self, esop_expr):
+        depths = []
+        gates = []
         #self.num_vars = int(input("Enter the number of variables: "))
         #self.vars = sp.symbols(' '.join(f'x{i}' for i in range(self.num_vars)))
         #self.truth_table = self.input_truth_table(self.num_vars)
@@ -16,32 +21,14 @@ class ESOPQuantumCircuit:
         self.qc = self.esop_to_quantum_circuit(self.ESOP, self.vars)
         print("Quantum Circuit:")
         print(self.qc)
-        self.transpile_circuit()
+        # self.transpile_circuit()
         self.qc.draw(output='mpl')
         # plt.show() --> makes run time much greater, removed for simplicity sake
-
-    # def input_truth_table(self, input_num):
-    #     truth_table_init = []
-    #     for i in range(2**input_num):
-    #         vals = list(map(int, input(f"Enter values for each variable separated by spaces for row {i + 1}: ").split()))
-    #         result = int(input(f"Enter result for row {i + 1}: "))  # can change this in future to automate results based on operation
-    #         truth_table_init.append((*vals, result))
-    #     print("Truth table:", truth_table_init)
-    #     return truth_table_init
-
-    # def find_ESOP_fxn(self, tt, vars):
-    #     terms = []
-    #     for row in tt:
-    #         vals, result = row[:-1], row[-1]
-    #         if result == 1:
-    #             terms_new = []
-    #             for i, var in enumerate(vars):
-    #                 if vals[i] == 0:
-    #                     terms_new.append(~var)
-    #                 else:
-    #                     terms_new.append(var)
-    #             terms.append(sp.And(*terms_new))
-    #     return sp.Xor(*terms)
+        depths.append(self.qc.depth())
+        gates.append(sum(self.qc.count_ops().values()))
+        print("Final Depths" + "" + str(depths))
+        print("Final Gates" + "" + str(gates))
+        self.transpile_circuit()
 
     def esop_to_quantum_circuit(self, ESOP, vars):
         num_qubits = len(vars) + 1  # one extra qubit for the output
@@ -59,24 +46,40 @@ class ESOPQuantumCircuit:
                     qc.x(vars.index(literal.args[0]))  # X gate for negation
                     control_qubits.append(vars.index(literal.args[0]))
             
+            target_qubit = num_qubits - 1 if num_qubits - 1 not in control_qubits else num_qubits - 2
             if len(control_qubits) == 1:
-                qc.cx(control_qubits[0], num_qubits - 1)  # CNOT for single control --> changed to multi-controlled x gate
+                qc.cx(control_qubits[0], target_qubit)  # CNOT for single control
             elif len(control_qubits) == 2:
-                qc.ccx(control_qubits[0], control_qubits[1], num_qubits - 1)  # Toffoli for double control --> changed to multi-controlled x gate
+                qc.ccx(control_qubits[0], control_qubits[1], target_qubit)  # Toffoli for double control
             elif len(control_qubits) > 2:
-                qc.mcx(control_qubits, num_qubits - 1)
+                qc.mcx(control_qubits, target_qubit)
+                # if two loose x's, cancel
 
             for literal in term.args if term.func == sp.And else [term]:
                 if isinstance(literal, sp.Not):
-                    qc.x(vars.index(literal.args[0]))  # Undo X gate
+                    qc.x(vars.index(literal.args[0]))  # undo X gate
 
         return qc
-
+    
+    def cancel_consecutive_cnot(self, qc):
+        i = 0
+        while i < len(qc.data()) - 1:
+            if (qc.data()[i][0].name() == 'cx' and qc.data()[i+1][0].name() == 'cx' and qc.data()[i][1][0].index() == qc.data()[i+1][1][0].index()):
+                qc.data().pop(i)
+            else:
+                i += 1
+        
     def transpile_circuit(self):
-        self.qc = transpile(self.qc, optimization_level=3)
+        backend = Aer.AerSimulator()
+        initial_layout = list(range(self.qc.num_qubits))
+        pass_manager = generate_preset_pass_manager(optimization_level=1, backend=backend, initial_layout=initial_layout)
+        transpiled_qc = pass_manager.run(self.qc)
+        print(f"Transpiled circuit depth: {transpiled_qc.depth(lambda x: len(x[1]) >= 2)}")
+        print(f"Transpiled circuit gates: {sum(transpiled_qc.count_ops().values())}")
+        print(transpiled_qc)
 
 if __name__ == "__main__":
     # example esop -- (x0 & ~x1) ^ (x2 & x3)
     a, b, c, d, e = sp.symbols('a b c d e')
-    esop_expr = sp.Xor(a & c & e, a & b & d & ~c, a & c & d & ~e, b & c & e & ~a, b & d & ~a & ~e, b & d & e & ~a & ~c)
+    esop_expr = (d ^ ~a ^ ~e ^ (d & e) ^ (c & ~a & ~b & ~d))
     esop_qc = ESOPQuantumCircuit(esop_expr)
