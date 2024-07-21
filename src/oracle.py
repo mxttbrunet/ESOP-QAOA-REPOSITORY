@@ -26,7 +26,7 @@ class GraphGenerator:
         self.oneGraph = None
         self.graphKArray = []
     def createKgraphs(self, k):
-        fileName = "/graphFiles/graph" + str(k) + "c.g6"  ##destination may change depending on usage #construct name of file and directory
+        fileName = "./xgraphFiles/graph" + str(k) + "c.g6"  ##destination may change depending on usage #construct name of file and directory
         graphs = []
 
         with open(fileName, "r") as f:
