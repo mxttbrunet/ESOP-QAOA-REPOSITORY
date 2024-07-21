@@ -21,13 +21,6 @@ CLASSES:
 """
 
 
-import sympy as sp
-from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
-import networkx as nx
-import matplotlib.pyplot as plt
-import tempfile as tf
-symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
-
 class GraphGenerator:
     def __init__(self):
         self.oneGraph = None
