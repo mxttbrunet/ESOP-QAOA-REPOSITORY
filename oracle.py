@@ -108,4 +108,14 @@ class BooleanInstance:
             for bit in minterm:
                 strSol+= str(bit)
             print("'" + strSol + "',")
-        
+
+    def getRM(self):
+        numMinterms = len(self.minterms)
+        input_data = f"{len(self.nodes())}\n{numMinterms}\n"          #format
+        open("between.txt", "w").close() ##file location may change depending on where this ends up 
+        with open("between.txt", "a") as file:
+            file.write(input_data)
+            for i in range(numMinterms):        
+                file.write(str(self.minterms[i]))      ##write feasible syayes 
+                file.write("\n")        
+	
