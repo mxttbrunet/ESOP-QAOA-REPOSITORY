@@ -1,4 +1,4 @@
-#include "include/easy/easy.hpp"
+#include "easy.hpp"
 #include <vector> 
 #include <iostream>
 #include <fstream>       //library includes
