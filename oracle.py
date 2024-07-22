@@ -19,16 +19,19 @@ CLASSES:
                                         -> *adds attribute .minterms to BooleanInstance, which is all true bit-strings*
                         -> printTT()-> prints truth table TT in comma separated, line separated, list-quote input format 
 """
-
+import tempfile as tf
+import sympy as sp
+from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
+import networkx as nx
+#import matplotlib.pyplot as plt
 
 class GraphGenerator:
     def __init__(self):
         self.oneGraph = None
         self.graphKArray = []
     def createKgraphs(self, k):
-        fileName = "./xgraphFiles/graph" + str(k) + "c.g6"  ##destination may change depending on usage #construct name of file and directory
+        fileName = "xgraphFiles/graph" + str(k) + "c.g6"  ##destination may change depending on usage #construct name of file and directory
         graphs = []
-
         with open(fileName, "r") as f:
             for line in f:
                 new = line.rstrip("\n")                            ##take file bytes from .g6 file and create list of them
@@ -51,9 +54,10 @@ class GraphGenerator:
     def printGraph(self):
          if(self.oneGraph == None):
             print("No graph chosen, use chooseGraph() first...")
-         else:
-            nx.draw(self.oneGraph)
-            plt.show()
+         #else:
+            #nx.draw(self.oneGraph)
+            #plt.show()
+	 #   continue  ##for  displaying graphs
     
 class BooleanInstance:
     def __init__(self, problem, graph):

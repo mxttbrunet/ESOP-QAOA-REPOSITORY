@@ -2,16 +2,17 @@
 ##example usage of the Reed Muller PipeLine for given graphs and problems 
 ##example usage of the classes
 ##imports of required libraries may be distrubuted to main, or the library itself 
-import sys
-sys.path.insert(0,"..")
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname("src/oracle.py"))))
 import tempfile as tf
 import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
 import networkx as nx
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
-from src.oracle import GraphGenerator, BooleanInstance
+from oracle import GraphGenerator, BooleanInstance
 
 if __name__ == "__main__":
     nodes = 7     ##set number of nodes for set of graphs 
@@ -19,4 +20,5 @@ if __name__ == "__main__":
 
     genGraph = GraphGenerator()                    ##initialize genrator object
     graphArray = genGraph.createKgraphs(nodes)     ##create array of nx graphs from .g6 file 
+
     #print(graphArray)
