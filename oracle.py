@@ -25,7 +25,7 @@ from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
 symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
 import networkx as nx
 #import matplotlib.pyplot as plt
-
+import subprocess
 class GraphGenerator:
     def __init__(self):
         self.oneGraph = None
@@ -101,7 +101,7 @@ class BooleanInstance:
                 feasibleStates.append(strSol)
         self.minterms = feasibleStates
         return feasibleStates
-    
+
     def printTT(self):
         for minterm in self.minterms:
             strSol = ""
@@ -112,10 +112,18 @@ class BooleanInstance:
     def getRM(self):
         numMinterms = len(self.minterms)
         input_data = f"{len(self.nodes())}\n{numMinterms}\n"          #format
-        open("between.txt", "w").close() ##file location may change depending on where this ends up 
-        with open("between.txt", "a") as file:
+        open("ESOPsimple/between.txt", "w").close() ##file location may change depending on where this ends up
+        with open("ESOPsimple/between.txt", "a") as file:
             file.write(input_data)
-            for i in range(numMinterms):        
-                file.write(str(self.minterms[i]))      ##write feasible syayes 
-                file.write("\n")        
-	
+            for i in range(numMinterms):
+                file.write(str(self.minterms[i]))      ##write feasible states
+                file.write("\n")
+        file.close()
+        compileCommand = "g++ ESOPsimple/esopTest.cpp -o esopTest"
+        subprocess.run(compileCommand, shell = True, check = True)
+    
+        runCommand = "./esopTest"
+        result = subprocess.run(runCommand, shell = True, capture_output = True, text = True)
+        print(result.stderr)
+        output = result.stdout
+        print(output)

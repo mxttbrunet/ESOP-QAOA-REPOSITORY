@@ -27,4 +27,4 @@ if __name__ == "__main__":
     genBool.getTT()   ##give the object it's truth table, as well as minterms 
     genBool.printTT()
     ##ideally, have this get put to the esop synthesizer
-
+    genBool.getRM()
