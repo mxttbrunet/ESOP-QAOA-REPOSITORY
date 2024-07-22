@@ -2,7 +2,7 @@
 ##example usage of the Reed Muller PipeLine for given graphs and problems 
 ##example usage of the classes
 ##imports of required libraries may be distrubuted to main, or the library itself 
-
+##matlib doesn't work on linux, uncomment print statements in windows
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname("src/oracle.py"))))
@@ -21,4 +21,10 @@ if __name__ == "__main__":
     genGraph = GraphGenerator()                    ##initialize genrator object
     graphArray = genGraph.createKgraphs(nodes)     ##create array of nx graphs from .g6 file 
 
-    #print(graphArray)
+    favGraph = genGraph.chooseGraph(graphNum)
+    #genGraph.printGraph()  use w matlib & windows 
+    genBool = BooleanInstance("MIS",favGraph) #create boolean generator for MIS of this particular graph
+    genBool.getTT()   ##give the object it's truth table, as well as minterms 
+    genBool.printTT()
+    ##ideally, have this get put to the esop synthesizer
+

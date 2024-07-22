@@ -22,6 +22,7 @@ CLASSES:
 import tempfile as tf
 import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
+symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
 import networkx as nx
 #import matplotlib.pyplot as plt
 
