@@ -25,7 +25,7 @@
 
 #pragma once
 
-#include "../../../lib/kitty/kitty.hpp"
+#include "../kitty/kitty.hpp"
 
 #include <unordered_set>
 #include <vector>

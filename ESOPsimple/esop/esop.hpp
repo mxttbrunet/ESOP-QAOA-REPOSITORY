@@ -25,10 +25,10 @@
 
 #pragma once
 
-#include "../../../lib/kitty/constructors.hpp"
-#include "../../../lib/kitty/cube.hpp"
-#include "../../../lib/kitty/dynamic_truth_table.hpp"
-#include "../../../lib/kitty/print.hpp"
+#include "../kitty/constructors.hpp"
+#include "../kitty/cube.hpp"
+#include "../kitty/dynamic_truth_table.hpp"
+#include "../kitty/print.hpp"
 #include <cassert>
 #include <vector>
 
