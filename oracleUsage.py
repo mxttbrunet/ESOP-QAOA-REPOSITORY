@@ -23,8 +23,10 @@ if __name__ == "__main__":
 
     favGraph = genGraph.chooseGraph(graphNum)
     #genGraph.printGraph()  use w matlib & windows 
-    genBool = BooleanInstance("MIS",favGraph) #create boolean generator for MIS of this particular graph
-    genBool.getTT()   ##give the object it's truth table, as well as minterms 
-    genBool.printTT()
-    ##ideally, have this get put to the esop synthesizer
-    genBool.getRM()
+    genBool = BooleanInstance("MIS",favGraph) 	#create boolean generator for MIS of this particular graph
+    genBool.getTT()   			##give the object it's truth table, as well as minterms 
+    genBool.printTT()               #prints feasible states, i.e minterms
+    truthTableRM = genBool.getRM("mixed") 	##can be of "positive" polarity --> no negations, or "mixed" --> negations allowed;
+    esop = genBool.produceExpression(truthTableRM)
+
+    print(esop)

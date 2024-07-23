@@ -66,6 +66,7 @@ class BooleanInstance:
         self.graph = graph 
         self.edges = graph.edges()         ###initialize object attributes from graph 
         self.nodes = graph.nodes()
+        self.k = len(graph.nodes)
         self.minterms = None 
         self.tt = None
 
@@ -109,7 +110,7 @@ class BooleanInstance:
                 strSol+= str(bit)
             print("'" + strSol + "',")
 
-    def getRM(self):
+    def getRM(self, mode):                                 ######compilation function
         numMinterms = len(self.minterms)
         input_data = f"{len(self.nodes())}\n{numMinterms}\n"          #format
         open("ESOPsimple/between.txt", "w").close() ##file location may change depending on where this ends up
@@ -119,11 +120,40 @@ class BooleanInstance:
                 file.write(str(self.minterms[i]))      ##write feasible states
                 file.write("\n")
         file.close()
-        compileCommand = "g++ ESOPsimple/esopTest.cpp -o esopTest"
+        compileCommand = "g++ ESOPsimple/esopTest.cpp -o ESOPsimple/esopTest"   #compiles c++ code in other directory, may be changed
         subprocess.run(compileCommand, shell = True, check = True)
-    
-        runCommand = "./esopTest"
+        runCommand = "ESOPsimple/esopTest"   #runs c++ esopFile.
         result = subprocess.run(runCommand, shell = True, capture_output = True, text = True)
         print(result.stderr)
-        output = result.stdout
-        print(output)
+        output = result.stdout  ###captures output,, 
+        
+        posEsop_tt, mixEsop_tt = output.split("D") ##formatting ...
+        if(mode == "positive"):
+            return posEsop_tt                 #returns polarity reed-muller 
+        else:
+            return mixEsop_tt
+
+    def produceExpression(self, RM):    ##populate list with needed variables 
+        varSymbols = []
+        for i in range(self.k):
+            varSymbols.append(symbolsAvail[i])
+
+        toBeAnded = []
+        toBeXord = []
+        i = 0
+        for char in RM:
+            if (char == "1"):
+                toBeAnded.append(symbolsAvail[i])
+                i+=1
+            elif (char == "0"):
+                toBeAnded.append(~symbolsAvail[i])      ##convert to sympy expression
+                i+=1
+            elif (char == "-"):
+                i+=1
+            elif(char == "\n"):
+                continue
+            if(i == 5):
+                i = 0
+                toBeXord.append(sp.And(*toBeAnded, evaluate = False, strict = True))
+                toBeAnded = []
+        return sp.Xor(*toBeXord, evaluate = False)

@@ -2,7 +2,7 @@
 #include <vector> 
 #include <iostream>
 #include <fstream>       //library includes
-#include<string>
+#include <string>
 using namespace std;
 using namespace kitty;
 using namespace easy;      //namespace for encapsulation
@@ -11,18 +11,17 @@ using namespace esop;
 
 int main(){
 string vars,mins;
-ifstream input;
+ifstream input("ESOPsimple/between.txt");
 
-input.open("between.txt");              //open data file 
-
-
+if(input.fail()){
+	cout << "file's fucked mate... just quit...";
+}
 vector<cube> listOfMinterms; 
+getline(input,vars);
+int numVars = stoi(vars.c_str());        //get number of variables from file
 
-input >> vars;
-int numVars = stoi(vars);        //get number of variables from file
-
-input >> mins;
-int numMinterms = stoi(mins);
+getline(input,mins);
+int numMinterms = stoi(mins.c_str());
 
 
 string minterm;
