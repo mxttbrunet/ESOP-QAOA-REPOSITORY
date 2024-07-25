@@ -5,7 +5,7 @@
 ##matlib doesn't work on linux, uncomment print statements in windows
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname("src/oracle.py"))))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname("oracle.py"))))
 import tempfile as tf
 import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t

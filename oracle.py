@@ -35,9 +35,8 @@ class GraphGenerator:
         graphs = []
         with open(fileName, "r") as f:
             for line in f:
-                new = line.rstrip("\n")                            ##take file bytes from .g6 file and create list of them
+                new = line.rstrip("\n")
                 graphs.append(new)
-        
         for graph in graphs:
             with tf.NamedTemporaryFile(delete=False) as f:      ##create Array of k-node connected Graph Objects, graphKArray
                 l = ">>graph6<<" + graph + "\n"
@@ -87,7 +86,7 @@ class BooleanInstance:
             for edge in edges:
                 toBeAnded.append(  ~(((symUse[edge[0]])) & ((symUse[edge[1]]))) )   #AND( NOT(x_i AND x_j)) for x_i, x_j in E
             verifyMIS = sp.And(*toBeAnded)
-            print(verifyMIS)
+            #print(verifyMIS)
             table = sp.logic.boolalg.truth_table(verifyMIS, symUse)
             self.tt = table       ##create attribute to BooleanInstance of entire table
         else:
@@ -152,7 +151,7 @@ class BooleanInstance:
                 i+=1
             elif(char == "\n"):
                 continue
-            if(i == 5):
+            if(i == self.k):
                 i = 0
                 toBeXord.append(sp.And(*toBeAnded, evaluate = False, strict = True))
                 toBeAnded = []

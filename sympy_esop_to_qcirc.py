@@ -3,7 +3,7 @@ from qiskit import QuantumCircuit, transpile
 from qiskit.visualization import plot_histogram
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 import qiskit_aer as Aer
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 # from networkx_to_feasible_sols import *
 
 class ESOPQuantumCircuit:
@@ -78,8 +78,8 @@ class ESOPQuantumCircuit:
         print(f"Transpiled circuit gates: {sum(transpiled_qc.count_ops().values())}")
         print(transpiled_qc)
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # example esop -- (x0 & ~x1) ^ (x2 & x3)
-    a, b, c, d, e = sp.symbols('a b c d e')
-    esop_expr = (d ^ ~a ^ ~e ^ (d & e) ^ (c & ~a & ~b & ~d))
-    esop_qc = ESOPQuantumCircuit(esop_expr)
+#    a, b, c, d, e = sp.symbols('a b c d e')
+#    esop_expr = (d ^ ~a ^ ~e ^ (d & e) ^ (c & ~a & ~b & ~d))
+#    esop_qc = ESOPQuantumCircuit(esop_expr)
