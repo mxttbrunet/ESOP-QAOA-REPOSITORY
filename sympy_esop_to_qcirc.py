@@ -7,20 +7,20 @@ import qiskit_aer as Aer
 # from networkx_to_feasible_sols import *
 
 class ESOPQuantumCircuit:
-    def __init__(self, esop_expr):
+    def __init__(self, esop_expr, vars):
         depths = []
         gates = []
         #self.num_vars = int(input("Enter the number of variables: "))
         #self.vars = sp.symbols(' '.join(f'x{i}' for i in range(self.num_vars)))
         #self.truth_table = self.input_truth_table(self.num_vars)
         self.ESOP = esop_expr
-        self.vars = sorted(esop_expr.free_symbols, key=lambda x: str(x))
+        self.vars = vars         # sorted(esop_expr.free_symbols, key=lambda x: str(x))
         self.num_vars = len(self.vars)
         print("Exclusive Sum of Products (ESOP):", self.ESOP)
 
         self.qc = self.esop_to_quantum_circuit(self.ESOP, self.vars)
         print("Quantum Circuit:")
-        print(self.qc)
+        #print(self.qc)
         # self.transpile_circuit()
         self.qc.draw(output='mpl')
         # plt.show() --> makes run time much greater, removed for simplicity sake
@@ -55,9 +55,9 @@ class ESOPQuantumCircuit:
                 qc.mcx(control_qubits, target_qubit)
                 # if two loose x's, cancel
 
-            for literal in term.args if term.func == sp.And else [term]:
-                if isinstance(literal, sp.Not):
-                    qc.x(vars.index(literal.args[0]))  # undo X gate
+            #for literal in term.args if term.func == sp.And else [term]:
+            #    if isinstance(literal, sp.Not):
+            #        qc.x(vars.index(literal.args[0]))  # undo X gate
 
         return qc
     

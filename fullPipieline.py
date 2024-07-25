@@ -36,7 +36,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
             currRM = currBool.getRM("mixed")
             currESOP = currBool.produceExpression(currRM)
             dicEncoding = str(i) + "," + str(j)
-            #print(currESOP,"\n")
+            print(dicEncoding + ": ", currESOP,"\n")
             nodesVSesop[dicEncoding] = currESOP
         if(upperEntry == len(graphArray)):
             upperEntry = "all"
@@ -47,5 +47,13 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 3, upperNodes = 6, lowerEntry= 0, upperEntry = "all")
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 5, upperNodes = 5, lowerEntry= 0, upperEntry = "all")
     print(esopDict)
+
+    for node in esopDict:
+        print(node)
+        theseSymbols = []
+        nodes = node.split(",")
+        for i in range(0, int(nodes[0])):
+            theseSymbols.append(symbolsAvail[i])
+        qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
