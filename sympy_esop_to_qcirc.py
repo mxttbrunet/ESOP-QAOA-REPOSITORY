@@ -1,51 +1,65 @@
 import sympy as sp
 from qiskit import QuantumCircuit, transpile
-from qiskit.visualization import plot_histogram
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 import qiskit_aer as Aer
-#import matplotlib.pyplot as plt
-# from networkx_to_feasible_sols import *
+import matplotlib.pyplot as plt
 
 class ESOPQuantumCircuit:
     def __init__(self, esop_expr, vars):
-        depths = []
-        gates = []
-        #self.num_vars = int(input("Enter the number of variables: "))
-        #self.vars = sp.symbols(' '.join(f'x{i}' for i in range(self.num_vars)))
-        #self.truth_table = self.input_truth_table(self.num_vars)
+        self.depths = []
+        self.gates = []
         self.ESOP = esop_expr
-        self.vars = vars         # sorted(esop_expr.free_symbols, key=lambda x: str(x))
+        self.vars = vars
         self.num_vars = len(self.vars)
         print("Exclusive Sum of Products (ESOP):", self.ESOP)
 
         self.qc = self.esop_to_quantum_circuit(self.ESOP, self.vars)
         print("Quantum Circuit:")
-        #print(self.qc)
-        # self.transpile_circuit()
         self.qc.draw(output='mpl')
-        # plt.show() --> makes run time much greater, removed for simplicity sake
-        depths.append(self.qc.depth())
-        gates.append(sum(self.qc.count_ops().values()))
-        print("Final Depths" + "" + str(depths))
-        print("Final Gates" + "" + str(gates))
+        self.depths.append(self.qc.depth())
+        self.gates.append(sum(self.qc.count_ops().values()))
+        print("Final Depths: " + str(self.depths))
+        print("Final Gates: " + str(self.gates))
         self.transpile_circuit()
 
     def esop_to_quantum_circuit(self, ESOP, vars):
         num_qubits = len(vars) + 1  # one extra qubit for the output
         qc = QuantumCircuit(num_qubits)
         
-        # ESOP --> list
-        esop_terms = [ESOP] if ESOP.func != sp.Xor else ESOP.args
+        # handle ESOP starting with negation
+        if ESOP.func == sp.Not:
+            inner_expr = ESOP.args[0]
+            esop_terms = [sp.Not(inner_expr)]
+        else:
+            esop_terms = [ESOP] if ESOP.func != sp.Xor else ESOP.args
+
+        #print(f"Terms in ESOP: {esop_terms}")
 
         for term in esop_terms:
             control_qubits = []
-            for literal in term.args if term.func == sp.And else [term]:
+            
+            # Extract literals
+            if term.func == sp.Not:
+                term = term.args[0]
+                negated = True
+            else:
+                negated = False
+
+            literals = term.args if term.func == sp.And else [term]
+            for literal in literals:
                 if isinstance(literal, sp.Symbol):
+                    if negated:
+                        qc.x(vars.index(literal))  # X gate if negated
                     control_qubits.append(vars.index(literal))
                 elif isinstance(literal, sp.Not):
-                    qc.x(vars.index(literal.args[0]))  # X gate for negation
-                    control_qubits.append(vars.index(literal.args[0]))
+                    negated_var = literal.args[0]
+                    if negated_var in vars:
+                        qc.x(vars.index(negated_var))  # X gate for negation
+                        control_qubits.append(vars.index(negated_var))
+                    else:
+                        print(f"Warning: {negated_var} is not in the list of variables.")
             
+            # Define the target qubit
             target_qubit = num_qubits - 1 if num_qubits - 1 not in control_qubits else num_qubits - 2
             if len(control_qubits) == 1:
                 qc.cx(control_qubits[0], target_qubit)  # CNOT for single control
@@ -53,11 +67,12 @@ class ESOPQuantumCircuit:
                 qc.ccx(control_qubits[0], control_qubits[1], target_qubit)  # Toffoli for double control
             elif len(control_qubits) > 2:
                 qc.mcx(control_qubits, target_qubit)
-                # if two loose x's, cancel
 
-            #for literal in term.args if term.func == sp.And else [term]:
-            #    if isinstance(literal, sp.Not):
-            #        qc.x(vars.index(literal.args[0]))  # undo X gate
+            if negated:
+                # undo X gate
+                for literal in literals:
+                    if isinstance(literal, sp.Symbol) or (isinstance(literal, sp.Not) and literal.args[0] in vars):
+                        qc.x(vars.index(literal))
 
         return qc
     
@@ -78,8 +93,7 @@ class ESOPQuantumCircuit:
         print(f"Transpiled circuit gates: {sum(transpiled_qc.count_ops().values())}")
         print(transpiled_qc)
 
-#if __name__ == "__main__":
-    # example esop -- (x0 & ~x1) ^ (x2 & x3)
-#    a, b, c, d, e = sp.symbols('a b c d e')
-#    esop_expr = (d ^ ~a ^ ~e ^ (d & e) ^ (c & ~a & ~b & ~d))
-#    esop_qc = ESOPQuantumCircuit(esop_expr)
+if __name__ == "__main__":
+    x, y, z = sp.symbols('x y z')
+    esop_expr = ((~(x & y) ^ x ^ (y & z)))
+    esop_qc = ESOPQuantumCircuit(esop_expr, [x, y, z])
