@@ -13,7 +13,7 @@ contributions by:
 under: Doctor Rebekah Herrman 
 
 in: Summer 2024 
--------------------------------------------
+
 Algorithms and examples for a graph to ESOP to Quantum Oracle for MIS and MVC.
 Familiarity with sympy is encouraged
 For best use, reserve a sole directory for this code, in order to preserve dependcies among files. 
