@@ -11,17 +11,19 @@ using namespace esop;
 
 int main(){
 string vars,mins;
-ifstream input("ESOPsimple/between.txt");
+ifstream input("ESOPsimple/between.txt"); //change back to ESOPsimple/between.txt
 
 if(input.fail()){
-	cout << "file's fucked mate... just quit...";
+	cout << "file's fricked mate... just quit...";
 }
 vector<cube> listOfMinterms; 
 getline(input,vars);
-int numVars = stoi(vars.c_str());        //get number of variables from file
+//test
+//cout << "bruh " << vars << '\n';
+int numVars = stoi(vars, nullptr);        //get number of variables from file
 
 getline(input,mins);
-int numMinterms = stoi(mins.c_str());
+int numMinterms = stoi(mins.c_str(), nullptr);
 
 
 string minterm;

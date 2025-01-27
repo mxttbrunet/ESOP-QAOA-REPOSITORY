@@ -10,15 +10,15 @@ import tempfile as tf
 import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
 symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
-#import networkx as nx
-#import matplotlib.pyplot as plt
+import networkx as nx
+import matplotlib.pyplot as plt
 from oracle import GraphGenerator, BooleanInstance
 from sympy_esop_to_qcirc import ESOPQuantumCircuit
 from qiskit import QuantumCircuit, transpile
 from qiskit.visualization import plot_histogram
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 import qiskit_aer as Aer
-# from networkx_to_feasible_sols import *
+#from networkx_to_feasible_sols import *
 
 def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEntry):
     nodesVSesop = {}
@@ -47,7 +47,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 5, upperNodes = 5, lowerEntry= 0, upperEntry = "all")
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 4, upperNodes = 4, lowerEntry= 0, upperEntry = "all")
     print(esopDict)
 
     for node in esopDict:

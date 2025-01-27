@@ -24,7 +24,7 @@ import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
 symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
 import networkx as nx
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import subprocess
 class GraphGenerator:
     def __init__(self):
@@ -44,7 +44,9 @@ class GraphGenerator:
                 _ = f.seek(0)
                 G = nx.read_graph6(f.name)
                 self.graphKArray.append(G)
-                #nx.draw(G)
+                #alphabetic_labels = {node: chr(65 + node) for node in G.nodes}
+                #G = nx.relabel_nodes(G, alphabetic_labels)
+                #nx.draw(G,with_labels=True, node_color="blue", font_weight="bold", font_size=10)
                 #plt.show()
         return self.graphKArray
     
@@ -54,10 +56,10 @@ class GraphGenerator:
     def printGraph(self):
          if(self.oneGraph == None):
             print("No graph chosen, use chooseGraph() first...")
-         #else:
-            #nx.draw(self.oneGraph)
-            #plt.show()
-	 #   continue  ##for  displaying graphs
+         else:
+            nx.draw(self.oneGraph,with_labels=True, node_color="blue", font_weight="bold", font_size=10)
+            plt.show()
+	    #continue  ##for  displaying graphs
     
 class BooleanInstance:
     def __init__(self, problem, graph):
