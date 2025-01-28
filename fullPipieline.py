@@ -31,6 +31,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
             lowerEntry = 0
         for j in range(lowerEntry, upperEntry):
             currGraph = graphArray[j]
+            generator.chooseGraph(j)
             currBool = BooleanInstance(prob, currGraph)
             currBool.getTT()
             currRM = currBool.getRM("mixed")
@@ -38,6 +39,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
             dicEncoding = str(i) + "," + str(j)
             print(dicEncoding + ": ", currESOP,"\n")
             nodesVSesop[dicEncoding] = currESOP
+            generator.printGraph()
         if(upperEntry == len(graphArray)):
             upperEntry = "all"
     return nodesVSesop    
@@ -47,8 +49,8 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 4, upperNodes = 4, lowerEntry= 0, upperEntry = "all")
-    print(esopDict)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 4, upperNodes = 4, lowerEntry= 4, upperEntry = 5)
+    #print(esopDict)
 
     for node in esopDict:
         print(node)
