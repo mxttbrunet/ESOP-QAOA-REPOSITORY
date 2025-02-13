@@ -13,12 +13,13 @@ symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
 import networkx as nx
 import matplotlib.pyplot as plt
 from oracle import GraphGenerator, BooleanInstance
-from sympy_esop_to_qcirc import ESOPQuantumCircuit
+from sympy_esop_to_qcirc_t import ESOPQuantumCircuit
 from qiskit import QuantumCircuit, transpile
 from qiskit.visualization import plot_histogram
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 import qiskit_aer as Aer
 #from networkx_to_feasible_sols import *
+from oracle_and_gm_qaoa import *
 
 def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEntry):
     nodesVSesop = {}
@@ -49,7 +50,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 4, upperNodes = 4, lowerEntry= 4, upperEntry = 5)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 5, upperNodes = 5, lowerEntry= 3, upperEntry = 12)
     #print(esopDict)
 
     for node in esopDict:
@@ -58,4 +59,21 @@ if __name__ == "__main__":
         nodes = node.split(",")
         for i in range(0, int(nodes[0])):
             theseSymbols.append(symbolsAvail[i])
-        qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
+        #qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
+        #these next few lines are taken from oracle_and_gm_qaoa
+        state_prepio = StatePrep(esopDict[node], theseSymbols)
+        gm_qaoa = GMQAOA(state_prepio, p=1)
+        gamma = [0.1,0.2,0.3,0.4]
+        beta = 0.5
+        gm_qaoa_circ = gm_qaoa.build_circuit(gamma, beta)
+        counts = gm_qaoa.run_circuit(gm_qaoa_circ)
+
+        print("Measurement results: ")
+        print(counts)
+
+        sols = gm_qaoa.get_sol(counts)
+        print("Most likely solution(s): ")
+        print(sols)
+
+        plot_histogram(counts)
+        plt.show()

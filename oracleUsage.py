@@ -15,8 +15,8 @@ symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
 from oracle import GraphGenerator, BooleanInstance
 
 if __name__ == "__main__":
-    nodes = 8     ##set number of nodes for set of graphs 
-    graphNum = 1   ##specify graph by number, 0 through len(kGraphs)
+    nodes = 6     ##set number of nodes for set of graphs 
+    graphNum = 6   ##specify graph by number, 0 through len(kGraphs)
 
     genGraph = GraphGenerator()                    ##initialize genrator object
     graphArray = genGraph.createKgraphs(nodes)     ##create array of nx graphs from .g6 file 

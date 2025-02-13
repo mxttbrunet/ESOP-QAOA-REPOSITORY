@@ -47,6 +47,7 @@ class ESOPQuantumCircuit:
 
             literals = term.args if term.func == sp.And else [term]
             for literal in literals:
+                #print(literals) #matt for testing
                 if isinstance(literal, sp.Symbol):
                     if negated:
                         qc.x(vars.index(literal))  # X gate if negated
