@@ -24,17 +24,29 @@ class ESOPQuantumCircuit:
 
     def esop_to_quantum_circuit(self, ESOP, vars):
         num_qubits = len(vars) + 1  # one extra qubit for the output
+        target = num_qubits
+        #print(num_qubits)
         qc = QuantumCircuit(num_qubits)
+        esopStr = str(ESOP)
+        esopStr.append("000") #for padding
+        i = 0
+        ##for occurence of possible initial ~node
+        if (esopStr[0] == '~' & isalpha(esopStr[1])):   #ex. ~a ^ (b & d) ^ ....
+            qc.x(vars.index(esopStr[1]))
+            qc.cx(vars.indez(esopStr[1]), target)     ##simply x-gate the quibit, cnot it with target, x-gate to undo
+            qc.x(vars.index(esopStr[1]))
+            while(esopStr[i] != '('):
+                i+=1
+
         
-        # handle ESOP starting with negation
-        if ESOP.func == sp.Not:
-            inner_expr = ESOP.args[0]
-            esop_terms = [sp.Not(inner_expr)]
-        else:
-            esop_terms = [ESOP] if ESOP.func != sp.Xor else ESOP.args
-
-        #print(f"Terms in ESOP: {esop_terms}")
-
+        while(esopStr[i] != '0'):
+            contr = []
+            while(esopStr[i] != ')'):
+                if(esopStr[i] == '~' & isalpha(esopStr[i + 1]):
+                    
+              
+        
+        """
         for term in esop_terms:
             control_qubits = []
             
@@ -74,6 +86,8 @@ class ESOPQuantumCircuit:
                 for literal in literals:
                     if isinstance(literal, sp.Symbol) or (isinstance(literal, sp.Not) and literal.args[0] in vars):
                         qc.x(vars.index(literal))
+                        print(literal)
+            """
 
         return qc
     

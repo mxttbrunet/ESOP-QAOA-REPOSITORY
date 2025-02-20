@@ -50,7 +50,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 5, upperNodes = 5, lowerEntry= 3, upperEntry = 12)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 7, upperNodes = 7, lowerEntry= 40, upperEntry = 60)
     #print(esopDict)
 
     for node in esopDict:
@@ -59,8 +59,9 @@ if __name__ == "__main__":
         nodes = node.split(",")
         for i in range(0, int(nodes[0])):
             theseSymbols.append(symbolsAvail[i])
-        #qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
+        qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
         #these next few lines are taken from oracle_and_gm_qaoa
+
         state_prepio = StatePrep(esopDict[node], theseSymbols)
         gm_qaoa = GMQAOA(state_prepio, p=1)
         gamma = [0.1,0.2,0.3,0.4]
