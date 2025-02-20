@@ -50,7 +50,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 7, upperNodes = 7, lowerEntry= 40, upperEntry = 60)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 6, upperNodes = 6, lowerEntry= 10, upperEntry = 11)
     #print(esopDict)
 
     for node in esopDict:

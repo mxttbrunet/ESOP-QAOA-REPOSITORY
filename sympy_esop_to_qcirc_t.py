@@ -28,10 +28,10 @@ class ESOPQuantumCircuit:
         #print(num_qubits)
         qc = QuantumCircuit(num_qubits)
         esopStr = str(ESOP)
-        esopStr.append("000") #for padding
+        esopStr += "000" #for padding
         i = 0
         ##for occurence of possible initial ~node
-        if (esopStr[0] == '~' & isalpha(esopStr[1])):   #ex. ~a ^ (b & d) ^ ....
+        if ( (esopStr[0] == '~') & (esopStr[1].isalpha())):   #ex. ~a ^ (b & d) ^ ....
             qc.x(vars.index(esopStr[1]))
             qc.cx(vars.indez(esopStr[1]), target)     ##simply x-gate the quibit, cnot it with target, x-gate to undo
             qc.x(vars.index(esopStr[1]))
@@ -41,11 +41,23 @@ class ESOPQuantumCircuit:
         
         while(esopStr[i] != '0'):
             contr = []
+            neg = []
             while(esopStr[i] != ')'):
-                if(esopStr[i] == '~' & isalpha(esopStr[i + 1]):
-                    
-              
-        
+                if( (esopStr[i] == '~') & (esopStr[i+1].isalpha())):
+                    qc.x(vars.index(esopStr[i+1]))
+                    contr.append(vars.index(esopStr[i+1]))
+                    neg.append(vars.index(esopStr[i+1]))
+                    i+=2
+                elif(esopStr[i].isalpha()):
+                    contr.append(vars.index(esopStr[i]))
+                    i+=1
+                else:
+                    i+=1
+            qc.mcx(contr, target)
+            j = 0
+            while(j < len(neg)):
+                qc.x(neg[j])
+                j+=1
         """
         for term in esop_terms:
             control_qubits = []
