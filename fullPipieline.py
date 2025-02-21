@@ -8,8 +8,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname("oracle.py"))))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname("sympy_esop_to_qcirc.py"))))
 import tempfile as tf
 import sympy as sp
-from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
-symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
+from sympy.abc import a,b,c,d,e,f,g,h,i,j,k
 import networkx as nx
 import matplotlib.pyplot as plt
 from oracle import GraphGenerator, BooleanInstance
@@ -30,7 +29,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
         if(upperEntry == "all"): 
             upperEntry = len(graphArray)
             lowerEntry = 0
-        for j in range(lowerEntry, upperEntry):
+        for j in range(lowerEntry, upperEntry + 1):
             currGraph = graphArray[j]
             generator.chooseGraph(j)
             currBool = BooleanInstance(prob, currGraph)
@@ -50,20 +49,18 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 6, upperNodes = 6, lowerEntry= 10, upperEntry = 11)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 5, upperNodes = 5, lowerEntry= 4, upperEntry = 8)
     #print(esopDict)
 
     for node in esopDict:
-        print(node)
-        theseSymbols = []
+        theseSymbols = [a,b,c,d,e]
         nodes = node.split(",")
-        for i in range(0, int(nodes[0])):
-            theseSymbols.append(symbolsAvail[i])
         qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
-        #these next few lines are taken from oracle_and_gm_qaoa
-
-        state_prepio = StatePrep(esopDict[node], theseSymbols)
+        #these next few lines are taken from oracle_and_gm_qaoa 
+        """
+        state_prepio = StatePrep(qc, theseSymbols)
         gm_qaoa = GMQAOA(state_prepio, p=1)
+
         gamma = [0.1,0.2,0.3,0.4]
         beta = 0.5
         gm_qaoa_circ = gm_qaoa.build_circuit(gamma, beta)
@@ -78,3 +75,4 @@ if __name__ == "__main__":
 
         plot_histogram(counts)
         plt.show()
+        """

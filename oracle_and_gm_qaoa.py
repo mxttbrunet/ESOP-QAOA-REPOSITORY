@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 from sympy_esop_to_qcirc_t import ESOPQuantumCircuit
 
 class StatePrep:
-    def __init__(self, esop_expr, vars):
-        self.esop_circuit = ESOPQuantumCircuit(esop_expr, vars)
+    def __init__(self, esopQC, vars):
+        self.esop_circuit = esopQC
         self.num_qubits = self.esop_circuit.qc.num_qubits
 
     def state_prep_circuit(self):
