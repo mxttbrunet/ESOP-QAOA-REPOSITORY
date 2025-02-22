@@ -39,7 +39,7 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
             dicEncoding = str(i) + "," + str(j)
             print(dicEncoding + ": ", currESOP,"\n")
             nodesVSesop[dicEncoding] = currESOP
-            generator.printGraph()
+            #generator.printGraph()
         if(upperEntry == len(graphArray)):
             upperEntry = "all"
     return nodesVSesop    
@@ -49,17 +49,17 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
 
 if __name__ == "__main__":
     
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 5, upperNodes = 5, lowerEntry= 4, upperEntry = 8)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 8, upperNodes = 8, lowerEntry= 15, upperEntry = 20)
     #print(esopDict)
 
     for node in esopDict:
-        theseSymbols = [a,b,c,d,e]
+        theseSymbols = [a,b,c,d,e,f,g,h]
         nodes = node.split(",")
         qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
         #these next few lines are taken from oracle_and_gm_qaoa 
-        """
+
         state_prepio = StatePrep(qc, theseSymbols)
-        gm_qaoa = GMQAOA(state_prepio, p=1)
+        gm_qaoa = GMQAOA(state_prepio, p=30)
 
         gamma = [0.1,0.2,0.3,0.4]
         beta = 0.5
@@ -75,4 +75,4 @@ if __name__ == "__main__":
 
         plot_histogram(counts)
         plt.show()
-        """
+        
