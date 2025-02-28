@@ -61,8 +61,8 @@ if __name__ == "__main__":
         state_prepio = StatePrep(qc, theseSymbols)
         gm_qaoa = GMQAOA(state_prepio, p=30)
 
-        gamma = [0.1,0.2,0.3,0.4]
-        beta = 0.5
+        gamma = [0.1,0.2,0.3,0.4] # may need to be tuned, determine weight of cost terms in RZ rotations (cost function)
+        beta = 0.5 # may need to be tuned, controls RX rotations
         gm_qaoa_circ = gm_qaoa.build_circuit(gamma, beta)
         counts = gm_qaoa.run_circuit(gm_qaoa_circ)
 
