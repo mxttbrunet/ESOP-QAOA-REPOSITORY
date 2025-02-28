@@ -28,28 +28,39 @@ class GMQAOA:
         circ.compose(state_prep_circ, inplace=True)
 
         for _ in range(self.p):
-            # cost function
+            # Cost function
             for qubit, angle in enumerate(gamma):
-                circ.rz(angle, qubit)
+                circ.rz(angle, qubit) # cost hamiltonian uses RZ gates
 
-            # gm
-            circ.append(state_prep_circ.to_gate().inverse(), range(n))  # inverse of state prep
+            # State preparation inverse
+            circ.append(state_prep_circ.to_gate().inverse(), range(n))
             circ.barrier()
+
+            # Apply X gates
             for qubit in range(n):
-                circ.x(qubit)  # apply X gates on all qubits
+                circ.x(qubit)
             circ.barrier()
-            circ.mcp(beta/np.pi, list(range(n-1)), n-1)  # angle of beta/pi
+
+            # Apply MCP gate
+            circ.mcp(beta / np.pi, list(range(n - 1)), n - 1)
             circ.barrier()
+
+            # Undo X gates
             for qubit in range(n):
-                circ.x(qubit)  # apply X gates on all qubits
+                circ.x(qubit)
             circ.barrier()
-            circ.append(state_prep_circ.to_gate(), range(n))  # state prep
+
+            # State preparation
+            circ.append(state_prep_circ.to_gate(), range(n))
             circ.measure(range(n), range(n))
 
-            # QAOA mixer
-            # circ.rx(2 * beta, range(n))
+            # Mixer Function 
+            for qubit in range(n):
+                circ.rx(2 * beta, qubit) # mixer hamiltonian uses RX gates
+            circ.barrier()
 
         return circ
+
 
     def run_circuit(self, circ, shots=1024):
         backend = Aer.AerSimulator()
