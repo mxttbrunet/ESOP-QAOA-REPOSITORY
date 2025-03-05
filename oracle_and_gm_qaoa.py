@@ -15,10 +15,10 @@ class StatePrep:
         return self.esop_circuit.qc
 
 class GMQAOA:
-    def __init__(self, state_prep, p=1):
+    def __init__(self, state_prep, p, graph):
         self.state_prep = state_prep
         self.p = p
-
+        self.graph = graph
     def build_circuit(self, gamma, beta):
         n = self.state_prep.num_qubits
         circ = QuantumCircuit(n, n)
@@ -29,9 +29,16 @@ class GMQAOA:
 
         for _ in range(self.p):
             # Cost function
-            for qubit, angle in enumerate(gamma):
-                circ.rz(angle, qubit) # cost hamiltonian uses RZ gates
-
+            #for qubit, angle in enumerate(gamma):
+            #                                                               need to figure this cost thingy out... 
+            #    circ.rz(angle, qubit) # cost hamiltonian uses RZ gates
+            for edge in self.graph.edges:
+                for angle in gamma:
+                    circ.rz(2*angle, edge[0])
+                    circ.rz(2*angle, edge[1])
+                    circ.cx(edge[0],edge[1])             ## cost hamiltonian for MIS based on paper
+                    circ.rz(2*angle,edge[1])
+                    circ.cx(edge[0],edge[1])
             # State preparation inverse
             circ.append(state_prep_circ.to_gate().inverse(), range(n))
             circ.barrier()
