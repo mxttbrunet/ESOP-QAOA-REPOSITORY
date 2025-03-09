@@ -6,6 +6,26 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sympy_esop_to_qcirc_t import ESOPQuantumCircuit
 from scipy.optimize import minimize
+
+
+#cost function
+def MIS_obj(bitStr, graph):
+    obj = 0
+    for edge in graph.edges:
+        obj+= int(bitStr[edge[0]]) + int(bitStr[edge[1]]) + int(bitStr[edge[0]])*int(bitStr[edge[1]])
+    return obj
+
+def compute_expectation(counts, G):
+    average = 0
+    count_sum = 0
+    for str, count in counts.items():
+        obj = MIS_obj(str, G)
+        average+= obj*count
+        count_sum += count
+    return (average / count_sum)
+
+
+      
 class StatePrep:
     def __init__(self, esopQC, vars):
         self.esop_circuit = esopQC
@@ -61,7 +81,7 @@ class GMQAOA:
             circ.measure(range(n), range(n))
             
             # mixer 
-            # circ.rx(2*beta[i], range(n))  
+            circ.rx(2*beta[i], range(n))  
         return circ
 
 
@@ -72,7 +92,7 @@ class GMQAOA:
         return counts
 
     def get_sol(self, counts):
-        # find most freq outcome
+        # find most freq outcome        
         max_count = max(counts.values())
         sols = [key for key, val in counts.items() if val == max_count]
         return sols
