@@ -5,7 +5,7 @@ import sympy as sp
 import numpy as np
 import matplotlib.pyplot as plt
 from sympy_esop_to_qcirc_t import ESOPQuantumCircuit
-
+from scipy.optimize import minimize
 class StatePrep:
     def __init__(self, esopQC, vars):
         self.esop_circuit = esopQC
@@ -27,18 +27,17 @@ class GMQAOA:
         state_prep_circ = self.state_prep.state_prep_circuit()
         circ.compose(state_prep_circ, inplace=True)
 
-        for _ in range(self.p):
-            # Cost function
-            #for qubit, angle in enumerate(gamma):
-            #                                                               need to figure this cost thingy out... 
-            #    circ.rz(angle, qubit) # cost hamiltonian uses RZ gates
+        for i in range(self.p):
+
+            # Problem unitary 
             for edge in self.graph.edges:
-                for angle in gamma:
-                    circ.rz(2*angle, edge[0])
-                    circ.rz(2*angle, edge[1])
-                    circ.cx(edge[0],edge[1])             ## cost hamiltonian for MIS based on paper
-                    circ.rz(2*angle,edge[1])
-                    circ.cx(edge[0],edge[1])
+                circ.rz(2*gamma[i], edge[0])
+                circ.rz(2*gamma[i], edge[1])
+                circ.cx(edge[0],edge[1])             ## cost hamiltonian for MIS based on paper
+                circ.rz(2*gamma[i],edge[1])
+                circ.cx(edge[0],edge[1])
+
+            #MIXER UNITARY 
             # State preparation inverse
             circ.append(state_prep_circ.to_gate().inverse(), range(n))
             circ.barrier()
@@ -49,7 +48,7 @@ class GMQAOA:
             circ.barrier()
 
             # Apply MCP gate
-            circ.mcp(beta / np.pi, list(range(n - 1)), n - 1)
+            circ.mcp(beta[i] / np.pi, list(range(n - 1)), n - 1)
             circ.barrier()
 
             # Undo X gates
@@ -60,22 +59,16 @@ class GMQAOA:
             # State preparation
             circ.append(state_prep_circ.to_gate(), range(n))
             circ.measure(range(n), range(n))
-
-            # Mixer Function 
-            for qubit in range(n):
-                circ.rx(2 * beta, qubit) # mixer hamiltonian uses RX gates
-            circ.barrier()
-
+            
+            # mixer 
+            # circ.rx(2*beta[i], range(n))  
         return circ
 
 
     def run_circuit(self, circ, shots=1024):
         backend = Aer.AerSimulator()
         tcirc = transpile(circ, backend) # transpile circuit
-        #qobj = assemble(tcirc, shots=shots) # turn transpiled circuit into qobj that can run on backend
-        job = backend.run(tcirc, shots=shots)
-        result = job.result()
-        counts = result.get_counts()
+        counts = backend.run(tcirc, shots=shots).result().get_counts()
         return counts
 
     def get_sol(self, counts):
