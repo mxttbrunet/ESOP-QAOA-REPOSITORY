@@ -26,7 +26,7 @@ def compute_expectation(counts, G):
 
 
       
-class StatePrep:
+class StatePrep: # used to find equal superposition
     def __init__(self, esopQC, vars):
         self.esop_circuit = esopQC
         self.num_qubits = self.esop_circuit.qc.num_qubits
