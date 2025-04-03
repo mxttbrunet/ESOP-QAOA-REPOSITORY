@@ -12,7 +12,7 @@ from scipy.optimize import minimize
 def MIS_obj(bitStr, graph):
     obj = 0
     for edge in graph.edges:
-        obj+= int(bitStr[edge[0]]) + int(bitStr[edge[1]]) + int(bitStr[edge[0]])*int(bitStr[edge[1]])
+        obj+= int(bitStr[edge[0]]) + int(bitStr[edge[1]]) + int(bitStr[edge[0]])*int(bitStr[edge[1]]) 
     return obj
 
 def compute_expectation(counts, G):
@@ -46,7 +46,7 @@ class GMQAOA:
         # State preparation
         state_prep_circ = self.state_prep.state_prep_circuit()
         circ.compose(state_prep_circ, inplace=True)
-
+        circ.h(n-1)
         for i in range(self.p):
 
             # Problem unitary 
@@ -56,6 +56,7 @@ class GMQAOA:
                 circ.cx(edge[0],edge[1])             ## cost hamiltonian for MIS based on paper
                 circ.rz(2*gamma[i],edge[1])
                 circ.cx(edge[0],edge[1])
+                 #test...
 
             #MIXER UNITARY 
             # State preparation inverse
@@ -78,10 +79,11 @@ class GMQAOA:
 
             # State preparation
             circ.append(state_prep_circ.to_gate(), range(n))
-            circ.measure(range(n), range(n))
             
-            # mixer 
-            circ.rx(2*beta[i], range(n))  
+            # mixer tester for now
+            circ.rx(2*beta[i], range(n))
+  
+        circ.measure(range(n), range(n))
         return circ
 
 
@@ -89,6 +91,7 @@ class GMQAOA:
         backend = Aer.AerSimulator()
         tcirc = transpile(circ, backend) # transpile circuit
         counts = backend.run(tcirc, shots=shots).result().get_counts()
+        #minimize(MIS_obj(self.graph), [1.0,1.0], method = 'COBYLA')
         return counts
 
     def get_sol(self, counts):
