@@ -40,11 +40,35 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
             dicEncoding = str(i) + "," + str(j)
             print(dicEncoding + ": ", currESOP,"\n")
             nodesVSesop[dicEncoding] = currESOP
-            #generator.printGraph()
+            generator.printGraph()
         if(upperEntry == len(graphArray)):
             upperEntry = "all"
     return nodesVSesop    
 
+def MIS_obj(bitStr, graph): #objective function to minimize...
+    obj = 0
+    for edge in graph.edges:
+        obj+= (int(bitStr[edge[0]]) + int(bitStr[edge[1]]) + int(bitStr[edge[0]])*int(bitStr[edge[1]]) - int(bitStr[len(bitStr) - 1])) 
+    return obj
+
+def compute_expectation(counts, G):
+    average = 0
+    count_sum = 0
+    for str, count in counts.items():                 #finds average expectation 
+        obj = MIS_obj(str, G)
+        average+= obj*count
+        count_sum += count
+    return (average / count_sum)
+
+
+def get_exp(G, params):             #runs gmqaoa in a loop to optimize gamma beta 
+
+    def funcToOpt(params):
+        gm_qaoa_circ = gm_qaoa.build_circuit(params)
+        counts = gm_qaoa.run_circuit(gm_qaoa_circ)
+        return compute_expectation(counts, G)
+    
+    return funcToOpt
 
 
 
@@ -56,19 +80,27 @@ if __name__ == "__main__":
         theseSymbols = [a,b,c,d]  ## CHANGE BASED ON NODES
         nodes = node.split(",")
         qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
-
         state_prepio = StatePrep(qc, theseSymbols)
-        p = 30
+        p  = 10
         gm_qaoa = GMQAOA(state_prepio, p, graphList[k])
 
         gamma = np.random.rand(p)   #for layer in QAOA, generate list of initial gammas and betas 
         beta = np.random.rand(p) 
 
-        gm_qaoa_circ = gm_qaoa.build_circuit(gamma, beta)     ##run GM-QAOA
+        paramList = []
+        l = 0
+        while(l < p):
+            paramList.append(gamma[l])    #make parameter list [gamma0, beta0, gamma1, beta1... gamma_p, beta_p]
+            paramList.append(beta[l])
+            l+=1
+
+        exp = get_exp(graphList[k], paramList)
+        optParams = minimize(exp, paramList, method = 'COBYLA').x   #optimize gammas and betas subject to obj func
+        print(optParams)
+        
+        gm_qaoa_circ = gm_qaoa.build_circuit(optParams)     ##run GM-QAOA with optimized parameters 
         counts = gm_qaoa.run_circuit(gm_qaoa_circ)
         print("Measurement results: ")
-
-        ## PUT BETA GAMMA OPTIMIZATION HERE USING OBJ JUNK
 
         sols = gm_qaoa.get_sol(counts)
         print("Most likely solution(s): ")

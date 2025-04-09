@@ -8,23 +8,6 @@ from sympy_esop_to_qcirc_t import ESOPQuantumCircuit
 from scipy.optimize import minimize
 
 
-#cost function
-def MIS_obj(bitStr, graph):
-    obj = 0
-    for edge in graph.edges:
-        obj+= int(bitStr[edge[0]]) + int(bitStr[edge[1]]) + int(bitStr[edge[0]])*int(bitStr[edge[1]]) 
-    return obj
-
-def compute_expectation(counts, G):
-    average = 0
-    count_sum = 0
-    for str, count in counts.items():
-        obj = MIS_obj(str, G)
-        average+= obj*count
-        count_sum += count
-    return (average / count_sum)
-
-
       
 class StatePrep: # used to find equal superposition
     def __init__(self, esopQC, vars):
@@ -39,7 +22,8 @@ class GMQAOA:
         self.state_prep = state_prep
         self.p = p
         self.graph = graph
-    def build_circuit(self, gamma, beta):
+
+    def build_circuit(self, params):
         n = self.state_prep.num_qubits
         circ = QuantumCircuit(n, n)
 
@@ -47,16 +31,17 @@ class GMQAOA:
         state_prep_circ = self.state_prep.state_prep_circuit()
         circ.compose(state_prep_circ, inplace=True)
         circ.h(n-1)
-        for i in range(self.p):
+        i = 0
+        while (i < self.p):
 
             # Problem unitary 
             for edge in self.graph.edges:
-                circ.rz(2*gamma[i], edge[0])
-                circ.rz(2*gamma[i], edge[1])
+                circ.rz(2*params[i], edge[0])
+                circ.rz(2*params[i], edge[1])
                 circ.cx(edge[0],edge[1])             ## cost hamiltonian for MIS based on paper
-                circ.rz(2*gamma[i],edge[1])
+                circ.rz(2*params[i],edge[1])
                 circ.cx(edge[0],edge[1])
-                 #test...
+                circ.rz(2*params[i], n-1)
 
             #MIXER UNITARY 
             # State preparation inverse
@@ -69,7 +54,7 @@ class GMQAOA:
             circ.barrier()
 
             # Apply MCP gate
-            circ.mcp(beta[i] / np.pi, list(range(n - 1)), n - 1)
+            circ.mcp(params[i+1] / np.pi, list(range(n - 1)), n - 1)
             circ.barrier()
 
             # Undo X gates
@@ -81,9 +66,10 @@ class GMQAOA:
             circ.append(state_prep_circ.to_gate(), range(n))
             
             # mixer tester for now
-            circ.rx(2*beta[i], range(n))
-  
-        circ.measure(range(n), range(n))
+            circ.rx(2*params[i+1], range(n))
+            i+=2
+            
+            circ.measure(range(n), range(n))
         return circ
 
 
@@ -91,7 +77,6 @@ class GMQAOA:
         backend = Aer.AerSimulator()
         tcirc = transpile(circ, backend) # transpile circuit
         counts = backend.run(tcirc, shots=shots).result().get_counts()
-        #minimize(MIS_obj(self.graph), [1.0,1.0], method = 'COBYLA')
         return counts
 
     def get_sol(self, counts):
