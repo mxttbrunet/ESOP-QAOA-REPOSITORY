@@ -81,7 +81,7 @@ if __name__ == "__main__":
         nodes = node.split(",")
         qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
         state_prepio = StatePrep(qc, theseSymbols)
-        p  = 10
+        p  = 20
         gm_qaoa = GMQAOA(state_prepio, p, graphList[k])
 
         gamma = np.random.rand(p)   #for layer in QAOA, generate list of initial gammas and betas 

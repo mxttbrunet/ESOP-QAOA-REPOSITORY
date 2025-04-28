@@ -41,7 +41,7 @@ class GMQAOA:
                 circ.cx(edge[0],edge[1])             ## cost hamiltonian for MIS based on paper
                 circ.rz(2*params[i],edge[1])
                 circ.cx(edge[0],edge[1])
-                circ.rz(2*params[i], n-1)
+                #circ.rz(2*params[i], n-1)
 
             #MIXER UNITARY 
             # State preparation inverse
