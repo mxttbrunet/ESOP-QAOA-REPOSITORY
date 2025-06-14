@@ -73,7 +73,7 @@ def get_exp(G, params):             #runs gmqaoa in a loop to optimize gamma bet
 
 
 if __name__ == "__main__":
-    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 4, upperNodes = 4, lowerEntry= 1, upperEntry = 1)
+    esopDict = collectProbEsops(prob = "MIS", polarity = "mixed", lowerNodes = 4, upperNodes = 4, lowerEntry= 1, upperEntry = 2)
     #print(esopDict)
     k = 0
     for node in esopDict:
@@ -81,7 +81,8 @@ if __name__ == "__main__":
         nodes = node.split(",")
         qc = ESOPQuantumCircuit(esopDict[node], theseSymbols)
         state_prepio = StatePrep(qc, theseSymbols)
-        p  = 20
+
+        p  = 3
         gm_qaoa = GMQAOA(state_prepio, p, graphList[k])
 
         gamma = np.random.rand(p)   #for layer in QAOA, generate list of initial gammas and betas 

@@ -30,11 +30,11 @@ class GMQAOA:
         # State preparation
         state_prep_circ = self.state_prep.state_prep_circuit()
         circ.compose(state_prep_circ, inplace=True)
-        circ.h(n-1)
+        #circ.h(n-1)
         i = 0
         while (i < self.p):
 
-            # Problem unitary 
+            # Problem unitary  #rewrite using zs only, then transpile
             for edge in self.graph.edges:
                 circ.rz(2*params[i], edge[0])
                 circ.rz(2*params[i], edge[1])
@@ -66,9 +66,8 @@ class GMQAOA:
             circ.append(state_prep_circ.to_gate(), range(n))
             
             # mixer tester for now
-            circ.rx(2*params[i+1], range(n))
-            i+=2
-            
+            #circ.rx(2*params[i+1], range(n))
+            #i+=2
             circ.measure(range(n), range(n))
         return circ
 
