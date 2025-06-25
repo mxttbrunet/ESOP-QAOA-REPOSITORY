@@ -23,9 +23,9 @@ graphList = []
 
 def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEntry):
     nodesVSesop = {}
-    for i in range(lowerNodes, upperNodes + 1):
+    for x in range(lowerNodes, upperNodes + 1):
         generator = GraphGenerator()                    ##initialize genrator object
-        graphArray = generator.createKgraphs(i)     ##create array of nx graphs from .g6 file
+        graphArray = generator.createKgraphs(x)     ##create array of nx graphs from .g6 file
         if(upperEntry == "all"): 
             upperEntry = len(graphArray)
             lowerEntry = 0
@@ -34,10 +34,12 @@ def collectProbEsops(prob, polarity, lowerNodes, upperNodes, lowerEntry, upperEn
             graphList.append(currGraph)
             generator.chooseGraph(j)
             currBool = BooleanInstance(prob, currGraph)
+            print("TEST FOR PROBESOP:")
+            currBool.getProbESOP()
             currBool.getTT()
             currRM = currBool.getRM("mixed")
             currESOP = currBool.produceExpression(currRM)
-            dicEncoding = str(i) + "," + str(j)
+            dicEncoding = str(x) + "," + str(j)
             print(dicEncoding + ": ", currESOP,"\n")
             nodesVSesop[dicEncoding] = currESOP
             generator.printGraph()

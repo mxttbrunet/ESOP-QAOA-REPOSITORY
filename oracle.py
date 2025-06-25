@@ -21,11 +21,12 @@ CLASSES:
 """
 import tempfile as tf
 import sympy as sp
-from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
-symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
+from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s
+symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s]
 import networkx as nx
 import matplotlib.pyplot as plt
 import subprocess
+
 class GraphGenerator:
     def __init__(self):
         self.oneGraph = None
@@ -71,6 +72,146 @@ class BooleanInstance:
         self.minterms = None 
         self.tt = None
 
+        """replace all this junk w a function that takes graph and creates ESOP for given problem 
+        - no need for all this bloat
+        """
+    def getProbESOP(self):
+        symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s]
+        t = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f,
+             'g': g, 'h': h, 'i': sp.abc.i, 'j': sp.abc.j, 'k': k, 'l': l, 
+             'm': m, 'n':n, 'o':o,'p':p,'q':q,'r':r,'s':s}
+        chosenGraph = self.graph
+        numEdges = len(chosenGraph.edges())
+        symbolUse = []
+        edgeConj = []
+        XorTerms = []                ##used for parsing
+        replacements = {}
+        originalMIS = []
+        problem = self.problem
+        for vertex in chosenGraph.nodes():        ## create symy symbol array 
+            symbolUse.append(symbolsAvail[vertex])
+
+        for edge in chosenGraph.edges():
+            edgeConj.append((symbolUse[edge[0]] & symbolUse[edge[1]]))  # start with first positive edge (e_0)
+            originalMIS.append(sp.Not((symbolUse[edge[0]]) & (symbolUse[edge[1]]))) # also establish the original eq
+        originalMIS = sp.And(*originalMIS)
+
+        ## create ( (e_0,1 & ~e_1,2 & ~e_2,3...) XOR (e_1,2 & ~e_2,3 & ...) XOR ... XOR (e_n,m)   (1)
+        for i in range(len(edgeConj)):
+            j = i + 1
+            bigConj = edgeConj[i]
+            while(j < len(edgeConj)):           #establish (1) as shown in above document
+                neg = sp.Not(edgeConj[j])   
+                bigConj = bigConj & neg
+                j+=1
+            bigConj = sp.logic.boolalg.simplify_logic(bigConj)  #reduce conjugations if possible
+            
+            
+            ## now to deal with any lingering OR terms i.e a & ~b & (~e | ~f) ... 
+            ##using conversion to string and parsing bc easier...
+            
+            prods = []
+            numBinomials = 0
+            polys = [] # for collecting OR terms after conversion 
+            trigger = 0  #"trigger" used to flag when OR terms are reached in the string 
+            initTerm = str(bigConj)
+            if '|' in initTerm:  ##if lingering OR term(s)
+                for i in range(len(initTerm)):
+                    if(initTerm[i] == '('):
+                        trigger = 1
+                    if(trigger == 0):
+                        if(initTerm[i].isalpha()):
+                            if(initTerm[i-1] == '~'):
+                                prods.append(sp.Not(t[initTerm[i]]))   #if not up to the or terms, collect outside ANDS
+                            else:
+                                prods.append(t[initTerm[i]])
+                            
+                    if (initTerm[i]) == '|': #when reaching an OR, apply a~b ^ b transformation again
+                        numBinomials+=1
+                        firstVar = initTerm[i-2]
+                        secondVar = initTerm[i+3]
+                        polys.append(( sp.Xor(sp.And(sp.Not(t[firstVar]), (t[secondVar])), sp.Not(t[secondVar])))) #since we know all naands are negated nors
+                trigger = 0
+                
+                #now,, the extra OR terms have been translated to XOR and AND. i.e:
+                # a & ~b & (~e | ~f) & (~g | ~h) = a & ~b & ((~e & f) ^ f) & ((~g & h) ^ ~h)
+    
+                #multiply out the XOR terms using polynomial multiplication
+                multOut = sp.logic.boolalg.distribute_xor_over_and(sp.And(*polys)) 
+                polys = [] 
+                
+                finalXors = []
+                finalProds = []
+                
+                #now to distribute those outside ANDs
+                stringMultOut = str(multOut)
+                ## deal with constant single first var for simplicity if present 
+                #print(stringMultOut)
+                j = 0
+                if(stringMultOut[0] == '~'):
+                    finalProds.append(sp.Not(t[stringMultOut[1]]))
+                    for var in prods:
+                        finalProds.append(var) #distr. to first var
+                    finalXors.append(sp.logic.boolalg.simplify_logic(sp.And(*finalProds)))
+                    j+=4
+                
+                finalProds = []
+                
+                for i in range(j,len(stringMultOut)):
+                    if(stringMultOut[i].isalpha()):
+                        if(stringMultOut[i-1] == '~'):
+                            finalProds.append(sp.Not(t[stringMultOut[i]]))
+                            i+=1
+                        else:
+                            finalProds.append(t[stringMultOut[i]])
+                            
+                    elif( (stringMultOut[i] == '^') or (i == (len(stringMultOut) - 1)) ):
+                        for vari in prods:
+                            finalProds.append(vari)
+                        finalXors.append(sp.logic.boolalg.simplify_logic(sp.And(*finalProds)))
+                        #print(f"final prods: {finalProds}")
+                        finalProds = []
+                replacementTerm = str(sp.Xor(*finalXors))
+                #print(f"replace {bigConj} -> {replacementTerm}")
+                replacements["(" + str(bigConj) + ")"] = replacementTerm
+                
+            XorTerms.append(bigConj)
+            #print(bigConj)
+        finalEsop = sp.Xor(*XorTerms)
+        finalFr = sp.Not(finalEsop)
+        #finalFr = finalEsop
+        #graphGetter.printGraph()
+        if '|' in str(finalFr):  #resympyfy the final string for truth table
+            finalFrS = str(finalFr)
+            for rep in replacements:
+                finalFrS = finalFrS.replace(rep, replacements[rep])
+                
+            conjTerms = []
+            xorConj = [] 
+            #print(finalFrS)
+            for i in range(1,len(finalFrS)):
+                if ((finalFrS[i] == '^') or ((i == len(finalFrS) - 1)  )):       ##convert string back into Sympy 
+                    xorConj.append(sp.And(*conjTerms))
+                    conjTerms = []
+                elif(finalFrS[i].isalpha()):
+                    if(finalFrS[i-1] == '~'):
+                        conjTerms.append(sp.Not(t[finalFrS[i]]))
+                    else:
+                        conjTerms.append((t[finalFrS[i]]))
+            distroEsop = sp.Xor(*xorConj)
+            finalFr = sp.Not(distroEsop)
+            #finalFr = distroEsop
+        #get the ratio of xor terms per edge in this graph
+        returnVal = str(finalFr)[2:(len(str(finalFr))-1)]
+        print(returnVal)
+        return(returnVal)
+             
+             
+ 
+        
+        
+        
+   
     def getTT(self):   ## creates boolean expression for problem instance, MIS MVC MKC? 
         nodes = self.nodes()
         edges = self.edges()
