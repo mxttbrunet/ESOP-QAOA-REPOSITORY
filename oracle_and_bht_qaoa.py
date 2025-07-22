@@ -207,13 +207,13 @@ def createQAOACirc(params, pval, graph, thisEsop):
     fullQAOA = QuantumCircuit(len(graph.nodes()))
     fullQAOA.h(range(len(graph.nodes())))
     
-    zH = ESOPtoQAOA(params, pval, testGraph, thisEsop )
+    zH = ESOPtoQAOA(params, pval, graph, thisEsop )
     for i in range(pval):
         for k in range(1,len(zH)):
             for l in range(len(zH[k])):
                 thisZs = zH[k][l]
                 rz_n(fullQAOA, params[i], 2 * float(thisZs[:-k]), [symbolsAvail.index(sp.Symbol(char)) for char in thisZs[-k:]])
-        for qubit in range(numNodes):
+        for qubit in range(len(graph.nodes())):
             fullQAOA.rx(2.0 * params[i + pval],qubit)
     fullQAOA.measure_all()
     return fullQAOA

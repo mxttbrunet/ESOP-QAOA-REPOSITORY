@@ -1,0 +1,56 @@
+from oracle import GraphGenerator, BooleanInstance
+import sympy as sp
+import numpy as np
+from qiskit.circuit.library import PauliEvolutionGate
+from qiskit.quantum_info import Pauli
+from sympy_esop_to_qcirc_t import ESOPQuantumCircuit   #casual imports yknow 
+from qiskit import QuantumCircuit, transpile
+from qiskit.quantum_info import Operator
+from qiskit.visualization import plot_histogram
+from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
+import qiskit_aer as Aer
+import networkx as nx
+from oracle_and_bht_qaoa import *
+from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s
+symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s]
+
+def bruteForceMIS(thisGraph):
+   formatting = "0" + str(len(thisGraph.nodes)) + "b"
+   numNodes = len(thisGraph.nodes())
+   mostNeg = 10
+   for l in range( (2**(numNodes))):
+      currTry = str((format(l, formatting)))
+      if(MISobj(currTry, thisGraph) < mostNeg):
+          mostNeg = MISobj(currTry,thisGraph)
+   return mostNeg
+
+
+
+if __name__ == "__main__":
+   f = open("QSOP_QAOA_RESULTS.txt", "w")
+
+   for i in range (3,9): #graphs w / nodes 3-8
+      gen = GraphGenerator()
+      graphList = gen.createKgraphs(i)
+      for j in range(len(graphList) - 1):
+         currGraph = graphList[j]
+         gen.chooseGraph(j)
+         mostOpt = bruteForceMIS(currGraph)
+         f.write(f"\n=== NODES: {i}, GRAPH_NUM: {j} ===\n\n")
+         f.write("ADJACENCY MATRIX:\n")
+         f.write(f"{nx.adjacency_matrix(currGraph)}\n")
+         currInst = BooleanInstance("MIS", currGraph)
+         currESOP = currInst.getProbESOP()
+         f.write(f"ESOP: {currESOP}\n")
+         for p in range(1,4):  #test for p = 1,2,3
+             appxSum = 0
+             for k in range(10): #run 10 times and average appx ratio 
+                pars = np.random.rand(2*p)
+                expectation = get_expect(currGraph, pars, p, currESOP)
+                res = minimize(expectation, pars, method = 'COBYLA')
+                currCirc = createQAOACirc(res.x, p, currGraph, currESOP)
+                backendFinal = Aer.AerSimulator()
+                currCounts = backendFinal.run(currCirc, shots = 1024).result().get_counts()
+                appxSum+=(compExp(currCounts,currGraph) / mostOpt)
+             f.write(f"AVERAGE APPX RATIO WHERE p = {p} : {appxSum / 10}\n") 
+    
