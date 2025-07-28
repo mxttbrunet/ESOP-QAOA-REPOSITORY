@@ -27,12 +27,16 @@ def bruteForceMIS(thisGraph):
 
 
 if __name__ == "__main__":
-   f = open("QSOP_QAOA_RESULTS.txt", "w")
+   f = open("QSOP_RESULTS_8.txt", "w")
 
-   for i in range (3,9): #graphs w / nodes 3-8
+   for i in range (8,9): #graphs w / nodes 3-8
       gen = GraphGenerator()
       graphList = gen.createKgraphs(i)
-      for j in range(len(graphList) - 1):
+      if i == 6:
+         offsetDual = 43
+      else:
+         offsetDual = 0
+      for j in range(0, 10):
          currGraph = graphList[j]
          gen.chooseGraph(j)
          mostOpt = bruteForceMIS(currGraph)
@@ -43,9 +47,11 @@ if __name__ == "__main__":
          currESOP = currInst.getProbESOP()
          f.write(f"ESOP: {currESOP}\n")
          for p in range(1,4):  #test for p = 1,2,3
+             pars = np.random.rand(2*p)
              appxSum = 0
              for k in range(10): #run 10 times and average appx ratio 
-                pars = np.random.rand(2*p)
+                pars[:p]  = np.pi / 4 #np.pi*2.0*(np.random.uniform(size=2*p)-0.5)
+                pars[p:] = np.pi / 8
                 expectation = get_expect(currGraph, pars, p, currESOP)
                 res = minimize(expectation, pars, method = 'COBYLA')
                 currCirc = createQAOACirc(res.x, p, currGraph, currESOP)

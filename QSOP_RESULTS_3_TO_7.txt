@@ -1,0 +1,6964 @@
+
+graphs (3,0) to (6,42) with minimize optimization 
+=== NODES: 3, GRAPH_NUM: 0 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+ESOP: (b & c) ^ (a & c & ~b)
+AVERAGE APPX RATIO WHERE p = 1 : 0.423876953125
+AVERAGE APPX RATIO WHERE p = 2 : 0.75615234375
+AVERAGE APPX RATIO WHERE p = 3 : 0.778798828125
+
+=== NODES: 3, GRAPH_NUM: 1 ===
+
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (1, 0)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+ESOP: (b & c) ^ (a & b & ~c) ^ (a & c & ~b)
+AVERAGE APPX RATIO WHERE p = 1 : 0.52119140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.9064453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.96171875
+
+=== NODES: 4, GRAPH_NUM: 0 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (1, 3)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+ESOP: (c & d) ^ (b & d & ~c) ^ (a & d & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.31419270833333335
+AVERAGE APPX RATIO WHERE p = 2 : 0.7809244791666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.7904817708333333
+
+=== NODES: 4, GRAPH_NUM: 1 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (3, 0)	1
+  (3, 1)	1
+ESOP: (b & d) ^ (a & c & ~d) ^ (a & d & ~b)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3677734375
+AVERAGE APPX RATIO WHERE p = 2 : 0.750537109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.771142578125
+
+=== NODES: 4, GRAPH_NUM: 2 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+ESOP: (c & d) ^ (a & c & ~d) ^ (b & d & ~c) ^ (a & d & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.29638671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.57900390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.59587890625
+
+=== NODES: 4, GRAPH_NUM: 3 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (3, 0)	1
+  (3, 1)	1
+ESOP: (b & d) ^ (a & d & ~b) ^ (b & c & ~d) ^ (a & c & ~b & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.41005859375
+AVERAGE APPX RATIO WHERE p = 2 : 0.6806640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.71818359375
+
+=== NODES: 4, GRAPH_NUM: 4 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+ESOP: (c & d) ^ (b & c & ~d) ^ (b & d & ~c) ^ (a & c & ~b & ~d) ^ (a & d & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.224462890625
+AVERAGE APPX RATIO WHERE p = 2 : 0.49501953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5067578125
+
+=== NODES: 4, GRAPH_NUM: 5 ===
+
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+ESOP: (c & d) ^ (b & c & ~d) ^ (b & d & ~c) ^ (a & b & ~c & ~d) ^ (a & c & ~b & ~d) ^ (a & d & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3970703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.83447265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.97919921875
+
+=== NODES: 5, GRAPH_NUM: 0 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (c & e & ~d) ^ (b & e & ~c & ~d) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.253955078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.8134765625
+AVERAGE APPX RATIO WHERE p = 3 : 0.8164794921875
+
+=== NODES: 5, GRAPH_NUM: 1 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (a & d & ~e) ^ (b & e & ~c) ^ (a & e & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.29153645833333336
+AVERAGE APPX RATIO WHERE p = 2 : 0.5725911458333333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5870442708333333
+
+=== NODES: 5, GRAPH_NUM: 2 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (a & d & ~e) ^ (c & e & ~d) ^ (b & e & ~c & ~d) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.24244791666666665
+AVERAGE APPX RATIO WHERE p = 2 : 0.52119140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.559375
+
+=== NODES: 5, GRAPH_NUM: 3 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (b & d & ~e) ^ (c & e & ~d) ^ (a & d & ~b & ~e) ^ (a & e & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2667317708333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.50498046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.59104817708333337
+
+=== NODES: 5, GRAPH_NUM: 4 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & d & ~e) ^ (b & e & ~c) ^ (a & d & ~b & ~e) ^ (a & e & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3195638020833333
+AVERAGE APPX RATIO WHERE p = 2 : 0.520703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5534830729166667
+
+=== NODES: 5, GRAPH_NUM: 5 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (b & d & ~e) ^ (c & e & ~d) ^ (a & d & ~b & ~e) ^ (b & e & ~c & ~d) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20107421875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4603841145833334
+AVERAGE APPX RATIO WHERE p = 3 : 0.4625976562500001
+
+=== NODES: 5, GRAPH_NUM: 6 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & e & ~c) ^ (c & d & ~e) ^ (a & e & ~b & ~c) ^ (b & d & ~c & ~e) ^ (a & d & ~b & ~c & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.35914713541666665
+AVERAGE APPX RATIO WHERE p = 2 : 0.5229166666666666
+AVERAGE APPX RATIO WHERE p = 3 : 0.6118489583333333
+
+=== NODES: 5, GRAPH_NUM: 7 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (c & d & ~e) ^ (c & e & ~d) ^ (b & d & ~c & ~e) ^ (b & e & ~c & ~d) ^ (a & d & ~b & ~c & ~e) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21162109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4272135416666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.4541992187500001
+
+=== NODES: 5, GRAPH_NUM: 8 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+ESOP: (b & e) ^ (a & e & ~b) ^ (b & d & ~e) ^ (a & c & ~d & ~e) ^ (a & c & d & ~b & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.269140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.5252278645833334
+AVERAGE APPX RATIO WHERE p = 3 : 0.5752278645833334
+
+=== NODES: 5, GRAPH_NUM: 9 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & d & ~e) ^ (b & e & ~c) ^ (a & c & ~d & ~e) ^ (a & e & ~b & ~c) ^ (a & c & d & ~b & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.38232421875
+AVERAGE APPX RATIO WHERE p = 2 : 0.665966796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.69751953125
+
+=== NODES: 5, GRAPH_NUM: 10 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (b & d & ~e) ^ (c & e & ~d) ^ (a & c & ~d & ~e) ^ (b & e & ~c & ~d) ^ (a & c & d & ~b & ~e) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.283740234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.6263671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.6416015625
+
+=== NODES: 5, GRAPH_NUM: 11 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & e & ~c) ^ (c & d & ~e) ^ (a & c & ~d & ~e) ^ (a & d & ~c & ~e) ^ (a & e & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.37080078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.66259765625
+AVERAGE APPX RATIO WHERE p = 3 : 0.69435546875
+
+=== NODES: 5, GRAPH_NUM: 12 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (c & d & ~e) ^ (c & e & ~d) ^ (a & c & ~d & ~e) ^ (a & d & ~c & ~e) ^ (b & e & ~c & ~d) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.293798828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.558740234375
+AVERAGE APPX RATIO WHERE p = 3 : 0.656103515625
+
+=== NODES: 5, GRAPH_NUM: 13 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & d & ~e) ^ (b & e & ~c) ^ (a & c & ~d & ~e) ^ (a & d & ~b & ~e) ^ (a & d & e & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.409326171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.704345703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.7154296875
+
+=== NODES: 5, GRAPH_NUM: 14 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & d & ~e) ^ (b & e & ~c) ^ (a & c & ~d & ~e) ^ (a & d & ~b & ~e) ^ (a & e & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.401513671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.659228515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.77451171875
+
+=== NODES: 5, GRAPH_NUM: 15 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (b & d & ~e) ^ (c & e & ~d) ^ (a & c & ~d & ~e) ^ (a & d & ~b & ~e) ^ (b & e & ~c & ~d) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.27587890625
+AVERAGE APPX RATIO WHERE p = 2 : 0.57578125
+AVERAGE APPX RATIO WHERE p = 3 : 0.603662109375
+
+=== NODES: 5, GRAPH_NUM: 16 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (c & d & ~e) ^ (c & e & ~d) ^ (a & c & ~d & ~e) ^ (b & d & ~c & ~e) ^ (b & e & ~c & ~d) ^ (a & d & ~b & ~c & ~e) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.504638671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.694384765625
+
+=== NODES: 5, GRAPH_NUM: 17 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+ESOP: (c & e) ^ (b & d & ~e) ^ (b & e & ~c) ^ (a & d & ~b & ~e) ^ (a & e & ~b & ~c) ^ (b & c & ~d & ~e) ^ (a & c & ~b & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2966796875
+AVERAGE APPX RATIO WHERE p = 2 : 0.60166015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.641650390625
+
+=== NODES: 5, GRAPH_NUM: 18 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (b & d & ~e) ^ (c & e & ~d) ^ (a & d & ~b & ~e) ^ (b & c & ~d & ~e) ^ (b & e & ~c & ~d) ^ (a & c & ~b & ~d & ~e) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.258984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.532666015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.612109375
+
+=== NODES: 5, GRAPH_NUM: 19 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (c & d & ~e) ^ (c & e & ~d) ^ (b & c & ~d & ~e) ^ (b & d & ~c & ~e) ^ (b & e & ~c & ~d) ^ (a & c & ~b & ~d & ~e) ^ (a & d & ~b & ~c & ~e) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2287109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.419970703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.54541015625
+
+=== NODES: 5, GRAPH_NUM: 20 ===
+
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+ESOP: (d & e) ^ (c & d & ~e) ^ (c & e & ~d) ^ (b & c & ~d & ~e) ^ (b & d & ~c & ~e) ^ (b & e & ~c & ~d) ^ (a & b & ~c & ~d & ~e) ^ (a & c & ~b & ~d & ~e) ^ (a & d & ~b & ~c & ~e) ^ (a & e & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.35205078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.55087890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.7072265625
+
+=== NODES: 6, GRAPH_NUM: 0 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & f & ~e) ^ (c & f & ~d & ~e) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.41910156249999997
+AVERAGE APPX RATIO WHERE p = 2 : 0.8294335937500001
+AVERAGE APPX RATIO WHERE p = 3 : 0.8479687499999999
+
+=== NODES: 6, GRAPH_NUM: 1 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (a & e & ~f) ^ (c & f & ~d) ^ (b & f & ~c & ~d) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2513671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.53154296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.63642578125
+
+=== NODES: 6, GRAPH_NUM: 2 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (a & e & ~f) ^ (d & f & ~e) ^ (c & f & ~d & ~e) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21953125
+AVERAGE APPX RATIO WHERE p = 2 : 0.52607421875
+AVERAGE APPX RATIO WHERE p = 3 : 0.6482666015625
+
+=== NODES: 6, GRAPH_NUM: 3 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (d & f & ~e) ^ (a & e & ~b & ~f) ^ (c & f & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2227783203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.5107666015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.6574462890625
+
+=== NODES: 6, GRAPH_NUM: 4 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (b & e & ~f) ^ (c & f & ~d) ^ (a & e & ~b & ~f) ^ (b & e & f & ~c & ~d) ^ (a & f & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2429931640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4673828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5597900390625
+
+=== NODES: 6, GRAPH_NUM: 5 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (d & f & ~e) ^ (a & e & ~b & ~f) ^ (c & f & ~d & ~e) ^ (a & f & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.213916015625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4832275390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5584228515625
+
+=== NODES: 6, GRAPH_NUM: 6 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (b & e & ~f) ^ (c & f & ~d) ^ (a & e & ~b & ~f) ^ (b & f & ~c & ~d) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2158203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4622314453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.4922265625
+
+=== NODES: 6, GRAPH_NUM: 7 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (d & f & ~e) ^ (a & e & ~b & ~f) ^ (c & f & ~d & ~e) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1801025390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4334228515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4830810546875
+
+=== NODES: 6, GRAPH_NUM: 8 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & e & f & ~d) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (b & e & f & ~c & ~d) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.270263671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4545166015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4990673828125
+
+=== NODES: 6, GRAPH_NUM: 9 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.201953125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4458251953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.4769287109375
+
+=== NODES: 6, GRAPH_NUM: 10 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2694580078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4707763671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5912109375
+
+=== NODES: 6, GRAPH_NUM: 11 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1728515625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4220947265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.500390625
+
+=== NODES: 6, GRAPH_NUM: 12 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (b & f & ~c & ~d) ^ (c & e & ~d & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & e & ~c & ~d & ~f) ^ (a & e & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.260107421875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4781494140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.488623046875
+
+=== NODES: 6, GRAPH_NUM: 13 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2694091796875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4358642578125
+AVERAGE APPX RATIO WHERE p = 3 : 0.457373046875
+
+=== NODES: 6, GRAPH_NUM: 14 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & e & ~f) ^ (b & f & ~c) ^ (a & d & ~e & ~f) ^ (a & f & ~b & ~c) ^ (a & d & e & ~b & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.34384765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.6091145833333333
+AVERAGE APPX RATIO WHERE p = 3 : 0.63603515625
+
+=== NODES: 6, GRAPH_NUM: 15 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (b & e & ~f) ^ (c & f & ~d) ^ (a & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (a & d & e & ~b & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2835286458333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.57158203125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5463867187500001
+
+=== NODES: 6, GRAPH_NUM: 16 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (a & d & e & ~b & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22467447916666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.5385091145833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5699544270833332
+
+=== NODES: 6, GRAPH_NUM: 17 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (a & f & ~d & ~e) ^ (b & e & ~c & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2518880208333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.54794921875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5802734375
+
+=== NODES: 6, GRAPH_NUM: 18 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+ESOP: (c & e) ^ (b & f & ~e) ^ (b & e & f & ~c) ^ (a & d & ~e & ~f) ^ (a & f & ~b & ~e) ^ (b & e & ~c & ~f) ^ (a & e & f & ~b & ~c) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.31881510416666664
+AVERAGE APPX RATIO WHERE p = 2 : 0.5996419270833334
+AVERAGE APPX RATIO WHERE p = 3 : 0.6461588541666666
+
+=== NODES: 6, GRAPH_NUM: 19 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & f & ~e) ^ (c & e & ~f) ^ (a & d & ~e & ~f) ^ (a & f & ~b & ~e) ^ (b & e & ~c & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2477864583333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.5318359374999999
+AVERAGE APPX RATIO WHERE p = 3 : 0.5854492187499999
+
+=== NODES: 6, GRAPH_NUM: 20 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & e & f & ~d) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (b & e & f & ~c & ~d) ^ (a & f & ~b & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.29690755208333336
+AVERAGE APPX RATIO WHERE p = 2 : 0.52119140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5390950520833332
+
+=== NODES: 6, GRAPH_NUM: 21 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (a & f & ~b & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.24156901041666665
+AVERAGE APPX RATIO WHERE p = 2 : 0.4990234375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5341796875
+
+=== NODES: 6, GRAPH_NUM: 22 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (a & d & ~e & ~f) ^ (a & f & ~b & ~c) ^ (b & e & ~c & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.33310546875
+AVERAGE APPX RATIO WHERE p = 2 : 0.5597981770833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5976171875
+
+=== NODES: 6, GRAPH_NUM: 23 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~e) ^ (a & f & ~b & ~c & ~e) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21513671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4944661458333333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5669921875
+
+=== NODES: 6, GRAPH_NUM: 24 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & f & ~b & ~c & ~d) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28515625
+AVERAGE APPX RATIO WHERE p = 2 : 0.5115559895833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5645507812500001
+
+=== NODES: 6, GRAPH_NUM: 25 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (b & f & ~c & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2109049479166667
+AVERAGE APPX RATIO WHERE p = 2 : 0.4828124999999999
+AVERAGE APPX RATIO WHERE p = 3 : 0.50361328125
+
+=== NODES: 6, GRAPH_NUM: 26 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (a & d & ~e & ~f) ^ (a & e & ~d & ~f) ^ (b & f & ~c & ~d) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2644856770833333
+AVERAGE APPX RATIO WHERE p = 2 : 0.518359375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5361979166666666
+
+=== NODES: 6, GRAPH_NUM: 27 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (a & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2916666666666667
+AVERAGE APPX RATIO WHERE p = 2 : 0.45869140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5986002604166666
+
+=== NODES: 6, GRAPH_NUM: 28 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (b & e & ~f) ^ (c & f & ~d) ^ (a & d & ~e & ~f) ^ (a & e & ~b & ~f) ^ (b & f & ~c & ~d) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2548828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.5468424479166667
+AVERAGE APPX RATIO WHERE p = 3 : 0.5957226562499999
+
+=== NODES: 6, GRAPH_NUM: 29 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (c & f & ~e) ^ (a & d & ~e & ~f) ^ (a & e & ~b & ~f) ^ (a & f & ~c & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3030598958333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.5820963541666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.6101888020833333
+
+=== NODES: 6, GRAPH_NUM: 30 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & e & ~f) ^ (b & f & ~c) ^ (a & d & ~e & ~f) ^ (a & e & ~b & ~f) ^ (a & f & ~b & ~c)
+AVERAGE APPX RATIO WHERE p = 1 : 0.34794921875000007
+AVERAGE APPX RATIO WHERE p = 2 : 0.5842447916666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.6257161458333333
+
+=== NODES: 6, GRAPH_NUM: 31 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (c & f & ~e) ^ (a & d & ~e & ~f) ^ (a & e & ~b & ~f) ^ (b & f & ~c & ~e) ^ (a & f & ~b & ~c & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22649739583333334
+AVERAGE APPX RATIO WHERE p = 2 : 0.5212239583333333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5555013020833333
+
+=== NODES: 6, GRAPH_NUM: 32 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (b & e & ~f) ^ (c & f & ~d) ^ (a & d & ~e & ~f) ^ (a & e & ~b & ~f) ^ (b & f & ~c & ~d) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.27154947916666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.5449869791666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.5940104166666667
+
+=== NODES: 6, GRAPH_NUM: 33 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (a & e & ~b & ~f) ^ (c & f & ~d & ~e) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21536458333333336
+AVERAGE APPX RATIO WHERE p = 2 : 0.5078450520833334
+AVERAGE APPX RATIO WHERE p = 3 : 0.5694661458333333
+
+=== NODES: 6, GRAPH_NUM: 34 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & e & ~b & ~d & ~f) ^ (a & f & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.26028645833333336
+AVERAGE APPX RATIO WHERE p = 2 : 0.4739583333333333
+AVERAGE APPX RATIO WHERE p = 3 : 0.6838216145833333
+
+=== NODES: 6, GRAPH_NUM: 35 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (a & d & ~e & ~f) ^ (b & e & ~d & ~f) ^ (b & f & ~c & ~d) ^ (a & e & ~b & ~d & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2632161458333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.50087890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5031249999999999
+
+=== NODES: 6, GRAPH_NUM: 36 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & e & ~b & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.25830078124999994
+AVERAGE APPX RATIO WHERE p = 2 : 0.4537434895833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.6333984375
+
+=== NODES: 6, GRAPH_NUM: 37 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & e & ~b & ~c & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.5239583333333333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5962565104166667
+
+=== NODES: 6, GRAPH_NUM: 38 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20566406249999997
+AVERAGE APPX RATIO WHERE p = 2 : 0.4959309895833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.54375
+
+=== NODES: 6, GRAPH_NUM: 39 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2513020833333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.49541015625000007
+AVERAGE APPX RATIO WHERE p = 3 : 0.5025065104166667
+
+=== NODES: 6, GRAPH_NUM: 40 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~e) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19348958333333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.47493489583333337
+AVERAGE APPX RATIO WHERE p = 3 : 0.4932421875
+
+=== NODES: 6, GRAPH_NUM: 41 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.27529296875
+AVERAGE APPX RATIO WHERE p = 2 : 0.5069010416666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.5758463541666667
+
+=== NODES: 6, GRAPH_NUM: 42 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20139973958333335
+AVERAGE APPX RATIO WHERE p = 2 : 0.4671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5132486979166667
+
+=== NODES: 6, GRAPH_NUM: 43 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (a & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (c & e & ~d & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & e & ~c & ~d & ~f) ^ (a & e & ~b & ~c & ~d & ~f)
+
+=== NODES: 6, GRAPH_NUM: 43 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (a & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (c & e & ~d & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & e & ~c & ~d & ~f) ^ (a & e & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.23870442708333334
+AVERAGE APPX RATIO WHERE p = 2 : 0.47705078125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5239908854166668
+
+=== NODES: 6, GRAPH_NUM: 44 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (a & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20673828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4284830729166667
+AVERAGE APPX RATIO WHERE p = 3 : 0.6071940104166667
+
+=== NODES: 6, GRAPH_NUM: 45 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & f & ~d & ~e) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2552734375
+AVERAGE APPX RATIO WHERE p = 2 : 0.5208984375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5567057291666666
+
+=== NODES: 6, GRAPH_NUM: 46 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (b & d & ~e & ~f) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & d & e & f & ~b & ~c) ^ (a & d & e & ~b & ~c & ~f) ^ (a & d & f & ~b & ~c & ~e) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.29713541666666665
+AVERAGE APPX RATIO WHERE p = 2 : 0.5329752604166667
+AVERAGE APPX RATIO WHERE p = 3 : 0.5802083333333334
+
+=== NODES: 6, GRAPH_NUM: 47 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & d & e & ~b & ~c & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.26031901041666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.4938151041666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.60458984375
+
+=== NODES: 6, GRAPH_NUM: 48 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4692382812500001
+AVERAGE APPX RATIO WHERE p = 3 : 0.5283528645833334
+
+=== NODES: 6, GRAPH_NUM: 49 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (a & f & ~d & ~e) ^ (b & d & ~e & ~f) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22913411458333335
+AVERAGE APPX RATIO WHERE p = 2 : 0.51982421875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5583593750000001
+
+=== NODES: 6, GRAPH_NUM: 50 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (a & f & ~c & ~d) ^ (b & d & ~e & ~f) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28219401041666664
+AVERAGE APPX RATIO WHERE p = 2 : 0.53037109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.57724609375
+
+=== NODES: 6, GRAPH_NUM: 51 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & f & ~d & ~e) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2346354166666667
+AVERAGE APPX RATIO WHERE p = 2 : 0.4538736979166667
+AVERAGE APPX RATIO WHERE p = 3 : 0.4935221354166667
+
+=== NODES: 6, GRAPH_NUM: 52 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (a & f & ~b & ~c) ^ (b & d & ~e & ~f) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3567708333333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.5308919270833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5671875
+
+=== NODES: 6, GRAPH_NUM: 53 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2755859375
+AVERAGE APPX RATIO WHERE p = 2 : 0.484765625
+AVERAGE APPX RATIO WHERE p = 3 : 0.54248046875
+
+=== NODES: 6, GRAPH_NUM: 54 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (b & d & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20423177083333335
+AVERAGE APPX RATIO WHERE p = 2 : 0.4339843750000001
+AVERAGE APPX RATIO WHERE p = 3 : 0.4997981770833334
+
+=== NODES: 6, GRAPH_NUM: 55 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22867838541666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.45390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.6609375000000001
+
+=== NODES: 6, GRAPH_NUM: 56 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (c & e & ~d & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.23821614583333334
+AVERAGE APPX RATIO WHERE p = 2 : 0.4619466145833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.5200520833333333
+
+=== NODES: 6, GRAPH_NUM: 57 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.17750651041666668
+AVERAGE APPX RATIO WHERE p = 2 : 0.39840494791666675
+AVERAGE APPX RATIO WHERE p = 3 : 0.5981119791666667
+
+=== NODES: 6, GRAPH_NUM: 58 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & e & ~f) ^ (b & f & ~c) ^ (a & e & ~b & ~f) ^ (a & f & ~b & ~c) ^ (b & d & ~e & ~f) ^ (a & d & ~b & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.37613932291666663
+AVERAGE APPX RATIO WHERE p = 2 : 0.5433593750000001
+AVERAGE APPX RATIO WHERE p = 3 : 0.5936848958333333
+
+=== NODES: 6, GRAPH_NUM: 59 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (b & e & ~f) ^ (c & f & ~d) ^ (a & e & ~b & ~f) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (a & d & ~b & ~e & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2576822916666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.50791015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5626953125
+
+=== NODES: 6, GRAPH_NUM: 60 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (b & e & ~f) ^ (d & f & ~e) ^ (a & e & ~b & ~f) ^ (b & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2009765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4712890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.54873046875
+
+=== NODES: 6, GRAPH_NUM: 61 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~d & ~f) ^ (a & f & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21402994791666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.4146158854166667
+AVERAGE APPX RATIO WHERE p = 3 : 0.5960286458333334
+
+=== NODES: 6, GRAPH_NUM: 62 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (b & d & ~e & ~f) ^ (b & e & ~d & ~f) ^ (b & f & ~c & ~d) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~d & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22535807291666665
+AVERAGE APPX RATIO WHERE p = 2 : 0.46201171875
+AVERAGE APPX RATIO WHERE p = 3 : 0.558984375
+
+=== NODES: 6, GRAPH_NUM: 63 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.26165364583333334
+AVERAGE APPX RATIO WHERE p = 2 : 0.4052734375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5753255208333333
+
+=== NODES: 6, GRAPH_NUM: 64 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & e & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (b & e & f & ~c & ~d) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28740234375000007
+AVERAGE APPX RATIO WHERE p = 2 : 0.40712890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5040039062499999
+
+=== NODES: 6, GRAPH_NUM: 65 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (a & f & ~b & ~c) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3867838541666667
+AVERAGE APPX RATIO WHERE p = 2 : 0.53564453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5509114583333334
+
+=== NODES: 6, GRAPH_NUM: 66 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19772135416666664
+AVERAGE APPX RATIO WHERE p = 2 : 0.44599609375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5099934895833333
+
+=== NODES: 6, GRAPH_NUM: 67 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28069661458333334
+AVERAGE APPX RATIO WHERE p = 2 : 0.47900390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5141927083333333
+
+=== NODES: 6, GRAPH_NUM: 68 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.18186848958333332
+AVERAGE APPX RATIO WHERE p = 2 : 0.4229166666666666
+AVERAGE APPX RATIO WHERE p = 3 : 0.4831966145833333
+
+=== NODES: 6, GRAPH_NUM: 69 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2
+AVERAGE APPX RATIO WHERE p = 2 : 0.3457682291666666
+AVERAGE APPX RATIO WHERE p = 3 : 0.5643229166666667
+
+=== NODES: 6, GRAPH_NUM: 70 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (c & d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e) ^ (b & d & ~c & ~e & ~f) ^ (a & d & ~b & ~c & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2153645833333333
+AVERAGE APPX RATIO WHERE p = 2 : 0.4348307291666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.52275390625
+
+=== NODES: 6, GRAPH_NUM: 71 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (a & f & ~b & ~c) ^ (b & e & ~c & ~f) ^ (c & d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (b & d & ~c & ~e & ~f) ^ (a & d & ~b & ~c & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.4125325520833334
+AVERAGE APPX RATIO WHERE p = 2 : 0.5361653645833333
+AVERAGE APPX RATIO WHERE p = 3 : 0.58115234375
+
+=== NODES: 6, GRAPH_NUM: 72 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (c & d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & d & ~c & ~e & ~f) ^ (a & d & ~b & ~c & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.18818359375000002
+AVERAGE APPX RATIO WHERE p = 2 : 0.44108072916666663
+AVERAGE APPX RATIO WHERE p = 3 : 0.4720442708333334
+
+=== NODES: 6, GRAPH_NUM: 73 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & e & ~c & ~f) ^ (c & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (a & e & ~b & ~c & ~f) ^ (b & d & ~c & ~e & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & d & ~b & ~c & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.16015625000000003
+AVERAGE APPX RATIO WHERE p = 2 : 0.3958658854166667
+AVERAGE APPX RATIO WHERE p = 3 : 0.4683268229166667
+
+=== NODES: 6, GRAPH_NUM: 74 ===
+
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (b & d & ~c & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & d & ~b & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.16389973958333331
+AVERAGE APPX RATIO WHERE p = 2 : 0.31266276041666663
+AVERAGE APPX RATIO WHERE p = 3 : 0.5284505208333333
+
+=== NODES: 6, GRAPH_NUM: 75 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & e & f & ~d) ^ (b & d & ~e & ~f) ^ (b & f & ~d & ~e) ^ (b & d & e & ~c & ~f) ^ (b & e & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f) ^ (a & d & e & ~b & ~c & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.443798828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.6701171875
+AVERAGE APPX RATIO WHERE p = 3 : 0.694130859375
+
+=== NODES: 6, GRAPH_NUM: 76 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (a & f & ~b & ~c) ^ (b & d & ~e & ~f) ^ (b & d & e & ~c & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & c & d & ~b & ~e & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.23958333333333334
+AVERAGE APPX RATIO WHERE p = 2 : 0.4834635416666667
+AVERAGE APPX RATIO WHERE p = 3 : 0.5356510416666667
+
+=== NODES: 6, GRAPH_NUM: 77 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~e) ^ (b & d & e & ~c & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~e) ^ (a & c & d & ~b & ~e & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.315087890625
+AVERAGE APPX RATIO WHERE p = 2 : 0.62744140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.6970703125
+
+=== NODES: 6, GRAPH_NUM: 78 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (b & d & e & ~c & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d) ^ (a & c & d & ~b & ~e & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.370556640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.662841796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.693232421875
+
+=== NODES: 6, GRAPH_NUM: 79 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (b & d & e & ~c & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f) ^ (a & d & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.283154296875
+AVERAGE APPX RATIO WHERE p = 2 : 0.6134765625
+AVERAGE APPX RATIO WHERE p = 3 : 0.63740234375
+
+=== NODES: 6, GRAPH_NUM: 80 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~c & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28642578125
+AVERAGE APPX RATIO WHERE p = 2 : 0.61748046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.643701171875
+
+=== NODES: 6, GRAPH_NUM: 81 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & e & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (b & e & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.444140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.681298828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.725390625
+
+=== NODES: 6, GRAPH_NUM: 82 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.360595703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.676611328125
+AVERAGE APPX RATIO WHERE p = 3 : 0.728369140625
+
+=== NODES: 6, GRAPH_NUM: 83 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~e) ^ (a & c & d & ~b & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.27197265625
+AVERAGE APPX RATIO WHERE p = 2 : 0.6072265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.640556640625
+
+=== NODES: 6, GRAPH_NUM: 84 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d) ^ (a & c & d & ~b & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.364794921875
+AVERAGE APPX RATIO WHERE p = 2 : 0.667333984375
+AVERAGE APPX RATIO WHERE p = 3 : 0.698515625
+
+=== NODES: 6, GRAPH_NUM: 85 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.230029296875
+AVERAGE APPX RATIO WHERE p = 2 : 0.5826171875
+AVERAGE APPX RATIO WHERE p = 3 : 0.603955078125
+
+=== NODES: 6, GRAPH_NUM: 86 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (c & e & ~d & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & e & ~c & ~d & ~f) ^ (a & c & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.3220703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.627783203125
+AVERAGE APPX RATIO WHERE p = 3 : 0.664287109375
+
+=== NODES: 6, GRAPH_NUM: 87 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & c & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.257958984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.53701171875
+AVERAGE APPX RATIO WHERE p = 3 : 0.593603515625
+
+=== NODES: 6, GRAPH_NUM: 88 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (b & f & ~c & ~d) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~c & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22431640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.56953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.652587890625
+
+=== NODES: 6, GRAPH_NUM: 89 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~c & ~e & ~f) ^ (a & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.228271484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.3294921875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5662109375
+
+=== NODES: 6, GRAPH_NUM: 90 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~e) ^ (c & d & ~e & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.238720703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.59814453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.664111328125
+
+=== NODES: 6, GRAPH_NUM: 91 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (c & d & ~e & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.255419921875
+AVERAGE APPX RATIO WHERE p = 2 : 0.614306640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.64521484375
+
+=== NODES: 6, GRAPH_NUM: 92 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & e & ~c & ~f) ^ (c & d & ~e & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19375
+AVERAGE APPX RATIO WHERE p = 2 : 0.51875
+AVERAGE APPX RATIO WHERE p = 3 : 0.597578125
+
+=== NODES: 6, GRAPH_NUM: 93 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~c & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20634765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.24658203125
+AVERAGE APPX RATIO WHERE p = 3 : 0.429833984375
+
+=== NODES: 6, GRAPH_NUM: 94 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & e & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (b & e & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & f & ~b & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.43759765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.670849609375
+AVERAGE APPX RATIO WHERE p = 3 : 0.703974609375
+
+=== NODES: 6, GRAPH_NUM: 95 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+ESOP: (c & f) ^ (b & f & ~c) ^ (c & e & ~f) ^ (a & f & ~b & ~c) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.24322916666666666
+AVERAGE APPX RATIO WHERE p = 2 : 0.4877604166666666
+AVERAGE APPX RATIO WHERE p = 3 : 0.5592057291666667
+
+=== NODES: 6, GRAPH_NUM: 96 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & f & ~b & ~c & ~d) ^ (a & d & e & ~b & ~c & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.42236328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.683447265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.721142578125
+
+=== NODES: 6, GRAPH_NUM: 97 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & d & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.273876953125
+AVERAGE APPX RATIO WHERE p = 2 : 0.57998046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.629150390625
+
+=== NODES: 6, GRAPH_NUM: 98 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & e & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.36767578125
+AVERAGE APPX RATIO WHERE p = 2 : 0.675
+AVERAGE APPX RATIO WHERE p = 3 : 0.6866015625
+
+=== NODES: 6, GRAPH_NUM: 99 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2783203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.662744140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.739599609375
+
+=== NODES: 6, GRAPH_NUM: 100 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.389111328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.6740234375
+AVERAGE APPX RATIO WHERE p = 3 : 0.722021484375
+
+=== NODES: 6, GRAPH_NUM: 101 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.203271484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.553955078125
+AVERAGE APPX RATIO WHERE p = 3 : 0.674951171875
+
+=== NODES: 6, GRAPH_NUM: 102 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (a & d & ~b & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20771484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4845703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.511865234375
+
+=== NODES: 6, GRAPH_NUM: 103 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & c & ~d & ~e & ~f) ^ (b & d & ~c & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & d & ~b & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.2181640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.52021484375
+
+=== NODES: 6, GRAPH_NUM: 104 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~c & ~d & ~e) ^ (b & c & ~d & ~e & ~f) ^ (a & c & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.239208984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.580029296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.6580078125
+
+=== NODES: 6, GRAPH_NUM: 105 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (c & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~e) ^ (b & c & ~d & ~e & ~f) ^ (a & c & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.232373046875
+AVERAGE APPX RATIO WHERE p = 2 : 0.557861328125
+AVERAGE APPX RATIO WHERE p = 3 : 0.610205078125
+
+=== NODES: 6, GRAPH_NUM: 106 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & e & ~f) ^ (c & f & ~d) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (b & f & ~c & ~d) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & c & ~d & ~e & ~f) ^ (a & c & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.324609375
+AVERAGE APPX RATIO WHERE p = 2 : 0.6185546875
+AVERAGE APPX RATIO WHERE p = 3 : 0.680908203125
+
+=== NODES: 6, GRAPH_NUM: 107 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (c & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (b & e & ~c & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (a & e & ~b & ~c & ~f) ^ (b & c & ~d & ~e & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & c & ~b & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.186279296875
+AVERAGE APPX RATIO WHERE p = 2 : 0.481787109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.543994140625
+
+=== NODES: 6, GRAPH_NUM: 108 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+ESOP: (d & f) ^ (c & f & ~d) ^ (d & e & ~f) ^ (b & d & ~e & ~f) ^ (b & f & ~c & ~d) ^ (c & e & ~d & ~f) ^ (a & d & ~b & ~e & ~f) ^ (a & f & ~b & ~c & ~d) ^ (b & c & ~d & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (a & c & ~b & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.300537109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.583056640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.667236328125
+
+=== NODES: 6, GRAPH_NUM: 109 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (b & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (a & d & ~b & ~e & ~f) ^ (b & c & ~d & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & c & ~b & ~d & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20830078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.451513671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.55791015625
+
+=== NODES: 6, GRAPH_NUM: 110 ===
+
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (b & c & ~d & ~e & ~f) ^ (b & d & ~c & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & c & ~b & ~d & ~e & ~f) ^ (a & d & ~b & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.224853515625
+AVERAGE APPX RATIO WHERE p = 2 : 0.239404296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.315625
+
+=== NODES: 6, GRAPH_NUM: 111 ===
+
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+ESOP: (e & f) ^ (d & e & ~f) ^ (d & f & ~e) ^ (c & d & ~e & ~f) ^ (c & e & ~d & ~f) ^ (c & f & ~d & ~e) ^ (b & c & ~d & ~e & ~f) ^ (b & d & ~c & ~e & ~f) ^ (b & e & ~c & ~d & ~f) ^ (b & f & ~c & ~d & ~e) ^ (a & b & ~c & ~d & ~e & ~f) ^ (a & c & ~b & ~d & ~e & ~f) ^ (a & d & ~b & ~c & ~e & ~f) ^ (a & e & ~b & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.41181640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4505859375
+AVERAGE APPX RATIO WHERE p = 3 : 0.7314453125
+
+=== NODES: 7, GRAPH_NUM: 0 ===
+
+ADJACENCY MATRIX:
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & g & ~f) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.49140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.8476562500000002
+AVERAGE APPX RATIO WHERE p = 3 : 0.8998372395833332
+
+=== NODES: 7, GRAPH_NUM: 1 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (a & f & ~g) ^ (d & g & ~e) ^ (c & g & ~d & ~e) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.22275390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.5333593750000001
+AVERAGE APPX RATIO WHERE p = 3 : 0.5482421875
+
+=== NODES: 7, GRAPH_NUM: 2 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (a & f & ~g) ^ (e & g & ~f) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20894531249999998
+AVERAGE APPX RATIO WHERE p = 2 : 0.5256835937500001
+AVERAGE APPX RATIO WHERE p = 3 : 0.5648828125
+
+=== NODES: 7, GRAPH_NUM: 3 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (e & g & ~f) ^ (a & f & ~b & ~g) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19517578125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4784374999999999
+AVERAGE APPX RATIO WHERE p = 3 : 0.52029296875
+
+=== NODES: 7, GRAPH_NUM: 4 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (b & f & ~g) ^ (d & g & ~e) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~e) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~c & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21166015625
+AVERAGE APPX RATIO WHERE p = 2 : 0.46685546875000006
+AVERAGE APPX RATIO WHERE p = 3 : 0.49431640624999995
+
+=== NODES: 7, GRAPH_NUM: 5 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (e & g & ~f) ^ (a & f & ~b & ~g) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (a & g & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1803125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4622265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.46861328124999996
+
+=== NODES: 7, GRAPH_NUM: 6 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (b & f & ~g) ^ (d & g & ~e) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~e) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1903515625
+AVERAGE APPX RATIO WHERE p = 2 : 0.47021484375
+AVERAGE APPX RATIO WHERE p = 3 : 0.49039062499999995
+
+=== NODES: 7, GRAPH_NUM: 7 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (e & g & ~f) ^ (a & f & ~b & ~g) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1723828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4653515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.47468750000000003
+
+=== NODES: 7, GRAPH_NUM: 8 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & f & ~c & ~g) ^ (c & f & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (a & g & ~d & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20076171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4369140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.46964843749999996
+
+=== NODES: 7, GRAPH_NUM: 9 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (a & g & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.18158203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.462265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.57503906250000005
+
+=== NODES: 7, GRAPH_NUM: 10 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & f & ~c & ~g) ^ (c & f & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~d & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.18351562500000002
+AVERAGE APPX RATIO WHERE p = 2 : 0.4428515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.480078125
+
+=== NODES: 7, GRAPH_NUM: 11 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & g & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.16787109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.44449218749999997
+AVERAGE APPX RATIO WHERE p = 3 : 0.509609375
+
+=== NODES: 7, GRAPH_NUM: 12 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & f & ~c & ~g) ^ (c & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.17908203125000002
+AVERAGE APPX RATIO WHERE p = 2 : 0.44732421875000006
+AVERAGE APPX RATIO WHERE p = 3 : 0.52904296875000003
+
+=== NODES: 7, GRAPH_NUM: 13 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2641015625
+AVERAGE APPX RATIO WHERE p = 2 : 0.43771484374999997
+AVERAGE APPX RATIO WHERE p = 3 : 0.5155078125
+
+=== NODES: 7, GRAPH_NUM: 14 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20781249999999996
+AVERAGE APPX RATIO WHERE p = 2 : 0.44212890624999995
+AVERAGE APPX RATIO WHERE p = 3 : 0.47781249999999995
+
+=== NODES: 7, GRAPH_NUM: 15 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.15951171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.44173828125000003
+AVERAGE APPX RATIO WHERE p = 3 : 0.4913085937500001
+
+=== NODES: 7, GRAPH_NUM: 16 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20425781250000002
+AVERAGE APPX RATIO WHERE p = 2 : 0.44636718749999993
+AVERAGE APPX RATIO WHERE p = 3 : 0.4986328125
+
+=== NODES: 7, GRAPH_NUM: 17 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.24031249999999998
+AVERAGE APPX RATIO WHERE p = 2 : 0.4506640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5449414062500001
+
+=== NODES: 7, GRAPH_NUM: 18 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (c & g & ~d & ~e) ^ (d & f & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (c & f & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e) ^ (b & f & ~c & ~d & ~e & ~g) ^ (a & f & ~b & ~c & ~d & ~e & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.17453124999999997
+AVERAGE APPX RATIO WHERE p = 2 : 0.478515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.59751953125000004
+
+=== NODES: 7, GRAPH_NUM: 19 ===
+
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (d & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (c & f & ~d & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & f & ~c & ~d & ~e & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.24705078125000002
+AVERAGE APPX RATIO WHERE p = 2 : 0.44798828124999995
+AVERAGE APPX RATIO WHERE p = 3 : 0.5072265625
+
+=== NODES: 7, GRAPH_NUM: 20 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (b & f & ~g) ^ (c & g & ~d) ^ (a & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (a & e & f & ~b & ~g) ^ (a & g & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2606689453125
+AVERAGE APPX RATIO WHERE p = 2 : 0.5359130859375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5947802734375
+
+=== NODES: 7, GRAPH_NUM: 21 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (b & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (a & e & f & ~b & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.226123046875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4989013671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5378173828125
+
+=== NODES: 7, GRAPH_NUM: 22 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (a & e & f & ~b & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19970703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.5081298828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5847900390625
+
+=== NODES: 7, GRAPH_NUM: 23 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (a & g & ~d & ~f) ^ (b & f & ~c & ~g) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2494873046875
+AVERAGE APPX RATIO WHERE p = 2 : 0.5277099609375
+AVERAGE APPX RATIO WHERE p = 3 : 0.55673828125
+
+=== NODES: 7, GRAPH_NUM: 24 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.202490234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.477880859375
+AVERAGE APPX RATIO WHERE p = 3 : 0.49177734375
+
+=== NODES: 7, GRAPH_NUM: 25 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & f & ~g) ^ (c & f & g & ~d) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (b & g & ~d & ~f) ^ (b & f & g & ~c & ~d) ^ (a & g & ~b & ~d & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (a & f & g & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2987060546875
+AVERAGE APPX RATIO WHERE p = 2 : 0.493798828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.536181640625
+
+=== NODES: 7, GRAPH_NUM: 26 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (b & g & ~d & ~f) ^ (a & g & ~b & ~d & ~f) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.23203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.485302734375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5637939453125
+
+=== NODES: 7, GRAPH_NUM: 27 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & f & g & ~d & ~e) ^ (b & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2182861328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.472412109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5498291015625
+
+=== NODES: 7, GRAPH_NUM: 28 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (b & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (a & g & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1913330078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4637939453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.53671875
+
+=== NODES: 7, GRAPH_NUM: 29 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & f & ~g) ^ (c & g & ~d) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (b & g & ~c & ~d) ^ (a & g & ~b & ~c & ~d) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2647705078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4816650390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.513525390625
+
+=== NODES: 7, GRAPH_NUM: 30 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & g & ~d & ~f) ^ (b & g & ~c & ~d & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (a & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.195361328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4557373046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4661865234375
+
+=== NODES: 7, GRAPH_NUM: 31 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & g & ~d & ~e) ^ (b & g & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~g) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20771484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4487548828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.4817138671875
+
+=== NODES: 7, GRAPH_NUM: 32 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1808837890625
+AVERAGE APPX RATIO WHERE p = 2 : 0.449853515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.501220703125
+
+=== NODES: 7, GRAPH_NUM: 33 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (a & e & ~f & ~g) ^ (b & g & ~e & ~f) ^ (c & f & ~d & ~g) ^ (c & f & g & ~d & ~e) ^ (a & g & ~b & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.237353515625
+AVERAGE APPX RATIO WHERE p = 2 : 0.43525390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4485107421875
+
+=== NODES: 7, GRAPH_NUM: 34 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & g & ~e & ~f) ^ (c & f & ~d & ~g) ^ (a & g & ~b & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2015380859375
+AVERAGE APPX RATIO WHERE p = 2 : 0.456640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4843505859375
+
+=== NODES: 7, GRAPH_NUM: 35 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+ESOP: (d & f) ^ (c & g & ~f) ^ (c & f & g & ~d) ^ (a & e & ~f & ~g) ^ (b & g & ~c & ~f) ^ (c & f & ~d & ~g) ^ (b & f & g & ~c & ~d) ^ (a & g & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2479736328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4873291015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.586572265625
+
+=== NODES: 7, GRAPH_NUM: 36 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & g & ~f) ^ (d & f & ~g) ^ (a & e & ~f & ~g) ^ (b & g & ~c & ~f) ^ (c & f & ~d & ~g) ^ (a & g & ~b & ~c & ~f) ^ (b & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1903564453125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4568359375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5576416015625
+
+=== NODES: 7, GRAPH_NUM: 37 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2218017578125
+AVERAGE APPX RATIO WHERE p = 2 : 0.3770751953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.4874755859375
+
+=== NODES: 7, GRAPH_NUM: 38 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~e & ~f) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.191455078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4336181640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5351318359375
+
+=== NODES: 7, GRAPH_NUM: 39 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & g & ~d) ^ (d & f & ~g) ^ (a & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (c & f & ~d & ~g) ^ (a & g & ~b & ~c & ~d) ^ (b & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2568359375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4729736328125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5021484375
+
+=== NODES: 7, GRAPH_NUM: 40 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~f) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~f) ^ (a & g & ~b & ~c & ~d & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.185302734375
+AVERAGE APPX RATIO WHERE p = 2 : 0.431494140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4542236328125
+
+=== NODES: 7, GRAPH_NUM: 41 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2242919921875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4410888671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5017822265625
+
+=== NODES: 7, GRAPH_NUM: 42 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1729736328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4349853515625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4848974609375
+
+=== NODES: 7, GRAPH_NUM: 43 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (e & f) ^ (d & g & ~f) ^ (d & f & g & ~e) ^ (a & e & ~f & ~g) ^ (a & f & ~e & ~g) ^ (c & g & ~d & ~f) ^ (c & f & g & ~d & ~e) ^ (b & g & ~c & ~d & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2442138671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.48623046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.51748046875
+
+=== NODES: 7, GRAPH_NUM: 44 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (a & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20537109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4669189453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.544677734375
+
+=== NODES: 7, GRAPH_NUM: 45 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (a & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.28408203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.450537109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.50869140625
+
+=== NODES: 7, GRAPH_NUM: 46 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (b & f & ~g) ^ (c & g & ~d) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (b & g & ~c & ~d) ^ (a & f & g & ~b & ~c & ~d) ^ (a & e & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.239013671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.5139404296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5543798828125
+
+=== NODES: 7, GRAPH_NUM: 47 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (b & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~e) ^ (b & g & ~c & ~d & ~e) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2144287109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4918701171875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5691552734375
+
+=== NODES: 7, GRAPH_NUM: 48 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~f) ^ (a & g & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2425537109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.50400390625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5797412109375
+
+=== NODES: 7, GRAPH_NUM: 49 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (b & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~e) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~c & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.241552734375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4867919921875
+AVERAGE APPX RATIO WHERE p = 3 : 0.49568359375
+
+=== NODES: 7, GRAPH_NUM: 50 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (b & f & ~g) ^ (c & g & ~d) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (b & g & ~c & ~d) ^ (a & g & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.245458984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.5126953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.559423828125
+
+=== NODES: 7, GRAPH_NUM: 51 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~f) ^ (b & g & ~c & ~d & ~f) ^ (a & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.200146484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4810546875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5087890625
+
+=== NODES: 7, GRAPH_NUM: 52 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (b & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (c & g & ~d & ~e) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20595703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4857421875
+AVERAGE APPX RATIO WHERE p = 3 : 0.541015625
+
+=== NODES: 7, GRAPH_NUM: 53 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (b & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (a & f & ~b & ~g) ^ (d & g & ~e & ~f) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19150390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4851806640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5163330078125
+
+=== NODES: 7, GRAPH_NUM: 54 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (b & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (a & f & ~b & ~e & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~c & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.18876953125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4525146484375
+AVERAGE APPX RATIO WHERE p = 3 : 0.4955322265625
+
+=== NODES: 7, GRAPH_NUM: 55 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & g & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2620361328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4471435546875
+AVERAGE APPX RATIO WHERE p = 3 : 0.616650390625
+
+=== NODES: 7, GRAPH_NUM: 56 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (e & f) ^ (d & g & ~f) ^ (d & f & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~e & ~g) ^ (c & g & ~d & ~f) ^ (c & f & g & ~d & ~e) ^ (a & f & ~b & ~e & ~g) ^ (b & g & ~c & ~d & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2286865234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.500537109375
+
+=== NODES: 7, GRAPH_NUM: 57 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & g & ~f) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (b & f & ~e & ~g) ^ (c & g & ~d & ~f) ^ (a & f & ~b & ~e & ~g) ^ (b & g & ~c & ~d & ~f) ^ (a & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19052734375
+AVERAGE APPX RATIO WHERE p = 2 : 0.43427734375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5143798828125
+
+=== NODES: 7, GRAPH_NUM: 58 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (b & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (a & f & ~b & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2001953125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4428466796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4771728515625
+
+=== NODES: 7, GRAPH_NUM: 59 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2740234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.43095703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.6184814453125
+
+=== NODES: 7, GRAPH_NUM: 60 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & f & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~d & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2392333984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.482763671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.597705078125
+
+=== NODES: 7, GRAPH_NUM: 61 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2119140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.469384765625
+AVERAGE APPX RATIO WHERE p = 3 : 0.54404296875
+
+=== NODES: 7, GRAPH_NUM: 62 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.200634765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4730224609375
+AVERAGE APPX RATIO WHERE p = 3 : 0.50615234375
+
+=== NODES: 7, GRAPH_NUM: 63 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1924072265625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4642333984375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5423828125
+
+=== NODES: 7, GRAPH_NUM: 64 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (a & g & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21220703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4729736328125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5380126953125
+
+=== NODES: 7, GRAPH_NUM: 65 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (b & g & ~d & ~f) ^ (a & f & ~b & ~c & ~g) ^ (a & g & ~b & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.232763671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4580322265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4910302734375
+
+=== NODES: 7, GRAPH_NUM: 66 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & f & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~d & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2193359375
+AVERAGE APPX RATIO WHERE p = 2 : 0.459716796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5058349609375
+
+=== NODES: 7, GRAPH_NUM: 67 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & g & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19208984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4376953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.63662109375
+
+=== NODES: 7, GRAPH_NUM: 68 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & f & ~g) ^ (c & g & ~d) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (b & g & ~c & ~d) ^ (a & f & ~b & ~c & ~g) ^ (a & g & ~b & ~c & ~d)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.49091796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5315869140625
+
+=== NODES: 7, GRAPH_NUM: 69 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & g & ~d & ~f) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~f) ^ (a & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1870849609375
+AVERAGE APPX RATIO WHERE p = 2 : 0.45029296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4880712890625
+
+=== NODES: 7, GRAPH_NUM: 70 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (c & g & ~d & ~e) ^ (a & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.189404296875
+AVERAGE APPX RATIO WHERE p = 2 : 0.44697265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5458740234375
+
+=== NODES: 7, GRAPH_NUM: 71 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (b & f & ~c & ~g) ^ (d & g & ~e & ~f) ^ (a & f & ~b & ~c & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.175244140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.433251953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5225341796875
+
+=== NODES: 7, GRAPH_NUM: 72 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & f & g & ~d & ~e) ^ (b & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~e & ~g) ^ (a & g & ~b & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.176171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.447412109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.4950390625
+
+=== NODES: 7, GRAPH_NUM: 73 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (b & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~e & ~g) ^ (a & g & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2183349609375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4433837890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.591015625
+
+=== NODES: 7, GRAPH_NUM: 74 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (b & f & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.201611328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4297119140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5591552734375
+
+=== NODES: 7, GRAPH_NUM: 75 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (b & f & ~c & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.235302734375
+AVERAGE APPX RATIO WHERE p = 2 : 0.3776123046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.537255859375
+
+=== NODES: 7, GRAPH_NUM: 76 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.216064453125
+AVERAGE APPX RATIO WHERE p = 2 : 0.455322265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5320068359375
+
+=== NODES: 7, GRAPH_NUM: 77 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1806884765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.43642578125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5076416015625
+
+=== NODES: 7, GRAPH_NUM: 78 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2207763671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.40517578125
+AVERAGE APPX RATIO WHERE p = 3 : 0.56767578125
+
+=== NODES: 7, GRAPH_NUM: 79 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1847900390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4237060546875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4962158203125
+
+=== NODES: 7, GRAPH_NUM: 80 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & g & ~d) ^ (d & f & ~g) ^ (a & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (c & f & ~d & ~g) ^ (a & g & ~b & ~c & ~d) ^ (b & f & ~c & ~d & ~g) ^ (a & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.25615234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4604736328125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5985107421875
+
+=== NODES: 7, GRAPH_NUM: 81 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (d & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~f) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~f) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.18369140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4127197265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5045654296875
+
+=== NODES: 7, GRAPH_NUM: 82 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (b & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2195556640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.43642578125
+AVERAGE APPX RATIO WHERE p = 3 : 0.4986328125
+
+=== NODES: 7, GRAPH_NUM: 83 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (b & f & ~c & ~d & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.16201171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4338134765625
+AVERAGE APPX RATIO WHERE p = 3 : 0.583544921875
+
+=== NODES: 7, GRAPH_NUM: 84 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (a & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (d & f & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (c & f & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e) ^ (b & f & ~c & ~d & ~e & ~g) ^ (a & f & ~b & ~c & ~d & ~e & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1811279296875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4371826171875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5589990234375
+
+=== NODES: 7, GRAPH_NUM: 85 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 5)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (a & e & ~f & ~g) ^ (d & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (c & f & ~d & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & f & ~c & ~d & ~e & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & f & ~b & ~c & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.30234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4101806640625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5161865234375
+
+=== NODES: 7, GRAPH_NUM: 86 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2679931640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4873779296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5468603515625
+
+=== NODES: 7, GRAPH_NUM: 87 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (a & g & ~e & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1936767578125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4843994140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5266357421875
+
+=== NODES: 7, GRAPH_NUM: 88 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~c & ~e & ~f) ^ (a & f & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.225244140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.32490234375
+AVERAGE APPX RATIO WHERE p = 3 : 0.385888671875
+
+=== NODES: 7, GRAPH_NUM: 89 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~c & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1956787109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4386962890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.521630859375
+
+=== NODES: 7, GRAPH_NUM: 90 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.223388671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4410888671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4594970703125
+
+=== NODES: 7, GRAPH_NUM: 91 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (b & g & ~e & ~f) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1899658203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4302001953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5114013671875
+
+=== NODES: 7, GRAPH_NUM: 92 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+ESOP: (d & f) ^ (c & g & ~f) ^ (c & f & g & ~d) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~f) ^ (c & f & ~d & ~g) ^ (b & f & g & ~c & ~d) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~c & ~f) ^ (a & f & g & ~b & ~c & ~d) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.24765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4614013671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5677001953125
+
+=== NODES: 7, GRAPH_NUM: 93 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2114990234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.3534912109375
+AVERAGE APPX RATIO WHERE p = 3 : 0.4542236328125
+
+=== NODES: 7, GRAPH_NUM: 94 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.179443359375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4125244140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4416015625
+
+=== NODES: 7, GRAPH_NUM: 95 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & g & ~d) ^ (d & f & ~g) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~c & ~d) ^ (b & e & f & ~c & ~d & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2531982421875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4520751953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.53306640625
+
+=== NODES: 7, GRAPH_NUM: 96 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.206103515625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4112548828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5792236328125
+
+=== NODES: 7, GRAPH_NUM: 97 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.17333984375
+AVERAGE APPX RATIO WHERE p = 2 : 0.402880859375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5436669921875
+
+=== NODES: 7, GRAPH_NUM: 98 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & g & ~e & ~f) ^ (d & f & ~e & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~c & ~e & ~f) ^ (c & f & ~d & ~e & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.23203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4076904296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.6047607421875
+
+=== NODES: 7, GRAPH_NUM: 99 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (d & f & ~e & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~c & ~d & ~e) ^ (c & f & ~d & ~e & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19814453125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4385498046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.63759765625
+
+=== NODES: 7, GRAPH_NUM: 100 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (b & g & ~e & ~f) ^ (d & f & ~e & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~e & ~f) ^ (c & f & ~d & ~e & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2077880859375
+AVERAGE APPX RATIO WHERE p = 2 : 0.45029296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.629052734375
+
+=== NODES: 7, GRAPH_NUM: 101 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (c & f & ~d & ~e & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1788818359375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4139404296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5910888671875
+
+=== NODES: 7, GRAPH_NUM: 102 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & g & ~e & ~f) ^ (d & f & ~e & ~g) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (c & f & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1711181640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.424462890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.6083984375
+
+=== NODES: 7, GRAPH_NUM: 103 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (e & f) ^ (d & g & ~f) ^ (d & f & g & ~e) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~f) ^ (d & f & ~e & ~g) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~f) ^ (c & f & ~d & ~e & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.176171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.2397216796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.488720703125
+
+=== NODES: 7, GRAPH_NUM: 104 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (d & f & ~e & ~g) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~e) ^ (c & f & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1829345703125
+AVERAGE APPX RATIO WHERE p = 2 : 0.41748046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4949951171875
+
+=== NODES: 7, GRAPH_NUM: 105 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (c & f & ~d & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1883544921875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4143310546875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5427490234375
+
+=== NODES: 7, GRAPH_NUM: 106 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2161865234375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4955078125
+AVERAGE APPX RATIO WHERE p = 3 : 0.52412109375
+
+=== NODES: 7, GRAPH_NUM: 107 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & e & f & ~b & ~c & ~g) ^ (a & f & g & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2038818359375
+AVERAGE APPX RATIO WHERE p = 2 : 0.460693359375
+AVERAGE APPX RATIO WHERE p = 3 : 0.514990234375
+
+=== NODES: 7, GRAPH_NUM: 108 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.203076171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.459521484375
+AVERAGE APPX RATIO WHERE p = 3 : 0.52958984375
+
+=== NODES: 7, GRAPH_NUM: 109 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & f & ~g) ^ (c & g & ~d) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & e & f & ~b & ~c & ~g) ^ (a & e & f & g & ~b & ~c & ~d) ^ (a & e & g & ~b & ~c & ~d & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2591796875
+AVERAGE APPX RATIO WHERE p = 2 : 0.462939453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5798828125
+
+=== NODES: 7, GRAPH_NUM: 110 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.198388671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4352294921875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4999609375
+
+=== NODES: 7, GRAPH_NUM: 111 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1847900390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4436279296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.57900390625
+
+=== NODES: 7, GRAPH_NUM: 112 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.194287109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.44091796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.539404296875
+
+=== NODES: 7, GRAPH_NUM: 113 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & g & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2112548828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4623291015625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5273681640625
+
+=== NODES: 7, GRAPH_NUM: 114 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (b & e & f & ~c & ~g) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2134521484375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4325439453125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5706787109375
+
+=== NODES: 7, GRAPH_NUM: 115 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (a & g & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1815673828125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4263671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5328125
+
+=== NODES: 7, GRAPH_NUM: 116 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & f & ~g) ^ (c & g & ~d) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & g & ~b & ~c & ~d) ^ (a & e & f & ~b & ~c & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.274072265625
+AVERAGE APPX RATIO WHERE p = 2 : 0.462646484375
+AVERAGE APPX RATIO WHERE p = 3 : 0.4851806640625
+
+=== NODES: 7, GRAPH_NUM: 117 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (c & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & g & ~d & ~e) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~g) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.191455078125
+AVERAGE APPX RATIO WHERE p = 2 : 0.427099609375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5343017578125
+
+=== NODES: 7, GRAPH_NUM: 118 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (d & g & ~e & ~f) ^ (b & e & f & ~c & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.178125
+AVERAGE APPX RATIO WHERE p = 2 : 0.4327880859375
+AVERAGE APPX RATIO WHERE p = 3 : 0.590380859375
+
+=== NODES: 7, GRAPH_NUM: 119 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1939697265625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4186279296875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5123291015625
+
+=== NODES: 7, GRAPH_NUM: 120 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2319091796875
+AVERAGE APPX RATIO WHERE p = 2 : 0.419970703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.6359130859375
+
+=== NODES: 7, GRAPH_NUM: 121 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & g & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.195947265625
+AVERAGE APPX RATIO WHERE p = 2 : 0.432861328125
+AVERAGE APPX RATIO WHERE p = 3 : 0.601953125
+
+=== NODES: 7, GRAPH_NUM: 122 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (a & g & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.200244140625
+AVERAGE APPX RATIO WHERE p = 2 : 0.430322265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.6581298828125
+
+=== NODES: 7, GRAPH_NUM: 123 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~d & ~e & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1879150390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4116455078125
+AVERAGE APPX RATIO WHERE p = 3 : 0.6058837890625
+
+=== NODES: 7, GRAPH_NUM: 124 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~d & ~e & ~f) ^ (a & g & ~b & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.207275390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4151123046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.63115234375
+
+=== NODES: 7, GRAPH_NUM: 125 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (e & f) ^ (d & g & ~f) ^ (d & f & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & g & ~d & ~f) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~f) ^ (b & f & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19921875
+AVERAGE APPX RATIO WHERE p = 2 : 0.2590087890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5883544921875
+
+=== NODES: 7, GRAPH_NUM: 126 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & g & ~e) ^ (e & f & ~g) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (b & g & ~c & ~d & ~e) ^ (a & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1852783203125
+AVERAGE APPX RATIO WHERE p = 2 : 0.404052734375
+AVERAGE APPX RATIO WHERE p = 3 : 0.56552734375
+
+=== NODES: 7, GRAPH_NUM: 127 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (e & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~e & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (a & f & ~c & ~e & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & g & ~b & ~c & ~d & ~e & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20712890625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4536376953125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5574462890625
+
+=== NODES: 7, GRAPH_NUM: 128 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & f & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.21025390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4468994140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.4763427734375
+
+=== NODES: 7, GRAPH_NUM: 129 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.222314453125
+AVERAGE APPX RATIO WHERE p = 2 : 0.378369140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5691162109375
+
+=== NODES: 7, GRAPH_NUM: 130 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & g & ~d) ^ (d & f & ~g) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & g & ~b & ~c & ~d) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & e & g & ~b & ~c & ~d & ~f) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2300537109375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4332763671875
+AVERAGE APPX RATIO WHERE p = 3 : 0.497802734375
+
+=== NODES: 7, GRAPH_NUM: 131 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (d & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~f) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & e & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1871826171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4131591796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.5232177734375
+
+=== NODES: 7, GRAPH_NUM: 132 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.19794921875
+AVERAGE APPX RATIO WHERE p = 2 : 0.400146484375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5181396484375
+
+=== NODES: 7, GRAPH_NUM: 133 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (b & g & ~c & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.165576171875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4049560546875
+AVERAGE APPX RATIO WHERE p = 3 : 0.4631103515625
+
+=== NODES: 7, GRAPH_NUM: 134 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (d & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~f) ^ (a & e & ~b & ~f & ~g) ^ (b & e & f & ~c & ~d & ~g) ^ (b & e & g & ~c & ~d & ~f) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & g & ~c & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & e & g & ~b & ~c & ~d & ~f)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1832763671875
+AVERAGE APPX RATIO WHERE p = 2 : 0.4018798828125
+AVERAGE APPX RATIO WHERE p = 3 : 0.5020263671875
+
+=== NODES: 7, GRAPH_NUM: 135 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2039306640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4359619140625
+AVERAGE APPX RATIO WHERE p = 3 : 0.5475830078125
+
+=== NODES: 7, GRAPH_NUM: 136 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (d & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (c & g & ~d & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & g & ~c & ~d & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.175
+AVERAGE APPX RATIO WHERE p = 2 : 0.40087890625
+AVERAGE APPX RATIO WHERE p = 3 : 0.547119140625
+
+=== NODES: 7, GRAPH_NUM: 137 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (b & g & ~e & ~f) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1812255859375
+AVERAGE APPX RATIO WHERE p = 2 : 0.4022216796875
+AVERAGE APPX RATIO WHERE p = 3 : 0.586767578125
+
+=== NODES: 7, GRAPH_NUM: 138 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (c & g & ~f) ^ (d & f & ~g) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~f) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~c & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1885009765625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4267333984375
+AVERAGE APPX RATIO WHERE p = 3 : 0.5112890625
+
+=== NODES: 7, GRAPH_NUM: 139 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & f & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (c & f & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (b & f & g & ~c & ~d & ~e) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g) ^ (a & f & g & ~b & ~c & ~d & ~e)
+AVERAGE APPX RATIO WHERE p = 1 : 0.20732421875
+AVERAGE APPX RATIO WHERE p = 2 : 0.3866943359375
+AVERAGE APPX RATIO WHERE p = 3 : 0.469482421875
+
+=== NODES: 7, GRAPH_NUM: 140 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 4)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (e & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~e & ~f) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~e & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~e & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1629150390625
+AVERAGE APPX RATIO WHERE p = 2 : 0.3844970703125
+AVERAGE APPX RATIO WHERE p = 3 : 0.587841796875
+
+=== NODES: 7, GRAPH_NUM: 141 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+ESOP: (d & g) ^ (c & g & ~d) ^ (d & f & ~g) ^ (b & e & ~f & ~g) ^ (b & g & ~c & ~d) ^ (c & f & ~d & ~g) ^ (a & e & ~b & ~f & ~g) ^ (a & g & ~b & ~c & ~d) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.2414306640625
+AVERAGE APPX RATIO WHERE p = 2 : 0.4330322265625
+AVERAGE APPX RATIO WHERE p = 3 : 0.56396484375
+
+=== NODES: 7, GRAPH_NUM: 142 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 5)	1
+ESOP: (f & g) ^ (d & f & ~g) ^ (d & g & ~f) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~f) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~f) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~f) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1760986328125
+AVERAGE APPX RATIO WHERE p = 2 : 0.398046875
+AVERAGE APPX RATIO WHERE p = 3 : 0.60517578125
+
+=== NODES: 7, GRAPH_NUM: 143 ===
+
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (0, 6)	1
+  (1, 4)	1
+  (1, 6)	1
+  (2, 5)	1
+  (2, 6)	1
+  (3, 5)	1
+  (3, 6)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+ESOP: (e & g) ^ (d & f & ~g) ^ (d & g & ~e) ^ (b & e & ~f & ~g) ^ (c & f & ~d & ~g) ^ (c & g & ~d & ~e) ^ (a & e & ~b & ~f & ~g) ^ (b & g & ~c & ~d & ~e) ^ (b & e & f & ~c & ~d & ~g) ^ (a & f & ~c & ~d & ~e & ~g) ^ (a & g & ~b & ~c & ~d & ~e) ^ (a & e & f & ~b & ~c & ~d & ~g)
+AVERAGE APPX RATIO WHERE p = 1 : 0.1928466796875

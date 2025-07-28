@@ -268,7 +268,7 @@ if __name__ == "__main__":
     testInst = BooleanInstance("MIS", testGraph)
     testESOP = testInst.getProbESOP()
                                 
-    p = 1
+    p = 2
     pars = np.random.rand(2*p)
     expectation = get_expect(testGraph, pars, p,testESOP)
     res = minimize(expectation, pars, method = 'COBYLA')

@@ -1,0 +1,6816 @@
+
+== NODES: 3 | ENTRY: 0 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.5263671875 for p = 1
+APPRX RATIO: 0.52001953125 for p = 2
+APPRX RATIO: 0.48583984375 for p = 3
+
+== NODES: 3 | ENTRY: 1 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (1, 0)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.650390625 for p = 1
+APPRX RATIO: 0.6904296875 for p = 2
+APPRX RATIO: 0.69921875 for p = 3
+
+== NODES: 4 | ENTRY: 0 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.43212890625 for p = 1
+APPRX RATIO: 0.51904296875 for p = 2
+APPRX RATIO: 0.67431640625 for p = 3
+
+== NODES: 4 | ENTRY: 1 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (1, 0)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.6005859375 for p = 1
+APPRX RATIO: 0.7236328125 for p = 2
+APPRX RATIO: 0.7353515625 for p = 3
+
+== NODES: 4 | ENTRY: 2 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (1, 3)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.4296875 for p = 1
+APPRX RATIO: 0.5065104166666666 for p = 2
+APPRX RATIO: 0.54296875 for p = 3
+
+== NODES: 4 | ENTRY: 3 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.56201171875 for p = 1
+APPRX RATIO: 0.60205078125 for p = 2
+APPRX RATIO: 0.685546875 for p = 3
+
+== NODES: 4 | ENTRY: 4 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.3837890625 for p = 1
+APPRX RATIO: 0.39794921875 for p = 2
+APPRX RATIO: 0.40478515625 for p = 3
+
+== NODES: 4 | ENTRY: 5 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.61083984375 for p = 1
+APPRX RATIO: 0.5947265625 for p = 2
+APPRX RATIO: 0.5009765625 for p = 3
+
+== NODES: 4 | ENTRY: 6 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.57861328125 for p = 1
+APPRX RATIO: 0.49267578125 for p = 2
+APPRX RATIO: 0.58154296875 for p = 3
+
+== NODES: 4 | ENTRY: 7 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.744140625 for p = 1
+APPRX RATIO: 0.7998046875 for p = 2
+APPRX RATIO: 0.732421875 for p = 3
+
+== NODES: 5 | ENTRY: 0 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.5068359375 for p = 1
+APPRX RATIO: 0.4912109375 for p = 2
+APPRX RATIO: 0.6826171875 for p = 3
+
+== NODES: 5 | ENTRY: 1 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (1, 0)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.638671875 for p = 1
+APPRX RATIO: 0.73046875 for p = 2
+APPRX RATIO: 0.5810546875 for p = 3
+
+== NODES: 5 | ENTRY: 2 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (1, 3)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.4407552083333333 for p = 1
+APPRX RATIO: 0.6442057291666666 for p = 2
+APPRX RATIO: 0.5706380208333334 for p = 3
+
+== NODES: 5 | ENTRY: 3 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.5224609375 for p = 1
+APPRX RATIO: 0.54833984375 for p = 2
+APPRX RATIO: 0.53759765625 for p = 3
+
+== NODES: 5 | ENTRY: 4 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.419921875 for p = 1
+APPRX RATIO: 0.4345703125 for p = 2
+APPRX RATIO: 0.59228515625 for p = 3
+
+== NODES: 5 | ENTRY: 5 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.55712890625 for p = 1
+APPRX RATIO: 0.52978515625 for p = 2
+APPRX RATIO: 0.76416015625 for p = 3
+
+== NODES: 5 | ENTRY: 6 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.3984375 for p = 1
+APPRX RATIO: 0.4306640625 for p = 2
+APPRX RATIO: 0.400390625 for p = 3
+
+== NODES: 5 | ENTRY: 7 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.841796875 for p = 1
+APPRX RATIO: 0.8662109375 for p = 2
+APPRX RATIO: 0.70703125 for p = 3
+
+== NODES: 5 | ENTRY: 8 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.6015625 for p = 1
+APPRX RATIO: 0.527587890625 for p = 2
+APPRX RATIO: 0.646484375 for p = 3
+
+== NODES: 5 | ENTRY: 9 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.4534505208333333 for p = 1
+APPRX RATIO: 0.5911458333333334 for p = 2
+APPRX RATIO: 0.5595703125 for p = 3
+
+== NODES: 5 | ENTRY: 10 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.3873697916666667 for p = 1
+APPRX RATIO: 0.5817057291666666 for p = 2
+APPRX RATIO: 0.5504557291666666 for p = 3
+
+== NODES: 5 | ENTRY: 11 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.4143880208333333 for p = 1
+APPRX RATIO: 0.5680338541666666 for p = 2
+APPRX RATIO: 0.5380859375 for p = 3
+
+== NODES: 5 | ENTRY: 12 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.4957682291666667 for p = 1
+APPRX RATIO: 0.4680989583333333 for p = 2
+APPRX RATIO: 0.4684244791666667 for p = 3
+
+== NODES: 5 | ENTRY: 13 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5794270833333334 for p = 1
+APPRX RATIO: 0.4567057291666667 for p = 2
+APPRX RATIO: 0.4641927083333333 for p = 3
+
+== NODES: 5 | ENTRY: 14 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.5296223958333334 for p = 1
+APPRX RATIO: 0.5784505208333334 for p = 2
+APPRX RATIO: 0.548828125 for p = 3
+
+== NODES: 5 | ENTRY: 15 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.44921875 for p = 1
+APPRX RATIO: 0.5729166666666666 for p = 2
+APPRX RATIO: 0.5657552083333334 for p = 3
+
+== NODES: 5 | ENTRY: 16 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+APPRX RATIO: 0.4322916666666667 for p = 1
+APPRX RATIO: 0.6018880208333334 for p = 2
+APPRX RATIO: 0.4537760416666667 for p = 3
+
+== NODES: 5 | ENTRY: 17 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.8798828125 for p = 1
+APPRX RATIO: 0.5205078125 for p = 2
+APPRX RATIO: 0.63232421875 for p = 3
+
+== NODES: 5 | ENTRY: 18 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.50732421875 for p = 1
+APPRX RATIO: 0.65087890625 for p = 2
+APPRX RATIO: 0.59814453125 for p = 3
+
+== NODES: 5 | ENTRY: 19 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.78369140625 for p = 1
+APPRX RATIO: 0.56103515625 for p = 2
+APPRX RATIO: 0.64404296875 for p = 3
+
+== NODES: 5 | ENTRY: 20 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.86376953125 for p = 1
+APPRX RATIO: 0.50244140625 for p = 2
+APPRX RATIO: 0.62109375 for p = 3
+
+== NODES: 5 | ENTRY: 21 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.48828125 for p = 1
+APPRX RATIO: 0.728515625 for p = 2
+APPRX RATIO: 0.67138671875 for p = 3
+
+== NODES: 5 | ENTRY: 22 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.8837890625 for p = 1
+APPRX RATIO: 0.6015625 for p = 2
+APPRX RATIO: 0.56201171875 for p = 3
+
+== NODES: 5 | ENTRY: 23 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.57177734375 for p = 1
+APPRX RATIO: 0.53955078125 for p = 2
+APPRX RATIO: 0.71826171875 for p = 3
+
+== NODES: 5 | ENTRY: 24 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.56298828125 for p = 1
+APPRX RATIO: 0.51318359375 for p = 2
+APPRX RATIO: 0.63330078125 for p = 3
+
+== NODES: 5 | ENTRY: 25 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.4765625 for p = 1
+APPRX RATIO: 0.55029296875 for p = 2
+APPRX RATIO: 0.81591796875 for p = 3
+
+== NODES: 5 | ENTRY: 26 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.7978515625 for p = 1
+APPRX RATIO: 0.60888671875 for p = 2
+APPRX RATIO: 0.66455078125 for p = 3
+
+== NODES: 5 | ENTRY: 27 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.8193359375 for p = 1
+APPRX RATIO: 0.80615234375 for p = 2
+APPRX RATIO: 0.7080078125 for p = 3
+
+== NODES: 5 | ENTRY: 28 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.65625 for p = 1
+APPRX RATIO: 0.6123046875 for p = 2
+APPRX RATIO: 0.70849609375 for p = 3
+
+== NODES: 6 | ENTRY: 0 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.47998046875 for p = 1
+APPRX RATIO: 0.5078125 for p = 2
+APPRX RATIO: 0.56103515625 for p = 3
+
+== NODES: 6 | ENTRY: 1 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (1, 0)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.724609375 for p = 1
+APPRX RATIO: 0.7734375 for p = 2
+APPRX RATIO: 0.5546875 for p = 3
+
+== NODES: 6 | ENTRY: 2 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (1, 3)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.4534505208333333 for p = 1
+APPRX RATIO: 0.5419921875 for p = 2
+APPRX RATIO: 0.5589192708333334 for p = 3
+
+== NODES: 6 | ENTRY: 3 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.55078125 for p = 1
+APPRX RATIO: 0.5361328125 for p = 2
+APPRX RATIO: 0.638671875 for p = 3
+
+== NODES: 6 | ENTRY: 4 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.43212890625 for p = 1
+APPRX RATIO: 0.515625 for p = 2
+APPRX RATIO: 0.501953125 for p = 3
+
+== NODES: 6 | ENTRY: 5 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.60986328125 for p = 1
+APPRX RATIO: 0.74169921875 for p = 2
+APPRX RATIO: 0.6123046875 for p = 3
+
+== NODES: 6 | ENTRY: 6 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.56103515625 for p = 1
+APPRX RATIO: 0.490234375 for p = 2
+APPRX RATIO: 0.56494140625 for p = 3
+
+== NODES: 6 | ENTRY: 7 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.712890625 for p = 1
+APPRX RATIO: 0.8759765625 for p = 2
+APPRX RATIO: 0.689453125 for p = 3
+
+== NODES: 6 | ENTRY: 8 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.66259765625 for p = 1
+APPRX RATIO: 0.5986328125 for p = 2
+APPRX RATIO: 0.685546875 for p = 3
+
+== NODES: 6 | ENTRY: 9 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.5478515625 for p = 1
+APPRX RATIO: 0.5231119791666666 for p = 2
+APPRX RATIO: 0.5582682291666666 for p = 3
+
+== NODES: 6 | ENTRY: 10 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5654296875 for p = 1
+APPRX RATIO: 0.4095052083333333 for p = 2
+APPRX RATIO: 0.4990234375 for p = 3
+
+== NODES: 6 | ENTRY: 11 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.4775390625 for p = 1
+APPRX RATIO: 0.4759114583333333 for p = 2
+APPRX RATIO: 0.4615885416666667 for p = 3
+
+== NODES: 6 | ENTRY: 12 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.3665364583333333 for p = 1
+APPRX RATIO: 0.4996744791666667 for p = 2
+APPRX RATIO: 0.4837239583333333 for p = 3
+
+== NODES: 6 | ENTRY: 13 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.3997395833333333 for p = 1
+APPRX RATIO: 0.4794921875 for p = 2
+APPRX RATIO: 0.5071614583333334 for p = 3
+
+== NODES: 6 | ENTRY: 14 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.4847005208333333 for p = 1
+APPRX RATIO: 0.4772135416666667 for p = 2
+APPRX RATIO: 0.5338541666666666 for p = 3
+
+== NODES: 6 | ENTRY: 15 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5940755208333334 for p = 1
+APPRX RATIO: 0.5052083333333334 for p = 2
+APPRX RATIO: 0.4091796875 for p = 3
+
+== NODES: 6 | ENTRY: 16 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+APPRX RATIO: 0.4690755208333333 for p = 1
+APPRX RATIO: 0.5794270833333334 for p = 2
+APPRX RATIO: 0.5270182291666666 for p = 3
+
+== NODES: 6 | ENTRY: 17 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.7392578125 for p = 1
+APPRX RATIO: 0.54638671875 for p = 2
+APPRX RATIO: 0.724609375 for p = 3
+
+== NODES: 6 | ENTRY: 18 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5810546875 for p = 1
+APPRX RATIO: 0.69482421875 for p = 2
+APPRX RATIO: 0.57177734375 for p = 3
+
+== NODES: 6 | ENTRY: 19 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.529296875 for p = 1
+APPRX RATIO: 0.546875 for p = 2
+APPRX RATIO: 0.72265625 for p = 3
+
+== NODES: 6 | ENTRY: 20 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.671875 for p = 1
+APPRX RATIO: 0.61376953125 for p = 2
+APPRX RATIO: 0.4560546875 for p = 3
+
+== NODES: 6 | ENTRY: 21 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.88671875 for p = 1
+APPRX RATIO: 0.8369140625 for p = 2
+APPRX RATIO: 0.703125 for p = 3
+
+== NODES: 6 | ENTRY: 22 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.58935546875 for p = 1
+APPRX RATIO: 0.64208984375 for p = 2
+APPRX RATIO: 0.75732421875 for p = 3
+
+== NODES: 6 | ENTRY: 23 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.755859375 for p = 1
+APPRX RATIO: 0.59716796875 for p = 2
+APPRX RATIO: 0.48779296875 for p = 3
+
+== NODES: 6 | ENTRY: 24 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5517578125 for p = 1
+APPRX RATIO: 0.58251953125 for p = 2
+APPRX RATIO: 0.51953125 for p = 3
+
+== NODES: 6 | ENTRY: 25 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.56201171875 for p = 1
+APPRX RATIO: 0.5595703125 for p = 2
+APPRX RATIO: 0.50830078125 for p = 3
+
+== NODES: 6 | ENTRY: 26 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.904296875 for p = 1
+APPRX RATIO: 0.79443359375 for p = 2
+APPRX RATIO: 0.7041015625 for p = 3
+
+== NODES: 6 | ENTRY: 27 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.69482421875 for p = 1
+APPRX RATIO: 0.5634765625 for p = 2
+APPRX RATIO: 0.7421875 for p = 3
+
+== NODES: 6 | ENTRY: 28 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.7265625 for p = 1
+APPRX RATIO: 0.79833984375 for p = 2
+APPRX RATIO: 0.759765625 for p = 3
+
+== NODES: 6 | ENTRY: 29 ==
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7455078125 for p = 1
+APPRX RATIO: 0.5185546875 for p = 2
+APPRX RATIO: 0.7974609375 for p = 3
+
+== NODES: 6 | ENTRY: 30 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.58935546875 for p = 1
+APPRX RATIO: 0.60400390625 for p = 2
+APPRX RATIO: 0.672607421875 for p = 3
+
+== NODES: 6 | ENTRY: 31 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.575439453125 for p = 1
+APPRX RATIO: 0.482177734375 for p = 2
+APPRX RATIO: 0.69580078125 for p = 3
+
+== NODES: 6 | ENTRY: 32 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.600341796875 for p = 1
+APPRX RATIO: 0.670166015625 for p = 2
+APPRX RATIO: 0.530517578125 for p = 3
+
+== NODES: 6 | ENTRY: 33 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.662841796875 for p = 1
+APPRX RATIO: 0.621337890625 for p = 2
+APPRX RATIO: 0.60693359375 for p = 3
+
+== NODES: 6 | ENTRY: 34 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.40380859375 for p = 1
+APPRX RATIO: 0.548583984375 for p = 2
+APPRX RATIO: 0.568359375 for p = 3
+
+== NODES: 6 | ENTRY: 35 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.625732421875 for p = 1
+APPRX RATIO: 0.507080078125 for p = 2
+APPRX RATIO: 0.547119140625 for p = 3
+
+== NODES: 6 | ENTRY: 36 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5966796875 for p = 1
+APPRX RATIO: 0.55322265625 for p = 2
+APPRX RATIO: 0.509765625 for p = 3
+
+== NODES: 6 | ENTRY: 37 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.641845703125 for p = 1
+APPRX RATIO: 0.578125 for p = 2
+APPRX RATIO: 0.50732421875 for p = 3
+
+== NODES: 6 | ENTRY: 38 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6376953125 for p = 1
+APPRX RATIO: 0.560791015625 for p = 2
+APPRX RATIO: 0.490234375 for p = 3
+
+== NODES: 6 | ENTRY: 39 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.610595703125 for p = 1
+APPRX RATIO: 0.50732421875 for p = 2
+APPRX RATIO: 0.560791015625 for p = 3
+
+== NODES: 6 | ENTRY: 40 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.463134765625 for p = 1
+APPRX RATIO: 0.595458984375 for p = 2
+APPRX RATIO: 0.54638671875 for p = 3
+
+== NODES: 6 | ENTRY: 41 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5458984375 for p = 1
+APPRX RATIO: 0.701171875 for p = 2
+APPRX RATIO: 0.54736328125 for p = 3
+
+== NODES: 6 | ENTRY: 42 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.545654296875 for p = 1
+APPRX RATIO: 0.544921875 for p = 2
+APPRX RATIO: 0.475341796875 for p = 3
+
+== NODES: 6 | ENTRY: 43 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.8115234375 for p = 1
+APPRX RATIO: 0.8330078125 for p = 2
+APPRX RATIO: 0.7496744791666666 for p = 3
+
+== NODES: 6 | ENTRY: 44 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8056640625 for p = 1
+APPRX RATIO: 0.666015625 for p = 2
+APPRX RATIO: 0.6139322916666666 for p = 3
+
+== NODES: 6 | ENTRY: 45 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6315104166666666 for p = 1
+APPRX RATIO: 0.5221354166666666 for p = 2
+APPRX RATIO: 0.5875651041666666 for p = 3
+
+== NODES: 6 | ENTRY: 46 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5634765625 for p = 1
+APPRX RATIO: 0.5540364583333334 for p = 2
+APPRX RATIO: 0.5481770833333334 for p = 3
+
+== NODES: 6 | ENTRY: 47 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+APPRX RATIO: 0.7906901041666666 for p = 1
+APPRX RATIO: 0.6087239583333334 for p = 2
+APPRX RATIO: 0.7307942708333334 for p = 3
+
+== NODES: 6 | ENTRY: 48 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+APPRX RATIO: 0.8756510416666666 for p = 1
+APPRX RATIO: 0.6953125 for p = 2
+APPRX RATIO: 0.71484375 for p = 3
+
+== NODES: 6 | ENTRY: 49 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.9007161458333334 for p = 1
+APPRX RATIO: 0.6803385416666666 for p = 2
+APPRX RATIO: 0.7412109375 for p = 3
+
+== NODES: 6 | ENTRY: 50 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7610677083333334 for p = 1
+APPRX RATIO: 0.740234375 for p = 2
+APPRX RATIO: 0.8580729166666666 for p = 3
+
+== NODES: 6 | ENTRY: 51 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.7815755208333334 for p = 1
+APPRX RATIO: 0.5559895833333334 for p = 2
+APPRX RATIO: 0.8919270833333334 for p = 3
+
+== NODES: 6 | ENTRY: 52 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.7923177083333334 for p = 1
+APPRX RATIO: 0.6715494791666666 for p = 2
+APPRX RATIO: 0.6233723958333334 for p = 3
+
+== NODES: 6 | ENTRY: 53 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6087239583333334 for p = 1
+APPRX RATIO: 0.6129557291666666 for p = 2
+APPRX RATIO: 0.5940755208333334 for p = 3
+
+== NODES: 6 | ENTRY: 54 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.4733072916666667 for p = 1
+APPRX RATIO: 0.619140625 for p = 2
+APPRX RATIO: 0.6012369791666666 for p = 3
+
+== NODES: 6 | ENTRY: 55 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.4677734375 for p = 1
+APPRX RATIO: 0.5598958333333334 for p = 2
+APPRX RATIO: 0.7594401041666666 for p = 3
+
+== NODES: 6 | ENTRY: 56 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7952473958333334 for p = 1
+APPRX RATIO: 0.9007161458333334 for p = 2
+APPRX RATIO: 0.5686848958333334 for p = 3
+
+== NODES: 6 | ENTRY: 57 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8304036458333334 for p = 1
+APPRX RATIO: 0.6031901041666666 for p = 2
+APPRX RATIO: 0.6578776041666666 for p = 3
+
+== NODES: 6 | ENTRY: 58 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.6982421875 for p = 1
+APPRX RATIO: 0.6624348958333334 for p = 2
+APPRX RATIO: 0.7415364583333334 for p = 3
+
+== NODES: 6 | ENTRY: 59 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.62890625 for p = 1
+APPRX RATIO: 0.8961588541666666 for p = 2
+APPRX RATIO: 0.7845052083333334 for p = 3
+
+== NODES: 6 | ENTRY: 60 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.4983723958333333 for p = 1
+APPRX RATIO: 0.8046875 for p = 2
+APPRX RATIO: 0.7451171875 for p = 3
+
+== NODES: 6 | ENTRY: 61 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8072916666666666 for p = 1
+APPRX RATIO: 0.7294921875 for p = 2
+APPRX RATIO: 0.546875 for p = 3
+
+== NODES: 6 | ENTRY: 62 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7307942708333334 for p = 1
+APPRX RATIO: 0.65234375 for p = 2
+APPRX RATIO: 0.6780598958333334 for p = 3
+
+== NODES: 6 | ENTRY: 63 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5914713541666666 for p = 1
+APPRX RATIO: 0.6513671875 for p = 2
+APPRX RATIO: 0.6061197916666666 for p = 3
+
+== NODES: 6 | ENTRY: 64 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5494791666666666 for p = 1
+APPRX RATIO: 0.6748046875 for p = 2
+APPRX RATIO: 0.62890625 for p = 3
+
+== NODES: 6 | ENTRY: 65 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.4775390625 for p = 1
+APPRX RATIO: 0.4547526041666667 for p = 2
+APPRX RATIO: 0.7652994791666666 for p = 3
+
+== NODES: 6 | ENTRY: 66 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.55078125 for p = 1
+APPRX RATIO: 0.6861979166666666 for p = 2
+APPRX RATIO: 0.5856119791666666 for p = 3
+
+== NODES: 6 | ENTRY: 67 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7734375 for p = 1
+APPRX RATIO: 0.5439453125 for p = 2
+APPRX RATIO: 0.4729817708333333 for p = 3
+
+== NODES: 6 | ENTRY: 68 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5384114583333334 for p = 1
+APPRX RATIO: 0.6175130208333334 for p = 2
+APPRX RATIO: 0.6575520833333334 for p = 3
+
+== NODES: 6 | ENTRY: 69 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.8684895833333334 for p = 1
+APPRX RATIO: 0.5149739583333334 for p = 2
+APPRX RATIO: 0.5224609375 for p = 3
+
+== NODES: 6 | ENTRY: 70 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7565104166666666 for p = 1
+APPRX RATIO: 0.6240234375 for p = 2
+APPRX RATIO: 0.6559244791666666 for p = 3
+
+== NODES: 6 | ENTRY: 71 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.537109375 for p = 1
+APPRX RATIO: 0.5374348958333334 for p = 2
+APPRX RATIO: 0.4837239583333333 for p = 3
+
+== NODES: 6 | ENTRY: 72 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5569661458333334 for p = 1
+APPRX RATIO: 0.6653645833333334 for p = 2
+APPRX RATIO: 0.484375 for p = 3
+
+== NODES: 6 | ENTRY: 73 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6920572916666666 for p = 1
+APPRX RATIO: 0.5703125 for p = 2
+APPRX RATIO: 0.5045572916666666 for p = 3
+
+== NODES: 6 | ENTRY: 74 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5367838541666666 for p = 1
+APPRX RATIO: 0.6809895833333334 for p = 2
+APPRX RATIO: 0.5550130208333334 for p = 3
+
+== NODES: 6 | ENTRY: 75 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.7958984375 for p = 1
+APPRX RATIO: 0.6448567708333334 for p = 2
+APPRX RATIO: 0.7903645833333334 for p = 3
+
+== NODES: 6 | ENTRY: 76 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7080078125 for p = 1
+APPRX RATIO: 0.7692057291666666 for p = 2
+APPRX RATIO: 0.6149088541666666 for p = 3
+
+== NODES: 6 | ENTRY: 77 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.759765625 for p = 1
+APPRX RATIO: 0.8795572916666666 for p = 2
+APPRX RATIO: 0.7610677083333334 for p = 3
+
+== NODES: 6 | ENTRY: 78 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9195963541666666 for p = 1
+APPRX RATIO: 0.8834635416666666 for p = 2
+APPRX RATIO: 0.5537109375 for p = 3
+
+== NODES: 6 | ENTRY: 79 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8470052083333334 for p = 1
+APPRX RATIO: 0.7021484375 for p = 2
+APPRX RATIO: 0.4508463541666667 for p = 3
+
+== NODES: 6 | ENTRY: 80 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5921223958333334 for p = 1
+APPRX RATIO: 0.8362630208333334 for p = 2
+APPRX RATIO: 0.7506510416666666 for p = 3
+
+== NODES: 6 | ENTRY: 81 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.5576171875 for p = 1
+APPRX RATIO: 0.6201171875 for p = 2
+APPRX RATIO: 0.6871744791666666 for p = 3
+
+== NODES: 6 | ENTRY: 82 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5003255208333334 for p = 1
+APPRX RATIO: 0.7770182291666666 for p = 2
+APPRX RATIO: 0.5338541666666666 for p = 3
+
+== NODES: 6 | ENTRY: 83 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.81640625 for p = 1
+APPRX RATIO: 0.5416666666666666 for p = 2
+APPRX RATIO: 0.7197265625 for p = 3
+
+== NODES: 6 | ENTRY: 84 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5556640625 for p = 1
+APPRX RATIO: 0.5631510416666666 for p = 2
+APPRX RATIO: 0.7639973958333334 for p = 3
+
+== NODES: 6 | ENTRY: 85 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5400390625 for p = 1
+APPRX RATIO: 0.6201171875 for p = 2
+APPRX RATIO: 0.8294270833333334 for p = 3
+
+== NODES: 6 | ENTRY: 86 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9078776041666666 for p = 1
+APPRX RATIO: 0.6328125 for p = 2
+APPRX RATIO: 0.6585286458333334 for p = 3
+
+== NODES: 6 | ENTRY: 87 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.6956380208333334 for p = 1
+APPRX RATIO: 0.6031901041666666 for p = 2
+APPRX RATIO: 0.8024088541666666 for p = 3
+
+== NODES: 6 | ENTRY: 88 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.9117838541666666 for p = 1
+APPRX RATIO: 0.6070963541666666 for p = 2
+APPRX RATIO: 0.8798828125 for p = 3
+
+== NODES: 6 | ENTRY: 89 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6653645833333334 for p = 1
+APPRX RATIO: 0.5647786458333334 for p = 2
+APPRX RATIO: 0.498046875 for p = 3
+
+== NODES: 6 | ENTRY: 90 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5712890625 for p = 1
+APPRX RATIO: 0.5276692708333334 for p = 2
+APPRX RATIO: 0.5149739583333334 for p = 3
+
+== NODES: 6 | ENTRY: 91 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8444010416666666 for p = 1
+APPRX RATIO: 0.6595052083333334 for p = 2
+APPRX RATIO: 0.5709635416666666 for p = 3
+
+== NODES: 6 | ENTRY: 92 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7867838541666666 for p = 1
+APPRX RATIO: 0.5319010416666666 for p = 2
+APPRX RATIO: 0.5738932291666666 for p = 3
+
+== NODES: 6 | ENTRY: 93 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.5810546875 for p = 1
+APPRX RATIO: 0.6650390625 for p = 2
+APPRX RATIO: 0.5885416666666666 for p = 3
+
+== NODES: 6 | ENTRY: 94 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.62890625 for p = 1
+APPRX RATIO: 0.7005208333333334 for p = 2
+APPRX RATIO: 0.5885416666666666 for p = 3
+
+== NODES: 6 | ENTRY: 95 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.6595052083333334 for p = 1
+APPRX RATIO: 0.5628255208333334 for p = 2
+APPRX RATIO: 0.6168619791666666 for p = 3
+
+== NODES: 6 | ENTRY: 96 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7145182291666666 for p = 1
+APPRX RATIO: 0.6666666666666666 for p = 2
+APPRX RATIO: 0.4378255208333333 for p = 3
+
+== NODES: 6 | ENTRY: 97 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6279296875 for p = 1
+APPRX RATIO: 0.6513671875 for p = 2
+APPRX RATIO: 0.6412760416666666 for p = 3
+
+== NODES: 6 | ENTRY: 98 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7236328125 for p = 1
+APPRX RATIO: 0.5364583333333334 for p = 2
+APPRX RATIO: 0.5462239583333334 for p = 3
+
+== NODES: 6 | ENTRY: 99 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.646484375 for p = 1
+APPRX RATIO: 0.6627604166666666 for p = 2
+APPRX RATIO: 0.7210286458333334 for p = 3
+
+== NODES: 6 | ENTRY: 100 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.8440755208333334 for p = 1
+APPRX RATIO: 0.9055989583333334 for p = 2
+APPRX RATIO: 0.8372395833333334 for p = 3
+
+== NODES: 6 | ENTRY: 101 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.658203125 for p = 1
+APPRX RATIO: 0.6669921875 for p = 2
+APPRX RATIO: 0.8665364583333334 for p = 3
+
+== NODES: 6 | ENTRY: 102 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5205078125 for p = 1
+APPRX RATIO: 0.6292317708333334 for p = 2
+APPRX RATIO: 0.4886067708333333 for p = 3
+
+== NODES: 6 | ENTRY: 103 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7298177083333334 for p = 1
+APPRX RATIO: 0.82421875 for p = 2
+APPRX RATIO: 0.7666015625 for p = 3
+
+== NODES: 6 | ENTRY: 104 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.8229166666666666 for p = 1
+APPRX RATIO: 0.6044921875 for p = 2
+APPRX RATIO: 0.6041666666666666 for p = 3
+
+== NODES: 6 | ENTRY: 105 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.9114583333333334 for p = 1
+APPRX RATIO: 0.5911458333333334 for p = 2
+APPRX RATIO: 0.4938151041666667 for p = 3
+
+== NODES: 6 | ENTRY: 106 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.4830729166666667 for p = 1
+APPRX RATIO: 0.5126953125 for p = 2
+APPRX RATIO: 0.5279947916666666 for p = 3
+
+== NODES: 6 | ENTRY: 107 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8076171875 for p = 1
+APPRX RATIO: 0.5631510416666666 for p = 2
+APPRX RATIO: 0.8053385416666666 for p = 3
+
+== NODES: 6 | ENTRY: 108 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5983072916666666 for p = 1
+APPRX RATIO: 0.5166015625 for p = 2
+APPRX RATIO: 0.4625651041666667 for p = 3
+
+== NODES: 6 | ENTRY: 109 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5283203125 for p = 1
+APPRX RATIO: 0.5791015625 for p = 2
+APPRX RATIO: 0.572265625 for p = 3
+
+== NODES: 6 | ENTRY: 110 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.9417317708333334 for p = 1
+APPRX RATIO: 0.9378255208333334 for p = 2
+APPRX RATIO: 0.7418619791666666 for p = 3
+
+== NODES: 6 | ENTRY: 111 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.4462890625 for p = 1
+APPRX RATIO: 0.759765625 for p = 2
+APPRX RATIO: 0.8326822916666666 for p = 3
+
+== NODES: 6 | ENTRY: 112 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.548828125 for p = 1
+APPRX RATIO: 0.4996744791666667 for p = 2
+APPRX RATIO: 0.4313151041666667 for p = 3
+
+== NODES: 6 | ENTRY: 113 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7386067708333334 for p = 1
+APPRX RATIO: 0.7822265625 for p = 2
+APPRX RATIO: 0.591796875 for p = 3
+
+== NODES: 6 | ENTRY: 114 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8590494791666666 for p = 1
+APPRX RATIO: 0.7073567708333334 for p = 2
+APPRX RATIO: 0.3343098958333333 for p = 3
+
+== NODES: 6 | ENTRY: 115 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5979817708333334 for p = 1
+APPRX RATIO: 0.8170572916666666 for p = 2
+APPRX RATIO: 0.4560546875 for p = 3
+
+== NODES: 6 | ENTRY: 116 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9091796875 for p = 1
+APPRX RATIO: 0.5745442708333334 for p = 2
+APPRX RATIO: 0.4583333333333333 for p = 3
+
+== NODES: 6 | ENTRY: 117 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8681640625 for p = 1
+APPRX RATIO: 0.6256510416666666 for p = 2
+APPRX RATIO: 0.4993489583333333 for p = 3
+
+== NODES: 6 | ENTRY: 118 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6435546875 for p = 1
+APPRX RATIO: 0.7470703125 for p = 2
+APPRX RATIO: 0.4986979166666667 for p = 3
+
+== NODES: 6 | ENTRY: 119 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.7779947916666666 for p = 1
+APPRX RATIO: 0.6302083333333334 for p = 2
+APPRX RATIO: 0.72265625 for p = 3
+
+== NODES: 6 | ENTRY: 120 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.548828125 for p = 1
+APPRX RATIO: 0.4108072916666667 for p = 2
+APPRX RATIO: 0.4908854166666667 for p = 3
+
+== NODES: 6 | ENTRY: 121 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7565104166666666 for p = 1
+APPRX RATIO: 0.7942708333333334 for p = 2
+APPRX RATIO: 0.5553385416666666 for p = 3
+
+== NODES: 6 | ENTRY: 122 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5048828125 for p = 1
+APPRX RATIO: 0.5390625 for p = 2
+APPRX RATIO: 0.4381510416666667 for p = 3
+
+== NODES: 6 | ENTRY: 123 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.7405598958333334 for p = 1
+APPRX RATIO: 0.83984375 for p = 2
+APPRX RATIO: 0.4729817708333333 for p = 3
+
+== NODES: 6 | ENTRY: 124 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.654296875 for p = 1
+APPRX RATIO: 0.5045572916666666 for p = 2
+APPRX RATIO: 0.7845052083333334 for p = 3
+
+== NODES: 6 | ENTRY: 125 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5709635416666666 for p = 1
+APPRX RATIO: 0.6686197916666666 for p = 2
+APPRX RATIO: 0.5416666666666666 for p = 3
+
+== NODES: 6 | ENTRY: 126 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9296875 for p = 1
+APPRX RATIO: 0.6233723958333334 for p = 2
+APPRX RATIO: 0.5947265625 for p = 3
+
+== NODES: 6 | ENTRY: 127 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6669921875 for p = 1
+APPRX RATIO: 0.6246744791666666 for p = 2
+APPRX RATIO: 0.685546875 for p = 3
+
+== NODES: 6 | ENTRY: 128 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6546223958333334 for p = 1
+APPRX RATIO: 0.6139322916666666 for p = 2
+APPRX RATIO: 0.4765625 for p = 3
+
+== NODES: 6 | ENTRY: 129 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8258463541666666 for p = 1
+APPRX RATIO: 0.8385416666666666 for p = 2
+APPRX RATIO: 0.5670572916666666 for p = 3
+
+== NODES: 6 | ENTRY: 130 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6780598958333334 for p = 1
+APPRX RATIO: 0.517578125 for p = 2
+APPRX RATIO: 0.7014973958333334 for p = 3
+
+== NODES: 6 | ENTRY: 131 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.4635416666666667 for p = 1
+APPRX RATIO: 0.5244140625 for p = 2
+APPRX RATIO: 0.4759114583333333 for p = 3
+
+== NODES: 6 | ENTRY: 132 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7311197916666666 for p = 1
+APPRX RATIO: 0.5364583333333334 for p = 2
+APPRX RATIO: 0.5673828125 for p = 3
+
+== NODES: 6 | ENTRY: 133 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9127604166666666 for p = 1
+APPRX RATIO: 0.783203125 for p = 2
+APPRX RATIO: 0.55078125 for p = 3
+
+== NODES: 6 | ENTRY: 134 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.6487630208333334 for p = 1
+APPRX RATIO: 0.6793619791666666 for p = 2
+APPRX RATIO: 0.5016276041666666 for p = 3
+
+== NODES: 6 | ENTRY: 135 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.4361979166666667 for p = 1
+APPRX RATIO: 0.4827473958333333 for p = 2
+APPRX RATIO: 0.6604817708333334 for p = 3
+
+== NODES: 6 | ENTRY: 136 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6526692708333334 for p = 1
+APPRX RATIO: 0.658203125 for p = 2
+APPRX RATIO: 0.615234375 for p = 3
+
+== NODES: 6 | ENTRY: 137 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7106119791666666 for p = 1
+APPRX RATIO: 0.8160807291666666 for p = 2
+APPRX RATIO: 0.6650390625 for p = 3
+
+== NODES: 6 | ENTRY: 138 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6044921875 for p = 1
+APPRX RATIO: 0.5569661458333334 for p = 2
+APPRX RATIO: 0.5846354166666666 for p = 3
+
+== NODES: 6 | ENTRY: 139 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6923828125 for p = 1
+APPRX RATIO: 0.5052083333333334 for p = 2
+APPRX RATIO: 0.5179036458333334 for p = 3
+
+== NODES: 6 | ENTRY: 140 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7679036458333334 for p = 1
+APPRX RATIO: 0.9596354166666666 for p = 2
+APPRX RATIO: 0.8792317708333334 for p = 3
+
+== NODES: 7 | ENTRY: 0 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.50830078125 for p = 1
+APPRX RATIO: 0.6474609375 for p = 2
+APPRX RATIO: 0.45458984375 for p = 3
+
+== NODES: 7 | ENTRY: 1 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (1, 0)	1
+  (1, 2)	1
+  (2, 0)	1
+  (2, 1)	1
+APPRX RATIO: 0.5986328125 for p = 1
+APPRX RATIO: 0.6484375 for p = 2
+APPRX RATIO: 0.662109375 for p = 3
+
+== NODES: 7 | ENTRY: 2 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (1, 3)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.5579427083333334 for p = 1
+APPRX RATIO: 0.6207682291666666 for p = 2
+APPRX RATIO: 0.5690104166666666 for p = 3
+
+== NODES: 7 | ENTRY: 3 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.587890625 for p = 1
+APPRX RATIO: 0.607421875 for p = 2
+APPRX RATIO: 0.62646484375 for p = 3
+
+== NODES: 7 | ENTRY: 4 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.49169921875 for p = 1
+APPRX RATIO: 0.47802734375 for p = 2
+APPRX RATIO: 0.47412109375 for p = 3
+
+== NODES: 7 | ENTRY: 5 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (3, 0)	1
+  (3, 1)	1
+APPRX RATIO: 0.59619140625 for p = 1
+APPRX RATIO: 0.60009765625 for p = 2
+APPRX RATIO: 0.7109375 for p = 3
+
+== NODES: 7 | ENTRY: 6 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.328125 for p = 1
+APPRX RATIO: 0.5224609375 for p = 2
+APPRX RATIO: 0.47607421875 for p = 3
+
+== NODES: 7 | ENTRY: 7 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+APPRX RATIO: 0.8525390625 for p = 1
+APPRX RATIO: 0.8173828125 for p = 2
+APPRX RATIO: 0.7568359375 for p = 3
+
+== NODES: 7 | ENTRY: 8 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.519287109375 for p = 1
+APPRX RATIO: 0.570556640625 for p = 2
+APPRX RATIO: 0.564208984375 for p = 3
+
+== NODES: 7 | ENTRY: 9 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.4830729166666667 for p = 1
+APPRX RATIO: 0.6705729166666666 for p = 2
+APPRX RATIO: 0.5921223958333334 for p = 3
+
+== NODES: 7 | ENTRY: 10 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.4524739583333333 for p = 1
+APPRX RATIO: 0.513671875 for p = 2
+APPRX RATIO: 0.5856119791666666 for p = 3
+
+== NODES: 7 | ENTRY: 11 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.4296875 for p = 1
+APPRX RATIO: 0.5520833333333334 for p = 2
+APPRX RATIO: 0.3912760416666667 for p = 3
+
+== NODES: 7 | ENTRY: 12 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.349609375 for p = 1
+APPRX RATIO: 0.4143880208333333 for p = 2
+APPRX RATIO: 0.5696614583333334 for p = 3
+
+== NODES: 7 | ENTRY: 13 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5791015625 for p = 1
+APPRX RATIO: 0.3889973958333333 for p = 2
+APPRX RATIO: 0.4326171875 for p = 3
+
+== NODES: 7 | ENTRY: 14 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.5100911458333334 for p = 1
+APPRX RATIO: 0.62109375 for p = 2
+APPRX RATIO: 0.5257161458333334 for p = 3
+
+== NODES: 7 | ENTRY: 15 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.5348307291666666 for p = 1
+APPRX RATIO: 0.4996744791666667 for p = 2
+APPRX RATIO: 0.5397135416666666 for p = 3
+
+== NODES: 7 | ENTRY: 16 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+APPRX RATIO: 0.3951822916666667 for p = 1
+APPRX RATIO: 0.5198567708333334 for p = 2
+APPRX RATIO: 0.5071614583333334 for p = 3
+
+== NODES: 7 | ENTRY: 17 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.78662109375 for p = 1
+APPRX RATIO: 0.626953125 for p = 2
+APPRX RATIO: 0.72021484375 for p = 3
+
+== NODES: 7 | ENTRY: 18 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.6728515625 for p = 1
+APPRX RATIO: 0.529296875 for p = 2
+APPRX RATIO: 0.50244140625 for p = 3
+
+== NODES: 7 | ENTRY: 19 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.51220703125 for p = 1
+APPRX RATIO: 0.60693359375 for p = 2
+APPRX RATIO: 0.4970703125 for p = 3
+
+== NODES: 7 | ENTRY: 20 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.865234375 for p = 1
+APPRX RATIO: 0.5400390625 for p = 2
+APPRX RATIO: 0.52099609375 for p = 3
+
+== NODES: 7 | ENTRY: 21 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.732421875 for p = 1
+APPRX RATIO: 0.787109375 for p = 2
+APPRX RATIO: 0.64208984375 for p = 3
+
+== NODES: 7 | ENTRY: 22 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.8828125 for p = 1
+APPRX RATIO: 0.5625 for p = 2
+APPRX RATIO: 0.52880859375 for p = 3
+
+== NODES: 7 | ENTRY: 23 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.716796875 for p = 1
+APPRX RATIO: 0.3994140625 for p = 2
+APPRX RATIO: 0.43017578125 for p = 3
+
+== NODES: 7 | ENTRY: 24 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.86669921875 for p = 1
+APPRX RATIO: 0.45703125 for p = 2
+APPRX RATIO: 0.44921875 for p = 3
+
+== NODES: 7 | ENTRY: 25 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+APPRX RATIO: 0.47119140625 for p = 1
+APPRX RATIO: 0.671875 for p = 2
+APPRX RATIO: 0.7548828125 for p = 3
+
+== NODES: 7 | ENTRY: 26 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.7275390625 for p = 1
+APPRX RATIO: 0.779296875 for p = 2
+APPRX RATIO: 0.6767578125 for p = 3
+
+== NODES: 7 | ENTRY: 27 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.48486328125 for p = 1
+APPRX RATIO: 0.60546875 for p = 2
+APPRX RATIO: 0.85302734375 for p = 3
+
+== NODES: 7 | ENTRY: 28 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+APPRX RATIO: 0.67578125 for p = 1
+APPRX RATIO: 0.73193359375 for p = 2
+APPRX RATIO: 0.744140625 for p = 3
+
+== NODES: 7 | ENTRY: 29 ==
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5484375 for p = 1
+APPRX RATIO: 0.704296875 for p = 2
+APPRX RATIO: 0.7107421875 for p = 3
+
+== NODES: 7 | ENTRY: 30 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.53125 for p = 1
+APPRX RATIO: 0.65234375 for p = 2
+APPRX RATIO: 0.666259765625 for p = 3
+
+== NODES: 7 | ENTRY: 31 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5576171875 for p = 1
+APPRX RATIO: 0.65380859375 for p = 2
+APPRX RATIO: 0.606689453125 for p = 3
+
+== NODES: 7 | ENTRY: 32 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.51806640625 for p = 1
+APPRX RATIO: 0.57080078125 for p = 2
+APPRX RATIO: 0.7080078125 for p = 3
+
+== NODES: 7 | ENTRY: 33 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.431396484375 for p = 1
+APPRX RATIO: 0.548095703125 for p = 2
+APPRX RATIO: 0.60791015625 for p = 3
+
+== NODES: 7 | ENTRY: 34 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.55322265625 for p = 1
+APPRX RATIO: 0.550537109375 for p = 2
+APPRX RATIO: 0.583740234375 for p = 3
+
+== NODES: 7 | ENTRY: 35 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.474365234375 for p = 1
+APPRX RATIO: 0.4365234375 for p = 2
+APPRX RATIO: 0.527587890625 for p = 3
+
+== NODES: 7 | ENTRY: 36 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.557373046875 for p = 1
+APPRX RATIO: 0.464599609375 for p = 2
+APPRX RATIO: 0.565673828125 for p = 3
+
+== NODES: 7 | ENTRY: 37 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.637939453125 for p = 1
+APPRX RATIO: 0.676025390625 for p = 2
+APPRX RATIO: 0.4755859375 for p = 3
+
+== NODES: 7 | ENTRY: 38 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.66357421875 for p = 1
+APPRX RATIO: 0.4736328125 for p = 2
+APPRX RATIO: 0.48388671875 for p = 3
+
+== NODES: 7 | ENTRY: 39 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.593017578125 for p = 1
+APPRX RATIO: 0.472412109375 for p = 2
+APPRX RATIO: 0.4912109375 for p = 3
+
+== NODES: 7 | ENTRY: 40 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.671142578125 for p = 1
+APPRX RATIO: 0.70947265625 for p = 2
+APPRX RATIO: 0.466064453125 for p = 3
+
+== NODES: 7 | ENTRY: 41 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.61083984375 for p = 1
+APPRX RATIO: 0.572265625 for p = 2
+APPRX RATIO: 0.641845703125 for p = 3
+
+== NODES: 7 | ENTRY: 42 ==
+ADJACENCY MATRIX:
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.523681640625 for p = 1
+APPRX RATIO: 0.609130859375 for p = 2
+APPRX RATIO: 0.684326171875 for p = 3
+
+== NODES: 7 | ENTRY: 43 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.6217447916666666 for p = 1
+APPRX RATIO: 0.6487630208333334 for p = 2
+APPRX RATIO: 0.7268880208333334 for p = 3
+
+== NODES: 7 | ENTRY: 44 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6595052083333334 for p = 1
+APPRX RATIO: 0.6100260416666666 for p = 2
+APPRX RATIO: 0.7096354166666666 for p = 3
+
+== NODES: 7 | ENTRY: 45 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5299479166666666 for p = 1
+APPRX RATIO: 0.6891276041666666 for p = 2
+APPRX RATIO: 0.6402994791666666 for p = 3
+
+== NODES: 7 | ENTRY: 46 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8235677083333334 for p = 1
+APPRX RATIO: 0.6608072916666666 for p = 2
+APPRX RATIO: 0.6184895833333334 for p = 3
+
+== NODES: 7 | ENTRY: 47 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+APPRX RATIO: 0.8984375 for p = 1
+APPRX RATIO: 0.6126302083333334 for p = 2
+APPRX RATIO: 0.8466796875 for p = 3
+
+== NODES: 7 | ENTRY: 48 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 4)	1
+APPRX RATIO: 0.5006510416666666 for p = 1
+APPRX RATIO: 0.6009114583333334 for p = 2
+APPRX RATIO: 0.8815104166666666 for p = 3
+
+== NODES: 7 | ENTRY: 49 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.9274088541666666 for p = 1
+APPRX RATIO: 0.7877604166666666 for p = 2
+APPRX RATIO: 0.7692057291666666 for p = 3
+
+== NODES: 7 | ENTRY: 50 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7939453125 for p = 1
+APPRX RATIO: 0.5628255208333334 for p = 2
+APPRX RATIO: 0.662109375 for p = 3
+
+== NODES: 7 | ENTRY: 51 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.6868489583333334 for p = 1
+APPRX RATIO: 0.7099609375 for p = 2
+APPRX RATIO: 0.6181640625 for p = 3
+
+== NODES: 7 | ENTRY: 52 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.5146484375 for p = 1
+APPRX RATIO: 0.4759114583333333 for p = 2
+APPRX RATIO: 0.67578125 for p = 3
+
+== NODES: 7 | ENTRY: 53 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.54296875 for p = 1
+APPRX RATIO: 0.7552083333333334 for p = 2
+APPRX RATIO: 0.818359375 for p = 3
+
+== NODES: 7 | ENTRY: 54 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5826822916666666 for p = 1
+APPRX RATIO: 0.6692708333333334 for p = 2
+APPRX RATIO: 0.703125 for p = 3
+
+== NODES: 7 | ENTRY: 55 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.794921875 for p = 1
+APPRX RATIO: 0.5550130208333334 for p = 2
+APPRX RATIO: 0.6363932291666666 for p = 3
+
+== NODES: 7 | ENTRY: 56 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9130859375 for p = 1
+APPRX RATIO: 0.5589192708333334 for p = 2
+APPRX RATIO: 0.7034505208333334 for p = 3
+
+== NODES: 7 | ENTRY: 57 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8870442708333334 for p = 1
+APPRX RATIO: 0.5540364583333334 for p = 2
+APPRX RATIO: 0.5498046875 for p = 3
+
+== NODES: 7 | ENTRY: 58 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.5244140625 for p = 1
+APPRX RATIO: 0.6555989583333334 for p = 2
+APPRX RATIO: 0.7861328125 for p = 3
+
+== NODES: 7 | ENTRY: 59 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.4990234375 for p = 1
+APPRX RATIO: 0.5419921875 for p = 2
+APPRX RATIO: 0.5592447916666666 for p = 3
+
+== NODES: 7 | ENTRY: 60 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.7122395833333334 for p = 1
+APPRX RATIO: 0.70703125 for p = 2
+APPRX RATIO: 0.5475260416666666 for p = 3
+
+== NODES: 7 | ENTRY: 61 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7493489583333334 for p = 1
+APPRX RATIO: 0.6201171875 for p = 2
+APPRX RATIO: 0.5950520833333334 for p = 3
+
+== NODES: 7 | ENTRY: 62 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6233723958333334 for p = 1
+APPRX RATIO: 0.5553385416666666 for p = 2
+APPRX RATIO: 0.5455729166666666 for p = 3
+
+== NODES: 7 | ENTRY: 63 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.544921875 for p = 1
+APPRX RATIO: 0.4518229166666667 for p = 2
+APPRX RATIO: 0.607421875 for p = 3
+
+== NODES: 7 | ENTRY: 64 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6041666666666666 for p = 1
+APPRX RATIO: 0.7900390625 for p = 2
+APPRX RATIO: 0.798828125 for p = 3
+
+== NODES: 7 | ENTRY: 65 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5524088541666666 for p = 1
+APPRX RATIO: 0.5257161458333334 for p = 2
+APPRX RATIO: 0.677734375 for p = 3
+
+== NODES: 7 | ENTRY: 66 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5791015625 for p = 1
+APPRX RATIO: 0.8649088541666666 for p = 2
+APPRX RATIO: 0.6142578125 for p = 3
+
+== NODES: 7 | ENTRY: 67 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.693359375 for p = 1
+APPRX RATIO: 0.513671875 for p = 2
+APPRX RATIO: 0.5475260416666666 for p = 3
+
+== NODES: 7 | ENTRY: 68 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5091145833333334 for p = 1
+APPRX RATIO: 0.5250651041666666 for p = 2
+APPRX RATIO: 0.5556640625 for p = 3
+
+== NODES: 7 | ENTRY: 69 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.546875 for p = 1
+APPRX RATIO: 0.6383463541666666 for p = 2
+APPRX RATIO: 0.6764322916666666 for p = 3
+
+== NODES: 7 | ENTRY: 70 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8479817708333334 for p = 1
+APPRX RATIO: 0.5491536458333334 for p = 2
+APPRX RATIO: 0.5817057291666666 for p = 3
+
+== NODES: 7 | ENTRY: 71 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5745442708333334 for p = 1
+APPRX RATIO: 0.6494140625 for p = 2
+APPRX RATIO: 0.6188151041666666 for p = 3
+
+== NODES: 7 | ENTRY: 72 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.9313151041666666 for p = 1
+APPRX RATIO: 0.7646484375 for p = 2
+APPRX RATIO: 0.8597005208333334 for p = 3
+
+== NODES: 7 | ENTRY: 73 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5755208333333334 for p = 1
+APPRX RATIO: 0.724609375 for p = 2
+APPRX RATIO: 0.5735677083333334 for p = 3
+
+== NODES: 7 | ENTRY: 74 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8307291666666666 for p = 1
+APPRX RATIO: 0.4739583333333333 for p = 2
+APPRX RATIO: 0.6259765625 for p = 3
+
+== NODES: 7 | ENTRY: 75 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.8284505208333334 for p = 1
+APPRX RATIO: 0.9573567708333334 for p = 2
+APPRX RATIO: 0.630859375 for p = 3
+
+== NODES: 7 | ENTRY: 76 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5693359375 for p = 1
+APPRX RATIO: 0.4596354166666667 for p = 2
+APPRX RATIO: 0.6217447916666666 for p = 3
+
+== NODES: 7 | ENTRY: 77 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5143229166666666 for p = 1
+APPRX RATIO: 0.6412760416666666 for p = 2
+APPRX RATIO: 0.7425130208333334 for p = 3
+
+== NODES: 7 | ENTRY: 78 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7109375 for p = 1
+APPRX RATIO: 0.697265625 for p = 2
+APPRX RATIO: 0.81640625 for p = 3
+
+== NODES: 7 | ENTRY: 79 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.4270833333333333 for p = 1
+APPRX RATIO: 0.6682942708333334 for p = 2
+APPRX RATIO: 0.7135416666666666 for p = 3
+
+== NODES: 7 | ENTRY: 80 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8518880208333334 for p = 1
+APPRX RATIO: 0.4169921875 for p = 2
+APPRX RATIO: 0.6236979166666666 for p = 3
+
+== NODES: 7 | ENTRY: 81 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.7750651041666666 for p = 1
+APPRX RATIO: 0.5400390625 for p = 2
+APPRX RATIO: 0.5475260416666666 for p = 3
+
+== NODES: 7 | ENTRY: 82 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5934244791666666 for p = 1
+APPRX RATIO: 0.5992838541666666 for p = 2
+APPRX RATIO: 0.6422526041666666 for p = 3
+
+== NODES: 7 | ENTRY: 83 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.50390625 for p = 1
+APPRX RATIO: 0.5078125 for p = 2
+APPRX RATIO: 0.5084635416666666 for p = 3
+
+== NODES: 7 | ENTRY: 84 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7740885416666666 for p = 1
+APPRX RATIO: 0.6572265625 for p = 2
+APPRX RATIO: 0.701171875 for p = 3
+
+== NODES: 7 | ENTRY: 85 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8981119791666666 for p = 1
+APPRX RATIO: 0.7203776041666666 for p = 2
+APPRX RATIO: 0.7649739583333334 for p = 3
+
+== NODES: 7 | ENTRY: 86 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7447916666666666 for p = 1
+APPRX RATIO: 0.5074869791666666 for p = 2
+APPRX RATIO: 0.8079427083333334 for p = 3
+
+== NODES: 7 | ENTRY: 87 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.5953776041666666 for p = 1
+APPRX RATIO: 0.6526692708333334 for p = 2
+APPRX RATIO: 0.6471354166666666 for p = 3
+
+== NODES: 7 | ENTRY: 88 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6380208333333334 for p = 1
+APPRX RATIO: 0.4791666666666667 for p = 2
+APPRX RATIO: 0.8082682291666666 for p = 3
+
+== NODES: 7 | ENTRY: 89 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.59375 for p = 1
+APPRX RATIO: 0.6513671875 for p = 2
+APPRX RATIO: 0.6155598958333334 for p = 3
+
+== NODES: 7 | ENTRY: 90 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5266927083333334 for p = 1
+APPRX RATIO: 0.818359375 for p = 2
+APPRX RATIO: 0.458984375 for p = 3
+
+== NODES: 7 | ENTRY: 91 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.9020182291666666 for p = 1
+APPRX RATIO: 0.7044270833333334 for p = 2
+APPRX RATIO: 0.5416666666666666 for p = 3
+
+== NODES: 7 | ENTRY: 92 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6800130208333334 for p = 1
+APPRX RATIO: 0.6067708333333334 for p = 2
+APPRX RATIO: 0.58984375 for p = 3
+
+== NODES: 7 | ENTRY: 93 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.5748697916666666 for p = 1
+APPRX RATIO: 0.5960286458333334 for p = 2
+APPRX RATIO: 0.7916666666666666 for p = 3
+
+== NODES: 7 | ENTRY: 94 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.6559244791666666 for p = 1
+APPRX RATIO: 0.646484375 for p = 2
+APPRX RATIO: 0.6735026041666666 for p = 3
+
+== NODES: 7 | ENTRY: 95 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.9449869791666666 for p = 1
+APPRX RATIO: 0.7200520833333334 for p = 2
+APPRX RATIO: 0.7548828125 for p = 3
+
+== NODES: 7 | ENTRY: 96 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6220703125 for p = 1
+APPRX RATIO: 0.5071614583333334 for p = 2
+APPRX RATIO: 0.6588541666666666 for p = 3
+
+== NODES: 7 | ENTRY: 97 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.9449869791666666 for p = 1
+APPRX RATIO: 0.6373697916666666 for p = 2
+APPRX RATIO: 0.498046875 for p = 3
+
+== NODES: 7 | ENTRY: 98 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8828125 for p = 1
+APPRX RATIO: 0.5787760416666666 for p = 2
+APPRX RATIO: 0.5999348958333334 for p = 3
+
+== NODES: 7 | ENTRY: 99 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5999348958333334 for p = 1
+APPRX RATIO: 0.6754557291666666 for p = 2
+APPRX RATIO: 0.6246744791666666 for p = 3
+
+== NODES: 7 | ENTRY: 100 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.9300130208333334 for p = 1
+APPRX RATIO: 0.6982421875 for p = 2
+APPRX RATIO: 0.6429036458333334 for p = 3
+
+== NODES: 7 | ENTRY: 101 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8567708333333334 for p = 1
+APPRX RATIO: 0.8883463541666666 for p = 2
+APPRX RATIO: 0.6715494791666666 for p = 3
+
+== NODES: 7 | ENTRY: 102 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5032552083333334 for p = 1
+APPRX RATIO: 0.6064453125 for p = 2
+APPRX RATIO: 0.5302734375 for p = 3
+
+== NODES: 7 | ENTRY: 103 ==
+ADJACENCY MATRIX:
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6722005208333334 for p = 1
+APPRX RATIO: 0.6881510416666666 for p = 2
+APPRX RATIO: 0.7369791666666666 for p = 3
+
+== NODES: 7 | ENTRY: 104 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.541015625 for p = 1
+APPRX RATIO: 0.65625 for p = 2
+APPRX RATIO: 0.4788411458333333 for p = 3
+
+== NODES: 7 | ENTRY: 105 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.4720052083333333 for p = 1
+APPRX RATIO: 0.5279947916666666 for p = 2
+APPRX RATIO: 0.474609375 for p = 3
+
+== NODES: 7 | ENTRY: 106 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.6468098958333334 for p = 1
+APPRX RATIO: 0.5152994791666666 for p = 2
+APPRX RATIO: 0.4928385416666667 for p = 3
+
+== NODES: 7 | ENTRY: 107 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8466796875 for p = 1
+APPRX RATIO: 0.7180989583333334 for p = 2
+APPRX RATIO: 0.5289713541666666 for p = 3
+
+== NODES: 7 | ENTRY: 108 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5517578125 for p = 1
+APPRX RATIO: 0.5745442708333334 for p = 2
+APPRX RATIO: 0.6184895833333334 for p = 3
+
+== NODES: 7 | ENTRY: 109 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6002604166666666 for p = 1
+APPRX RATIO: 0.44921875 for p = 2
+APPRX RATIO: 0.4938151041666667 for p = 3
+
+== NODES: 7 | ENTRY: 110 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.7379557291666666 for p = 1
+APPRX RATIO: 0.4231770833333333 for p = 2
+APPRX RATIO: 0.8053385416666666 for p = 3
+
+== NODES: 7 | ENTRY: 111 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6100260416666666 for p = 1
+APPRX RATIO: 0.6529947916666666 for p = 2
+APPRX RATIO: 0.8551432291666666 for p = 3
+
+== NODES: 7 | ENTRY: 112 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.7584635416666666 for p = 1
+APPRX RATIO: 0.6790364583333334 for p = 2
+APPRX RATIO: 0.6881510416666666 for p = 3
+
+== NODES: 7 | ENTRY: 113 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.61328125 for p = 1
+APPRX RATIO: 0.8544921875 for p = 2
+APPRX RATIO: 0.4296875 for p = 3
+
+== NODES: 7 | ENTRY: 114 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8492838541666666 for p = 1
+APPRX RATIO: 0.5667317708333334 for p = 2
+APPRX RATIO: 0.4641927083333333 for p = 3
+
+== NODES: 7 | ENTRY: 115 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8619791666666666 for p = 1
+APPRX RATIO: 0.5299479166666666 for p = 2
+APPRX RATIO: 0.52734375 for p = 3
+
+== NODES: 7 | ENTRY: 116 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.642578125 for p = 1
+APPRX RATIO: 0.4443359375 for p = 2
+APPRX RATIO: 0.7249348958333334 for p = 3
+
+== NODES: 7 | ENTRY: 117 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.9332682291666666 for p = 1
+APPRX RATIO: 0.4876302083333333 for p = 2
+APPRX RATIO: 0.810546875 for p = 3
+
+== NODES: 7 | ENTRY: 118 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.5403645833333334 for p = 1
+APPRX RATIO: 0.5475260416666666 for p = 2
+APPRX RATIO: 0.498046875 for p = 3
+
+== NODES: 7 | ENTRY: 119 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.66796875 for p = 1
+APPRX RATIO: 0.701171875 for p = 2
+APPRX RATIO: 0.546875 for p = 3
+
+== NODES: 7 | ENTRY: 120 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.6474609375 for p = 1
+APPRX RATIO: 0.7073567708333334 for p = 2
+APPRX RATIO: 0.6087239583333334 for p = 3
+
+== NODES: 7 | ENTRY: 121 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.4612630208333333 for p = 1
+APPRX RATIO: 0.60546875 for p = 2
+APPRX RATIO: 0.6220703125 for p = 3
+
+== NODES: 7 | ENTRY: 122 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6529947916666666 for p = 1
+APPRX RATIO: 0.4186197916666667 for p = 2
+APPRX RATIO: 0.5966796875 for p = 3
+
+== NODES: 7 | ENTRY: 123 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+APPRX RATIO: 0.7395833333333334 for p = 1
+APPRX RATIO: 0.4713541666666667 for p = 2
+APPRX RATIO: 0.75 for p = 3
+
+== NODES: 7 | ENTRY: 124 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+APPRX RATIO: 0.5234375 for p = 1
+APPRX RATIO: 0.619140625 for p = 2
+APPRX RATIO: 0.6064453125 for p = 3
+
+== NODES: 7 | ENTRY: 125 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5904947916666666 for p = 1
+APPRX RATIO: 0.6266276041666666 for p = 2
+APPRX RATIO: 0.4140625 for p = 3
+
+== NODES: 7 | ENTRY: 126 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6259765625 for p = 1
+APPRX RATIO: 0.6461588541666666 for p = 2
+APPRX RATIO: 0.4921875 for p = 3
+
+== NODES: 7 | ENTRY: 127 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.5706380208333334 for p = 1
+APPRX RATIO: 0.8629557291666666 for p = 2
+APPRX RATIO: 0.6044921875 for p = 3
+
+== NODES: 7 | ENTRY: 128 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.630859375 for p = 1
+APPRX RATIO: 0.7470703125 for p = 2
+APPRX RATIO: 0.4166666666666667 for p = 3
+
+== NODES: 7 | ENTRY: 129 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.9241536458333334 for p = 1
+APPRX RATIO: 0.6123046875 for p = 2
+APPRX RATIO: 0.4140625 for p = 3
+
+== NODES: 7 | ENTRY: 130 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.8440755208333334 for p = 1
+APPRX RATIO: 0.873046875 for p = 2
+APPRX RATIO: 0.6708984375 for p = 3
+
+== NODES: 7 | ENTRY: 131 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6695963541666666 for p = 1
+APPRX RATIO: 0.5660807291666666 for p = 2
+APPRX RATIO: 0.5390625 for p = 3
+
+== NODES: 7 | ENTRY: 132 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7255859375 for p = 1
+APPRX RATIO: 0.6741536458333334 for p = 2
+APPRX RATIO: 0.6829427083333334 for p = 3
+
+== NODES: 7 | ENTRY: 133 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6692708333333334 for p = 1
+APPRX RATIO: 0.5927734375 for p = 2
+APPRX RATIO: 0.5283203125 for p = 3
+
+== NODES: 7 | ENTRY: 134 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 4)	1
+APPRX RATIO: 0.87890625 for p = 1
+APPRX RATIO: 0.6614583333333334 for p = 2
+APPRX RATIO: 0.6158854166666666 for p = 3
+
+== NODES: 7 | ENTRY: 135 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.8131510416666666 for p = 1
+APPRX RATIO: 0.6764322916666666 for p = 2
+APPRX RATIO: 0.6516927083333334 for p = 3
+
+== NODES: 7 | ENTRY: 136 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6376953125 for p = 1
+APPRX RATIO: 0.78515625 for p = 2
+APPRX RATIO: 0.4322916666666667 for p = 3
+
+== NODES: 7 | ENTRY: 137 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+APPRX RATIO: 0.7158203125 for p = 1
+APPRX RATIO: 0.6090494791666666 for p = 2
+APPRX RATIO: 0.6516927083333334 for p = 3
+
+== NODES: 7 | ENTRY: 138 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7236328125 for p = 1
+APPRX RATIO: 0.6253255208333334 for p = 2
+APPRX RATIO: 0.5768229166666666 for p = 3
+
+== NODES: 7 | ENTRY: 139 ==
+ADJACENCY MATRIX:
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.7841796875 for p = 1
+APPRX RATIO: 0.4918619791666667 for p = 2
+APPRX RATIO: 0.7620442708333334 for p = 3
+
+== NODES: 7 | ENTRY: 140 ==
+ADJACENCY MATRIX:
+  (0, 1)	1
+  (0, 2)	1
+  (0, 3)	1
+  (0, 4)	1
+  (0, 5)	1
+  (1, 0)	1
+  (1, 2)	1
+  (1, 3)	1
+  (1, 4)	1
+  (1, 5)	1
+  (2, 0)	1
+  (2, 1)	1
+  (2, 3)	1
+  (2, 4)	1
+  (2, 5)	1
+  (3, 0)	1
+  (3, 1)	1
+  (3, 2)	1
+  (3, 4)	1
+  (3, 5)	1
+  (4, 0)	1
+  (4, 1)	1
+  (4, 2)	1
+  (4, 3)	1
+  (4, 5)	1
+  (5, 0)	1
+  (5, 1)	1
+  (5, 2)	1
+  (5, 3)	1
+  (5, 4)	1
+APPRX RATIO: 0.6598307291666666 for p = 1
+APPRX RATIO: 0.5869140625 for p = 2
+APPRX RATIO: 0.71484375 for p = 3
+
+== NODES: 7 | ENTRY: 141 ==
+ADJACENCY MATRIX:
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+APPRX RATIO: 0.6759440104166666 for p = 1
+APPRX RATIO: 0.6222330729166666 for p = 2
+APPRX RATIO: 0.7356770833333334 for p = 3
+
+== NODES: 7 | ENTRY: 142 ==
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+APPRX RATIO: 0.57265625 for p = 1
+APPRX RATIO: 0.50546875 for p = 2
+APPRX RATIO: 0.6404296875 for p = 3
+
+== NODES: 7 | ENTRY: 143 ==
+ADJACENCY MATRIX:
+  (0, 5)	1
+  (0, 6)	1
+  (1, 6)	1
+  (2, 6)	1
+  (3, 6)	1
+  (4, 6)	1
+  (5, 0)	1
+  (5, 6)	1
+  (6, 0)	1
+  (6, 1)	1
+  (6, 2)	1
+  (6, 3)	1
+  (6, 4)	1
+  (6, 5)	1
+APPRX RATIO: 0.5224609375 for p = 1
+APPRX RATIO: 0.5634765625 for p = 2
+APPRX RATIO: 0.66875 for p = 3
