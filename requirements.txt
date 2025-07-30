@@ -3,5 +3,4 @@ qiskit
 matplotlib
 pylatexenc
 networkx
-c++ compiler 
 
