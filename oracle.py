@@ -21,8 +21,8 @@ CLASSES:
 """
 import tempfile as tf
 import sympy as sp
-from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s
-symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s]
+from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
+symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s,t]
 import networkx as nx
 import matplotlib.pyplot as plt
 import subprocess
@@ -77,9 +77,9 @@ class BooleanInstance:
         """
     def getProbESOP(self):
         symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s]
-        t = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f,
+        t_ = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f,
              'g': g, 'h': h, 'i': sp.abc.i, 'j': sp.abc.j, 'k': k, 'l': l, 
-             'm': m, 'n':n, 'o':o,'p':p,'q':q,'r':r,'s':s}
+             'm': m, 'n':n, 'o':o,'p':p,'q':q,'r':r,'s':s, 't':t}
         chosenGraph = self.graph
         numEdges = len(chosenGraph.edges())
         symbolUse = []
@@ -122,15 +122,15 @@ class BooleanInstance:
                     if(trigger == 0):
                         if(initTerm[i].isalpha()):
                             if(initTerm[i-1] == '~'):
-                                prods.append(sp.Not(t[initTerm[i]]))   #if not up to the or terms, collect outside ANDS
+                                prods.append(sp.Not(t_[initTerm[i]]))   #if not up to the or terms, collect outside ANDS
                             else:
-                                prods.append(t[initTerm[i]])
+                                prods.append(t_[initTerm[i]])
                             
                     if (initTerm[i]) == '|': #when reaching an OR, apply a~b ^ b transformation again
                         numBinomials+=1
                         firstVar = initTerm[i-2]
                         secondVar = initTerm[i+3]
-                        polys.append(( sp.Xor(sp.And(sp.Not(t[firstVar]), (t[secondVar])), sp.Not(t[secondVar])))) #since we know all naands are negated nors
+                        polys.append(( sp.Xor(sp.And(sp.Not(t_[firstVar]), (t_[secondVar])), sp.Not(t_[secondVar])))) #since we know all naands are negated nors
                 trigger = 0
                 
                 #now,, the extra OR terms have been translated to XOR and AND. i.e:
@@ -149,7 +149,7 @@ class BooleanInstance:
                 #print(stringMultOut)
                 j = 0
                 if(stringMultOut[0] == '~'):
-                    finalProds.append(sp.Not(t[stringMultOut[1]]))
+                    finalProds.append(sp.Not(t_[stringMultOut[1]]))
                     for var in prods:
                         finalProds.append(var) #distr. to first var
                     finalXors.append(sp.logic.boolalg.simplify_logic(sp.And(*finalProds)))
@@ -160,10 +160,10 @@ class BooleanInstance:
                 for i in range(j,len(stringMultOut)):
                     if(stringMultOut[i].isalpha()):
                         if(stringMultOut[i-1] == '~'):
-                            finalProds.append(sp.Not(t[stringMultOut[i]]))
+                            finalProds.append(sp.Not(t_[stringMultOut[i]]))
                             i+=1
                         else:
-                            finalProds.append(t[stringMultOut[i]])
+                            finalProds.append(t_[stringMultOut[i]])
                             
                     elif( (stringMultOut[i] == '^') or (i == (len(stringMultOut) - 1)) ):
                         for vari in prods:
@@ -195,9 +195,9 @@ class BooleanInstance:
                     conjTerms = []
                 elif(finalFrS[i].isalpha()):
                     if(finalFrS[i-1] == '~'):
-                        conjTerms.append(sp.Not(t[finalFrS[i]]))
+                        conjTerms.append(sp.Not(t_[finalFrS[i]]))
                     else:
-                        conjTerms.append((t[finalFrS[i]]))
+                        conjTerms.append((t_[finalFrS[i]]))
             distroEsop = sp.Xor(*xorConj)
             finalFr = sp.Not(distroEsop)
             #finalFr = distroEsop

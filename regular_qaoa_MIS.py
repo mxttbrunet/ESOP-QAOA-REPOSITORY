@@ -10,7 +10,7 @@ from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s
 import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s
 symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s]
-lam = 3
+lam = 8
 # MOST OF THIS IS FROM https://qiskit-rigetti.readthedocs.io/en/latest/examples/QAOA.html
 #except makeQAOACirc... I made that for MIS Hc construction simplicity 
 
@@ -44,7 +44,9 @@ def makeQAOACirc(params, pval, graph):
          Hc[combinedEdge] = (lam / 4)
       else:
          Hc[combinedEdge]+= (lam / 4)
-      
+   print(Hc)
+   nx.draw(graph, with_labels = True)
+   plt.show()   
    for i in range(pval):
       for item in Hc.items():
          if(item[1] == 0.0):
@@ -90,21 +92,45 @@ def getExpect(g, p, params):
    return executeCircuit
    
 if __name__ == "__main__":
-   f = open('REGULAR_QAOA_RESULTS_3_TO_7.txt', 'w')
+   #f = open('WREGULAR_RESULTS_15_TO_20.txt', 'w')
    gen = GraphGenerator()
-   for numbNodes in range(3, 8):
-      graphArray = gen.createKgraphs(numbNodes)
-      for entryNum in range(0,len(graphArray)):
-         aGraph = gen.chooseGraph(entryNum)
-         if(numbNodes == 7 and entryNum == 144):
-             sys.exit(0)
-         f.write("\n")
-         f.write(f"== NODES: {numbNodes} | ENTRY: {entryNum} ==\n")
-         f.write(f"ADJACENCY MATRIX:\n{nx.adjacency_matrix(aGraph)}\n")
+   
+   for numNodes in range(3,8): #change to what want 
+      pent = 2 * numNodes
+      graphArray = gen.createKgraphs(numNodes)
+      p = 1
+      
+      """for graphNum in range(0,1): # 200 graphs each
+         currGraph = nx.Graph()
+         for node in range(0,numNodes - 1):
+            currGraph.add_edge(node, node+1)
+            #ensure connectedness
+         numToAdd = np.random.randint(0, ( ((numNodes-1)**2) + (numNodes - 1)  / 2) - (numNodes - 1)) #since max graph has ~ n^2 edges
+         for numAdd in range(numToAdd):
+            firstNode = np.random.randint(0,numNodes)
+            secondNode = np.random.randint(0,numNodes)
+            if(firstNode != secondNode and ([firstNode,secondNode] not in currGraph.edges()) ):
+               currGraph.add_edge(firstNode,secondNode)
+            else:
+               numAdd-=1
+               print("FAIL!")
+        
+         if( (currGraph in usedGraphs) ):
+            graphNum-=1
+            #if repeat, do it again
+         else:"""
+      
+      for aGraph in graphArray:
+         #aGraph = gen.chooseGraph(entryNum)
+         #if(entryNum == 10):
+         #    sys.exit(0)
+         #f.write("\n")
+         #f.write(f"== NODES: {numNodes} | ENTRY ==\n")
+         #f.write(f"ADJACENCY MATRIX:\n{nx.adjacency_matrix(aGraph)}\n")
          for p in range(1,4):
             best = 0
             perExp = bruteForceMIS(aGraph)
-            for i in range(50):
+            for i in range(1):
                pars = np.random.rand(2*p)
                exp = getExpect(aGraph,p,pars)
                res = minimize(exp, pars, method = 'COBYLA')
@@ -112,9 +138,8 @@ if __name__ == "__main__":
                backendFinal = Aer.AerSimulator()
                countsFinal = backendFinal.run(finalCirc, shots = 1024).result().get_counts()
                finalExp = computeExpectation(countsFinal, aGraph)
-               if( ( finalExp / perExp ) > best ):
-                  best = (finalExp / perExp)
+               best = (finalExp / perExp)
             f.write(f"APPRX RATIO: {best} for p = {p}\n")
-
+          
  
 

@@ -3,19 +3,17 @@ import sympy as sp
 import numpy as np
 from qiskit.circuit.library import PauliEvolutionGate
 from qiskit.quantum_info import Pauli
-from sympy_esop_to_qcirc_t import ESOPQuantumCircuit   #casual imports yknow 
 from qiskit import QuantumCircuit, transpile
 from qiskit.quantum_info import Operator
 from qiskit.visualization import plot_histogram
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 import qiskit_aer as Aer
 #from networkx_to_feasible_sols import *
-from oracle_and_gm_qaoa import *
-from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s
-symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s]
+from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
+symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
 #t = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f, 'g': g, 'h': h, 'i': i, 'j': j, 'k': k, 'l': l, 'm': m, 'n':n, 'o':o,'p':p,'q':q,'r':r,'s':s}
 
-def ESOPtoQAOA(params,pval,graph,esop): #uses BHT method for converting ESOP to Hc...
+def ESOPtoQAOA(params,pval,graph,esop, penal): #uses BHT method for converting ESOP to Hc...
     esop = str(esop) + "00000"   #pad dat thang 
     Hc = 0
     Hgs = []
@@ -68,22 +66,13 @@ def ESOPtoQAOA(params,pval,graph,esop): #uses BHT method for converting ESOP to 
     for term in Hgs:
         Hc+=term
         #Hc*= -1
-    Hc*=-3
+    Hc*=-penal
     for node in graph.nodes():
         Hc-=(1/2)*(sp.Symbol("I")) - (1/2)*symbolsAvail[node]
     Hc = str(sp.expand(Hc))     ##add these components up to sum for Hc
     #print(Hc)
     
-    """" 
-    its great up to here, where Hc is formed. However, one might notice that the format of Hc is a bit horrendous, and the MCZ Polynomials grow 2^n
-    what I tried to do was reformat it... but it gets stuck for some... will fix
-    also implemented combining like terms so the final is pretty
-    
-    idea... split on + and -, then sort individually 
-    
-    
-    """
-    
+        
     
     cleanUpBins = []
     l = 0
@@ -193,21 +182,26 @@ def ESOPtoQAOA(params,pval,graph,esop): #uses BHT method for converting ESOP to 
     
 
 def rz_n(qCirc, angle, offset, qbits):
-    target = qbits[-1]  
-    for l in range(len(qbits) - 1):
-        qCirc.cx(qbits[l], target)
+    if(len(qbits) == 1):
+        qCirc.rz(offset*angle, qbits[0])
+    elif(len(qbits) == 2):
+        qCirc.rzz(offset*angle, qbits[0],qbits[1])
+    else:
+        target = qbits[-1]  
+        for l in range(len(qbits) - 1):
+            qCirc.cx(qbits[l], target)
         
-    qCirc.rz(offset*angle, target)
+        qCirc.rz(offset*angle, target)
     
-    for m in reversed(range(len(qbits) - 1)):
-        qCirc.cx(qbits[m], target)
+        for m in reversed(range(len(qbits) - 1)):
+            qCirc.cx(qbits[m], target)
 
 
-def createQAOACirc(params, pval, graph, thisEsop):
+def createQAOACirc(params, pval, graph, thisEsop,pent):
     fullQAOA = QuantumCircuit(len(graph.nodes()))
     fullQAOA.h(range(len(graph.nodes())))
     
-    zH = ESOPtoQAOA(params, pval, graph, thisEsop )
+    zH = ESOPtoQAOA(params, pval, graph, thisEsop,pent )
     for i in range(pval):
         for k in range(1,len(zH)):
             for l in range(len(zH[k])):
@@ -245,11 +239,11 @@ def compExp(counts, graph):
         countSum+= count
     return (avg / countSum)
     
-def get_expect(graph, pList, pvalue, ESOP):
+def get_expect(graph, pList, pvalue, ESOP, pent):
     lmao = pList
     lmaoEsop = ESOP
     def execute_it(lmao):
-        thisCirc = createQAOACirc(lmao, pvalue, graph, lmaoEsop)
+        thisCirc = createQAOACirc(lmao, pvalue, graph, lmaoEsop,pent)
         #print(thisCirc)
         thisCounts = runCircuit(thisCirc)
         
@@ -257,23 +251,23 @@ def get_expect(graph, pList, pvalue, ESOP):
     
     return execute_it
 if __name__ == "__main__":
-    numNodes = 5
+    numNodes = 3
     generator = GraphGenerator()
     graphingArray = generator.createKgraphs(numNodes)
 
-    graphNum = 15  #arbitrary graph chosen 
+    graphNum = 0  #arbitrary graph chosen 
     testGraph =graphingArray[graphNum]
     generator.chooseGraph(graphNum)
     generator.printGraph()
     testInst = BooleanInstance("MIS", testGraph)
     testESOP = testInst.getProbESOP()
                                 
-    p = 2
+    p = 1
     pars = np.random.rand(2*p)
     expectation = get_expect(testGraph, pars, p,testESOP)
     res = minimize(expectation, pars, method = 'COBYLA')
-
-    finalCirc = createQAOACirc(res.x,p, testGraph, testESOP)
+    penalty = len(testGraph.nodes()) * 2
+    finalCirc = createQAOACirc(res.x,p, testGraph, testESOP, )
     #print(finalCirc)
     backendFinal = Aer.AerSimulator()
     countsFinal = backendFinal.run(finalCirc,shots = 2048).result().get_counts()

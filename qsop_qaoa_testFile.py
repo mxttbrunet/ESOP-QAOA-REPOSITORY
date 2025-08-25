@@ -1,9 +1,9 @@
 from oracle import GraphGenerator, BooleanInstance
 import sympy as sp
 import numpy as np
+from scipy.optimize import minimize
 from qiskit.circuit.library import PauliEvolutionGate
 from qiskit.quantum_info import Pauli
-from sympy_esop_to_qcirc_t import ESOPQuantumCircuit   #casual imports yknow 
 from qiskit import QuantumCircuit, transpile
 from qiskit.quantum_info import Operator
 from qiskit.visualization import plot_histogram
@@ -27,17 +27,16 @@ def bruteForceMIS(thisGraph):
 
 
 if __name__ == "__main__":
-   f = open("QSOP_RESULTS_8.txt", "w")
-
-   for i in range (8,9): #graphs w / nodes 3-8
+   #f = open("APX_QSOP_RESULTS_3_TO_7.txt", "w")
+   #f = open('APPX_QSOP_4_WITH_PENALTY_V_SQUARED.txt', 'w')
+   #f = open('APPX_QSOP_RESULTS_8.txt', 'w')
+   reps = 100
+   for i in range (3,8): #graphs w / nodes 3-8
       gen = GraphGenerator()
       graphList = gen.createKgraphs(i)
-      if i == 6:
-         offsetDual = 43
-      else:
-         offsetDual = 0
-      for j in range(0, 10):
+      for j in range(0, len(graphList)):
          currGraph = graphList[j]
+         pent = 2 * i
          gen.chooseGraph(j)
          mostOpt = bruteForceMIS(currGraph)
          f.write(f"\n=== NODES: {i}, GRAPH_NUM: {j} ===\n\n")
@@ -48,15 +47,16 @@ if __name__ == "__main__":
          f.write(f"ESOP: {currESOP}\n")
          for p in range(1,4):  #test for p = 1,2,3
              pars = np.random.rand(2*p)
-             appxSum = 0
-             for k in range(10): #run 10 times and average appx ratio 
-                pars[:p]  = np.pi / 4 #np.pi*2.0*(np.random.uniform(size=2*p)-0.5)
+             greatestAppx = 0
+             for k in range(reps): #run reps # of times  
+                pars[:p]  = np.pi / 4 
                 pars[p:] = np.pi / 8
-                expectation = get_expect(currGraph, pars, p, currESOP)
+                expectation = get_expect(currGraph, pars, p, currESOP, pent)
                 res = minimize(expectation, pars, method = 'COBYLA')
-                currCirc = createQAOACirc(res.x, p, currGraph, currESOP)
+                currCirc = createQAOACirc(res.x, p, currGraph, currESOP, pent)
                 backendFinal = Aer.AerSimulator()
                 currCounts = backendFinal.run(currCirc, shots = 1024).result().get_counts()
-                appxSum+=(compExp(currCounts,currGraph) / mostOpt)
-             f.write(f"AVERAGE APPX RATIO WHERE p = {p} : {appxSum / 10}\n") 
-    
+                appxSum =(compExp(currCounts,currGraph) / mostOpt)
+                if(appxSum > greatestAppx):
+                   greatestAppx = appxSum
+             f.write(f"APPX RATIO WHERE p = {p} : {greatestAppx}\n") 
