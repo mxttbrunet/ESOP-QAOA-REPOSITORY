@@ -92,45 +92,18 @@ def getExpect(g, p, params):
    return executeCircuit
    
 if __name__ == "__main__":
-   #f = open('WREGULAR_RESULTS_15_TO_20.txt', 'w')
-   gen = GraphGenerator()
-   
-   for numNodes in range(3,8): #change to what want 
+   #f = open( f i l e )
+   gen = GraphGenerator()   
+   reps = 100
+   for numNodes in range(3,8):
       pent = 2 * numNodes
       graphArray = gen.createKgraphs(numNodes)
-      p = 1
-      
-      """for graphNum in range(0,1): # 200 graphs each
-         currGraph = nx.Graph()
-         for node in range(0,numNodes - 1):
-            currGraph.add_edge(node, node+1)
-            #ensure connectedness
-         numToAdd = np.random.randint(0, ( ((numNodes-1)**2) + (numNodes - 1)  / 2) - (numNodes - 1)) #since max graph has ~ n^2 edges
-         for numAdd in range(numToAdd):
-            firstNode = np.random.randint(0,numNodes)
-            secondNode = np.random.randint(0,numNodes)
-            if(firstNode != secondNode and ([firstNode,secondNode] not in currGraph.edges()) ):
-               currGraph.add_edge(firstNode,secondNode)
-            else:
-               numAdd-=1
-               print("FAIL!")
-        
-         if( (currGraph in usedGraphs) ):
-            graphNum-=1
-            #if repeat, do it again
-         else:"""
-      
       for aGraph in graphArray:
-         #aGraph = gen.chooseGraph(entryNum)
-         #if(entryNum == 10):
-         #    sys.exit(0)
-         #f.write("\n")
-         #f.write(f"== NODES: {numNodes} | ENTRY ==\n")
-         #f.write(f"ADJACENCY MATRIX:\n{nx.adjacency_matrix(aGraph)}\n")
+         perf = bruteForceMIS(aGraph)
          for p in range(1,4):
             best = 0
             perExp = bruteForceMIS(aGraph)
-            for i in range(1):
+            for i in range(reps):
                pars = np.random.rand(2*p)
                exp = getExpect(aGraph,p,pars)
                res = minimize(exp, pars, method = 'COBYLA')
@@ -138,7 +111,8 @@ if __name__ == "__main__":
                backendFinal = Aer.AerSimulator()
                countsFinal = backendFinal.run(finalCirc, shots = 1024).result().get_counts()
                finalExp = computeExpectation(countsFinal, aGraph)
-               best = (finalExp / perExp)
+               if (finalExp / perf > best):
+                  best = finalExp / perf 
             f.write(f"APPRX RATIO: {best} for p = {p}\n")
           
  

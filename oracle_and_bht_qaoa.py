@@ -2,16 +2,16 @@ from oracle import GraphGenerator, BooleanInstance
 import sympy as sp
 import numpy as np
 from qiskit.circuit.library import PauliEvolutionGate
+import matplotlib.pyplot as plt
 from qiskit.quantum_info import Pauli
 from qiskit import QuantumCircuit, transpile
 from qiskit.quantum_info import Operator
 from qiskit.visualization import plot_histogram
 from qiskit.transpiler.preset_passmanagers import generate_preset_pass_manager
 import qiskit_aer as Aer
-#from networkx_to_feasible_sols import *
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
+from scipy.optimize import minimize
 symbolsAvail = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t]
-#t = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f, 'g': g, 'h': h, 'i': i, 'j': j, 'k': k, 'l': l, 'm': m, 'n':n, 'o':o,'p':p,'q':q,'r':r,'s':s}
 
 def ESOPtoQAOA(params,pval,graph,esop, penal): #uses BHT method for converting ESOP to Hc...
     esop = str(esop) + "00000"   #pad dat thang 
@@ -152,9 +152,6 @@ def ESOPtoQAOA(params,pval,graph,esop, penal): #uses BHT method for converting E
     cleanUpBins[0].append(zeroSum)
     
     
-    #print('\n')
-    #print(cleanUpBins)
-            #if(item[j].isalpha())
     index = 0
     for abin in cleanUpBins:
         #print(abin)
@@ -250,7 +247,7 @@ def get_expect(graph, pList, pvalue, ESOP, pent):
         return compExp(thisCounts, graph)
     
     return execute_it
-if __name__ == "__main__":
+if __name__ == "__main__": #example on 3 vertex
     numNodes = 3
     generator = GraphGenerator()
     graphingArray = generator.createKgraphs(numNodes)
@@ -261,16 +258,16 @@ if __name__ == "__main__":
     generator.printGraph()
     testInst = BooleanInstance("MIS", testGraph)
     testESOP = testInst.getProbESOP()
-                                
+    penal = 2 * len(testGraph.nodes())
     p = 1
     pars = np.random.rand(2*p)
-    expectation = get_expect(testGraph, pars, p,testESOP)
+    expectation = get_expect(testGraph, pars, p,testESOP, penal )
     res = minimize(expectation, pars, method = 'COBYLA')
     penalty = len(testGraph.nodes()) * 2
-    finalCirc = createQAOACirc(res.x,p, testGraph, testESOP, )
+    finalCirc = createQAOACirc(res.x,p, testGraph, testESOP, penal )
     #print(finalCirc)
     backendFinal = Aer.AerSimulator()
-    countsFinal = backendFinal.run(finalCirc,shots = 2048).result().get_counts()
+    countsFinal = backendFinal.run(finalCirc,shots = 1028).result().get_counts()
     #print(countsFinal)
     plot_histogram(countsFinal)
     plt.show()

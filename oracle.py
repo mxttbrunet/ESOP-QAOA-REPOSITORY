@@ -3,8 +3,7 @@
 ##atallah, mostafa
 ##wilkie, anthony 
 ## herrman, rebekah, Doctor 
-##classes for RM expansions as gm-qaoa oracles 
-##these cover graph file to boolean instance to esop 
+##these cover graph file to MIS esop 
 ##any program using these classes must adjust xgraphFiles to their directory
 """
 CLASSES: 
@@ -13,19 +12,14 @@ CLASSES:
                        -> createKgraphs(k): takes k num of nodes, and retrives all included graphs  from .g6 files, RETURNS ARRAY OF nx READABLE GRAPHS 
                                 -> *adds attribute .graphK to graphGenerator object*, array of k size graphs 
                         -> chooseGraph(int numGraph), from the generator objects .graphK, specify which graph to grab
-    -   BooleanInstance(self, string problem, graph) -> creates a boolean oracle object for the given problem instance, and *nx* graph
-                        -> getTT() -> calculates boolean expression describing the given problem and graph instance
-                                        -> *adds attibute .tt to BooleanInstance, which is a boolean representation of the problem*, equivalent to the truth table 
-                                        -> *adds attribute .minterms to BooleanInstance, which is all true bit-strings*
-                        -> printTT()-> prints truth table TT in comma separated, line separated, list-quote input format 
+    -   BooleanInstance(self, string problem, graph) -> creates a boolean oracle object for the given MIS instance, and *nx* graph
 """
-import tempfile as tf
+import tempfile as tp
 import sympy as sp
 from sympy.abc import a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t
 symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s,t]
 import networkx as nx
 import matplotlib.pyplot as plt
-import subprocess
 
 class GraphGenerator:
     def __init__(self):
@@ -69,12 +63,7 @@ class BooleanInstance:
         self.edges = graph.edges()         ###initialize object attributes from graph 
         self.nodes = graph.nodes()
         self.k = len(graph.nodes)
-        self.minterms = None 
-        self.tt = None
 
-        """replace all this junk w a function that takes graph and creates ESOP for given problem 
-        - no need for all this bloat
-        """
     def getProbESOP(self):
         symbolsAvail = [a,b,c,d,e,f,g,h,sp.abc.i,sp.abc.j,k,l,m,n,o,p,q,r,s]
         t_ = {'a': a, 'b': b, 'c': c, 'd': d, 'e': e, 'f': f,
@@ -212,90 +201,3 @@ class BooleanInstance:
         
         
    
-    def getTT(self):   ## creates boolean expression for problem instance, MIS MVC MKC? 
-        nodes = self.nodes()
-        edges = self.edges()
-        symUse = []
-        for vertex in nodes:
-            symUse.append(symbolsAvail[vertex])     #load available variables 
-        if(self.problem == "MVC"):
-            toBeAnded = []
-            for edge in edges:
-                toBeAnded.append((symUse[edge[0]]) | (symUse[edge[1]]))      # AND(x_i OR x_j), for x_i, x_j in E
-            verifyMVC =sp.And(*toBeAnded)
-            table = sp.logic.boolalg.truth_table(verifyMVC, symUse)
-        elif(self.problem == "MIS"):
-            toBeAnded = []
-            for edge in edges:
-                toBeAnded.append(  ~(((symUse[edge[0]])) & ((symUse[edge[1]]))) )   #AND( NOT(x_i AND x_j)) for x_i, x_j in E
-            verifyMIS = sp.And(*toBeAnded)
-            #print(verifyMIS)
-            table = sp.logic.boolalg.truth_table(verifyMIS, symUse)
-            self.tt = table       ##create attribute to BooleanInstance of entire table
-        else:
-            print("problem?")
-            return -1
-        feasibleStates = []
-        for t in table:
-            strSol = ""            ##collect true terms, "minterms", add attribute 
-            for bit in t[0]:
-                strSol+= str(bit)
-            if(t[1] == True):
-                feasibleStates.append(strSol)
-        self.minterms = feasibleStates
-        return feasibleStates
-
-    def printTT(self):
-        for minterm in self.minterms:
-            strSol = ""
-            for bit in minterm:
-                strSol+= str(bit)
-            print("'" + strSol + "',")
-
-    def getRM(self, mode):                                 ######compilation function
-        numMinterms = len(self.minterms)
-        input_data = f"{len(self.nodes())}\n{numMinterms}\n"          #format
-        open("ESOPsimple/between.txt", "w").close() ##file location may change depending on where this ends up
-        with open("ESOPsimple/between.txt", "a") as file:
-            file.write(input_data)
-            for i in range(numMinterms):
-                file.write(str(self.minterms[i]))      ##write feasible states
-                file.write("\n")
-        file.close()
-        compileCommand = "g++ ESOPsimple/esopTest.cpp -o ESOPsimple/esopTest"   #compiles c++ code in other directory, may be changed
-        subprocess.run(compileCommand, shell = True, check = True)
-        runCommand = "ESOPsimple/esopTest"   #runs c++ esopFile.
-        result = subprocess.run(runCommand, shell = True, capture_output = True, text = True)
-        print(result.stderr)
-        output = result.stdout  ###captures output,, 
-        
-        posEsop_tt, mixEsop_tt = output.split("D") ##formatting ...
-        if(mode == "positive"):
-            return posEsop_tt                 #returns polarity reed-muller 
-        else:
-            return mixEsop_tt
-
-    def produceExpression(self, RM):    ##populate list with needed variables 
-        varSymbols = []
-        for i in range(self.k):
-            varSymbols.append(symbolsAvail[i])
-
-        toBeAnded = []
-        toBeXord = []
-        i = 0
-        for char in RM:
-            if (char == "1"):
-                toBeAnded.append(symbolsAvail[i])
-                i+=1
-            elif (char == "0"):
-                toBeAnded.append(~symbolsAvail[i])      ##convert to sympy expression
-                i+=1
-            elif (char == "-"):
-                i+=1
-            elif(char == "\n"):
-                continue
-            if(i == self.k):
-                i = 0
-                toBeXord.append(sp.And(*toBeAnded, evaluate = False, strict = True))
-                toBeAnded = []
-        return sp.Xor(*toBeXord, evaluate = False)
