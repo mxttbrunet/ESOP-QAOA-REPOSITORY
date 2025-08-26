@@ -13,7 +13,7 @@ in: Summer 2024
 
 - Algorithms and examples for a graph to ESOP to Quantum Oracle for MIS.
 - Familiarity with sympy is encouraged
-- Algorithm explaination and theory in the associated paper and ESOP_ALT.py jupityer notebookss
+- Algorithm explaination and theory in the associated paper and ESOP_ALT.py jupityr notebook
 - For best use, reserve a sole directory for this code, in order to preserve dependcies among files. 
 - Examples are provided in the file's main functions and in ESOP_ALT.py
 
