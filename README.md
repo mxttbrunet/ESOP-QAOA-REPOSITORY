@@ -17,8 +17,8 @@ in: Summer 2024
 - For best use, reserve a sole directory for this code, in order to preserve dependcies among files. 
 - Examples are provided in the file's main functions and in ESOP_ALT.py
 
-Usage:  oracle.py  -> Contains classes for taking .g6 graphs (in /xgraphFiles/) and formatting them for us
-                   -> Also contains .getProbInstance(graph), which takes a formatted nx graph and outputs the MIS ESOP  
+      oracle.py  -> Contains classes for taking .g6 graphs (in /xgraphFiles/) and formatting them for us
+                 -> Also contains .getProbInstance(graph), which takes a formatted nx graph and outputs the MIS ESOP  
            
       oracle_and_bht_qaoa.py -> contains functions for converting classical ESOP to ESOP Hamiltonian, 
                                 creating the QAOA circ, and running it. 
